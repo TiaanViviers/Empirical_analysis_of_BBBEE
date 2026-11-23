@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-11-23T11:02:07+02:00",
+  "filter_description": "JSE Securities Exchange / Equities and Companies / Listed and Delisted",
+  "source": "IRESS Expert Screener visible UI",
+  "snapshot_not_historical": true,
+  "rows": 1872,
+  "unique_instrument_ids": 1872,
+  "duplicate_instrument_ids": [],
+  "pages_captured": 19,
+  "expected_screener_total": 1872,
+  "pagination_validation": "PASS",
+  "duplicate_page_validation": "PASS",
+  "isin_nonempty_count": 1872,
+  "isin_format_valid_count": 1492,
+  "isin_format_invalid_count": 380,
+  "isin_missing_count": 0,
+  "ticker_vs_identifier_mismatches": [],
+  "final_status": "PASS",
+  "master_reconciliation": {
+    "master_path": "dist/thesis_data/data/instruments.parquet",
+    "master_unique_ids": 1869,
+    "screener_unique_ids": 1872,
+    "in_master_not_screener": [],
+    "in_screener_not_master": [
+      "IMRP17:XJSE:EQU",
+      "IMRP18:XJSE:EQU",
+      "PBT_DEL:XJSE:EQU"
+    ]
+  },
+  "csv_sha256": "b1e0a558c43228ebe7d305cd6b232262334a6573ddaa0ae54ea42a4846ee71eb"
+}

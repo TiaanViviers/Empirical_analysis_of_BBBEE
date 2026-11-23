@@ -1,0 +1,20 @@
+{
+  "data/raw/jse_bulletins/securities-information-mar-2025.xlsx": "069849754b6347072f5a60f1de211e9a727cf18cec93385dd48a632b886ae1e3",
+  "data/raw/jse_bulletins/jse-bulletin-may-2017.xlsx": "9809cd0a5aa7b399cbee8544fd4002c47de5e02c7a1cd29755b583a0b7a7e245",
+  "data/raw/jse_bulletins/securities-information-aug-2018.xlsx": "12d42fee716553649a5bdc52c9353bf94e6b280dbdd8f6b24f019101b4bf39f7",
+  "data/raw/jse_bulletins/securities-information-apr-2023.xlsx": "937dcf28559198721136879f4d3a7da86861ac997389e399b7b7e2210395a473",
+  "data/raw/jse_bulletins/securities-information-dec-2025.xlsx": "6c54f67da2a9f01d66dba13c35d0b34e4b7ae94e8250d7c59fa833b8eaa9cf10",
+  "data/processed/prices_observed.parquet": "69b22012572fe40906f7a452067d4abde3d9d7a4d840bb3c02349cffbd2a79fe",
+  "data/processed/instrument_metadata_2026-11-23.parquet": "b76e29b5a4ec2d8d5d8df9259f52faff2a2197543b9f2eee02b55b8ae17980b8",
+  "data/processed/prices_daily.parquet": "b67b20422f4b248971b2602492d0b8509555194bd41c057e47a3b645d46ef863",
+  "data/processed/instruments.parquet": "16fd6e74fb0ab41a75df43a68b6f1a3dfeee663e9e0516c3b5946438b975697d",
+  "data/processed/observation_lineage.parquet": "b91c8db125e5f1efdca8d7048874ace009e253ef1165dfb5dcb4bdf78409cd61",
+  "data/processed/market_index.parquet": "6c8216bcc4171daac7cc6c7b2a794f702758a0fb042f83a3b94607e9645df883",
+  "dist/thesis_data/data/prices_observed.parquet": "69b22012572fe40906f7a452067d4abde3d9d7a4d840bb3c02349cffbd2a79fe",
+  "dist/thesis_data/data/instrument_metadata_2026-11-23.parquet": "b76e29b5a4ec2d8d5d8df9259f52faff2a2197543b9f2eee02b55b8ae17980b8",
+  "dist/thesis_data/data/prices_daily.parquet": "b67b20422f4b248971b2602492d0b8509555194bd41c057e47a3b645d46ef863",
+  "dist/thesis_data/data/instruments.parquet": "16fd6e74fb0ab41a75df43a68b6f1a3dfeee663e9e0516c3b5946438b975697d",
+  "dist/thesis_data/data/observation_lineage.parquet": "b91c8db125e5f1efdca8d7048874ace009e253ef1165dfb5dcb4bdf78409cd61",
+  "dist/thesis_data/data/market_index.metadata.json": "ea9dda317af3f5cc65f79ac1bd2e126503a3dba28689ae7730349a03c079eb01",
+  "dist/thesis_data/data/market_index.parquet": "6c8216bcc4171daac7cc6c7b2a794f702758a0fb042f83a3b94607e9645df883"
+}

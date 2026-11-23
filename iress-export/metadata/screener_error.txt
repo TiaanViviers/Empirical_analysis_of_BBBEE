@@ -1,0 +1,13 @@
+Error: Could not find 'Displaying Results START - END of TOTAL' footer. Check Screener.
+URL: https://expert-iress-co-za.ez.sun.ac.za/#/AdvancedSearch
+Pages captured: 2
+Layout diagnostic: {
+  "viewport": {
+    "width": 780,
+    "height": 411
+  },
+  "documentHeight": 552,
+  "rowCount": 0,
+  "footerFoundInText": false,
+  "bodyTextTail": "Markets\nWatchlist \nComparison\nScreener\nResearch\nAll \nReset\nTools \nSearch Screener\n- Results for\nSearch\nType\n- Edit\n(1872)\nEquities and Companies\n(1872)\nExchange\n- Edit\n(1872)\nJse Securities Exchange\n(1872)\nSector\n- Add\n(364)\n\nNone\n\nLocation\n- Add\n(1872)\n\nNone\n\nListing Status\n- Edit\n(1872)\nDelisted\n(1578)\nListed\n(294)\nRisk Assessment\n- Add\n(0)\n\nNone"
+}

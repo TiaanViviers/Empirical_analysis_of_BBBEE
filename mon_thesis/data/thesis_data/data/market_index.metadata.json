@@ -1,0 +1,16 @@
+{
+  "calendar_complete": false,
+  "daily_frequency_validated": true,
+  "missing_session_dates": [
+    "2024-01-02"
+  ],
+  "original_processing_path": "data/processed/market_index.parquet",
+  "path": "data/market_index.parquet",
+  "return_variant": null,
+  "rows": 2559,
+  "sha256": "6c8216bcc4171daac7cc6c7b2a794f702758a0fb042f83a3b94607e9645df883",
+  "source_sha256": "3c6544ad19ac83149808f00de6d9a8700851ccd9494a6bf73ebf1dd0c2a70177",
+  "status": "validated_daily_with_gaps",
+  "transformations": "Sorted observed rows; no filling, exclusions, conversions or return adjustments",
+  "units": null
+}

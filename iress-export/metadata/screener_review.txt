@@ -1,0 +1,195 @@
+ORIGINAL EXTRACTION
+=== IRESS SCREENER EXTRACTION DIAGNOSTICS ===
+Total saved page files: 19
+Total captured rows: 1872
+Unique instrument IDs: 1772
+Duplicate instrument IDs: 100
+
+PAGE ANALYSIS
+Page 01: 100 rows, 100 unique, range 1-100 of 1872, overlap 0
+  First: 1TM:XJSE:EQU, 4SI:XJSE:EQU, AGR:XJSE:EQU, ABA:XJSE:EQU, ABN:XJSE:EQU
+  Last:  ALT:XJSE:EQU, AWR:XJSE:EQU, AWRP:XJSE:EQU, AAL:XJSE:EQU, APH:XJSE:EQU
+Page 02: 100 rows, 100 unique, range 101-200 of 1872, overlap 100
+  First: AEL:XJSE:EQU, ALD:XJSE:EQU, AVV:XJSE:EQU, AFP:XJSE:EQU, AMA:XJSE:EQU
+  Last:  AVM:XJSE:EQU, AVU:XJSE:EQU, AWT:XJSE:EQU, AWTO:XJSE:EQU, AXA:XJSE:EQU
+Page 03: 100 rows, 100 unique, range 201-300 of 1872, overlap 100
+  First: AEL:XJSE:EQU, ALD:XJSE:EQU, AVV:XJSE:EQU, AFP:XJSE:EQU, AMA:XJSE:EQU
+  Last:  AVM:XJSE:EQU, AVU:XJSE:EQU, AWT:XJSE:EQU, AWTO:XJSE:EQU, AXA:XJSE:EQU
+Page 04: 100 rows, 100 unique, range 301-400 of 1872, overlap 0
+  First: AYO:XJSE:EQU, BWI:XJSE:EQU, BKV:XJSE:EQU, BWN:XJSE:EQU, BNK:XJSE:EQU
+  Last:  BURP:XJSE:EQU, BUR:XJSE:EQU, BTN:XJSE:EQU, BCA:XJSE:EQU, BCX:XJSE:EQU
+Page 05: 100 rows, 100 unique, range 401-500 of 1872, overlap 0
+  First: BYX:XJSE:EQU, BTG:XJSE:EQU, BYI:XJSE:EQU, CBD:XJSE:EQU, CSF:XJSE:EQU
+  Last:  COM:XJSE:EQU, CMH:XJSE:EQU, CPK:XJSE:EQU, CMA:XJSE:EQU, CFC:XJSE:EQU
+Page 06: 100 rows, 100 unique, range 501-600 of 1872, overlap 0
+  First: CFI:XJSE:EQU, CTH:XJSE:EQU, CFR:XJSE:EQU, CPX:XJSE:EQU, CPS:XJSE:EQU
+  Last:  DLM:XJSE:EQU, DLG:XJSE:EQU, DMR:XJSE:EQU, DMC:XJSE:EQU, DGC:XJSE:EQU
+Page 07: 100 rows, 100 unique, range 601-700 of 1872, overlap 0
+  First: DGC.DEL:XJSE:EQU, DDT:XJSE:EQU, DIN:XJSE:EQU, DIA:XJSE:EQU, DIB:XJSE:EQU
+  Last:  ECO:XJSE:EQU, ECR:XJSE:EQU, ESL:XJSE:EQU, EFG:XJSE:EQU, EEL:XJSE:EQU
+Page 08: 100 rows, 100 unique, range 701-800 of 1872, overlap 0
+  First: ELD:XJSE:EQU, ELA:XJSE:EQU, ELN:XJSE:EQU, ELR:XJSE:EQU, ELRP:XJSE:EQU
+  Last:  FTN:XJSE:EQU, FPT:XJSE:EQU, FRN:XJSE:EQU, FRX:XJSE:EQU, FRMP:XJSE:EQU
+Page 09: 100 rows, 100 unique, range 801-900 of 1872, overlap 0
+  First: FAM:XJSE:EQU, FRS:XJSE:EQU, ALR:XJSE:EQU, FRS.DEL:XJSE:EQU, FRA:XJSE:EQU
+  Last:  GDL:XJSE:EQU, GPI:XJSE:EQU, JOE:XJSE:EQU, HJC:XJSE:EQU, HAG:XJSE:EQU
+Page 10: 100 rows, 100 unique, range 901-1000 of 1872, overlap 0
+  First: HAB:XJSE:EQU, HAL:XJSE:EQU, HMN:XJSE:EQU, HWW:XJSE:EQU, HARO:XJSE:EQU
+  Last:  ISB:XJSE:EQU, INS:XJSE:EQU, IEH:XJSE:EQU, ITG:XJSE:EQU, IHL:XJSE:EQU
+Page 11: 100 rows, 100 unique, range 1001-1100 of 1872, overlap 0
+  First: ITH:XJSE:EQU, ITL:XJSE:EQU, ITR:XJSE:EQU, ITV:XJSE:EQU, IWE:XJSE:EQU
+  Last:  LIB:XJSE:EQU, LGL:XJSE:EQU, LBHP:XJSE:EQU, LBH:XJSE:EQU, LBV:XJSE:EQU
+Page 12: 100 rows, 100 unique, range 1101-1200 of 1872, overlap 0
+  First: L2D:XJSE:EQU, LBS:XJSE:EQU, LBR:XJSE:EQU, LHC:XJSE:EQU, LTE:XJSE:EQU
+  Last:  MZG:XJSE:EQU, MTK:XJSE:EQU, MML:XJSE:EQU, MTX:XJSE:EQU, MOZ:XJSE:EQU
+Page 13: 100 rows, 100 unique, range 1201-1300 of 1872, overlap 0
+  First: MTC:XJSE:EQU, MFL:XJSE:EQU, MTR:XJSE:EQU, MLE:XJSE:EQU, MEL:XJSE:EQU
+  Last:  NPT:XJSE:EQU, NXT:XJSE:EQU, NCS:XJSE:EQU, NGL:XJSE:EQU, NMB:XJSE:EQU
+Page 14: 100 rows, 100 unique, range 1301-1400 of 1872, overlap 0
+  First: NY1:XJSE:EQU, N91:XJSE:EQU, NIN:XJSE:EQU, NIV:XJSE:EQU, NKP:XJSE:EQU
+  Last:  PBL:XJSE:EQU, PHL:XJSE:EQU, PIC:XJSE:EQU, PWN:XJSE:EQU, PWK:XJSE:EQU
+Page 15: 100 rows, 100 unique, range 1401-1500 of 1872, overlap 0
+  First: PIK:XJSE:EQU, PKN:XJSE:EQU, PNG:XJSE:EQU, PFG:XJSE:EQU, PNR:XJSE:EQU
+  Last:  RFN:XJSE:EQU, RNG:XJSE:EQU, RAP:XJSE:EQU, RCO:XJSE:EQU, RAR:XJSE:EQU
+Page 16: 100 rows, 100 unique, range 1501-1600 of 1872, overlap 0
+  First: RBX:XJSE:EQU, RAV:XJSE:EQU, RBA:XJSE:EQU, RCL:XJSE:EQU, RPL:XJSE:EQU
+  Last:  SFP1:XJSE:EQU, SGG:XJSE:EQU, SGGP:XJSE:EQU, SGE:XJSE:EQU, SGR:XJSE:EQU
+Page 17: 100 rows, 100 unique, range 1601-1700 of 1872, overlap 0
+  First: SIR:XJSE:EQU, SGP:XJSE:EQU, SKR:XJSE:EQU, SKRP:XJSE:EQU, SAL:XJSE:EQU
+  Last:  SPE:XJSE:EQU, SPN:XJSE:EQU, SPC:XJSE:EQU, SPS:XJSE:EQU, SPI:XJSE:EQU
+Page 18: 100 rows, 100 unique, range 1701-1800 of 1872, overlap 0
+  First: SPL:XJSE:EQU, SPN.DEL:XJSE:EQU, SUR:XJSE:EQU, SPH:XJSE:EQU, SPU:XJSE:EQU
+  Last:  TGA:XJSE:EQU, THK:XJSE:EQU, THW:XJSE:EQU, TAL:XJSE:EQU, TBSP:XJSE:EQU
+Page 19: 72 rows, 72 unique, range 1801-1872 of 1872, overlap 0
+  First: VOG:XJSE:EQU, VKS:XJSE:EQU, VLX:XJSE:EQU, VOX:XJSE:EQU, VKE:XJSE:EQU
+  Last:  ZED:XJSE:EQU, ZNT:XJSE:EQU, ZNTO:XJSE:EQU, ZOZ:XJSE:EQU, ZSA:XJSE:EQU
+
+DUPLICATE PAGE ANALYSIS
+Page 02 overlaps Page 03: 100 shared IDs; identical content: True
+Base64 decode mismatches: 0
+CSV ID sequence matches pages: True
+
+MISSING COVERAGE
+Thesis master IDs absent from Screener: 100
+Screener IDs absent from thesis master: 3
+Between pages 18 and 19: 100 thesis IDs between 'Tiger Brands 5,5%Cumpref' and 'Vogelstruisbult Metal'
+
+ROOT CAUSE
+Page 3 records the same instruments as page 2 despite a different reported pagination range. 100 missing thesis IDs lie in the alphabetical gap between pages 18 and 19. This supports an asynchronous pagination/content race; the saved files cannot establish the exact browser event timing.
+
+RECOMMENDED FIX
+Wait for both the expected footer and changed, non-overlapping instrument content; verify total, row count, filters and ordering before saving each page. Stage new output until the complete run validates.
+
+CORRECTED EXTRACTION
+=== IRESS SCREENER EXTRACTION DIAGNOSTICS ===
+Total saved page files: 19
+Total captured rows: 1872
+Unique instrument IDs: 1872
+Duplicate instrument IDs: 0
+
+PAGE ANALYSIS
+Page 01: 100 rows, 100 unique, range 1-100 of 1872, overlap 0
+  First: 1TM:XJSE:EQU, 4SI:XJSE:EQU, AGR:XJSE:EQU, ABA:XJSE:EQU, ABN:XJSE:EQU
+  Last:  ALT:XJSE:EQU, AWR:XJSE:EQU, AWRP:XJSE:EQU, AAL:XJSE:EQU, APH:XJSE:EQU
+Page 02: 100 rows, 100 unique, range 101-200 of 1872, overlap 0
+  First: AEL:XJSE:EQU, ALD:XJSE:EQU, AVV:XJSE:EQU, AFP:XJSE:EQU, AMA:XJSE:EQU
+  Last:  AVM:XJSE:EQU, AVU:XJSE:EQU, AWT:XJSE:EQU, AWTO:XJSE:EQU, AXA:XJSE:EQU
+Page 03: 100 rows, 100 unique, range 201-300 of 1872, overlap 0
+  First: AYO:XJSE:EQU, BWI:XJSE:EQU, BKV:XJSE:EQU, BWN:XJSE:EQU, BNK:XJSE:EQU
+  Last:  BURP:XJSE:EQU, BUR:XJSE:EQU, BTN:XJSE:EQU, BCA:XJSE:EQU, BCX:XJSE:EQU
+Page 04: 100 rows, 100 unique, range 301-400 of 1872, overlap 0
+  First: BYX:XJSE:EQU, BTG:XJSE:EQU, BYI:XJSE:EQU, CBD:XJSE:EQU, CSF:XJSE:EQU
+  Last:  COM:XJSE:EQU, CMH:XJSE:EQU, CPK:XJSE:EQU, CMA:XJSE:EQU, CFC:XJSE:EQU
+Page 05: 100 rows, 100 unique, range 401-500 of 1872, overlap 0
+  First: CFI:XJSE:EQU, CTH:XJSE:EQU, CFR:XJSE:EQU, CPX:XJSE:EQU, CPS:XJSE:EQU
+  Last:  DLM:XJSE:EQU, DLG:XJSE:EQU, DMR:XJSE:EQU, DMC:XJSE:EQU, DGC:XJSE:EQU
+Page 06: 100 rows, 100 unique, range 501-600 of 1872, overlap 0
+  First: DGC.DEL:XJSE:EQU, DDT:XJSE:EQU, DIN:XJSE:EQU, DIA:XJSE:EQU, DIB:XJSE:EQU
+  Last:  ECO:XJSE:EQU, ECR:XJSE:EQU, ESL:XJSE:EQU, EFG:XJSE:EQU, EEL:XJSE:EQU
+Page 07: 100 rows, 100 unique, range 601-700 of 1872, overlap 0
+  First: ELD:XJSE:EQU, ELA:XJSE:EQU, ELN:XJSE:EQU, ELR:XJSE:EQU, ELRP:XJSE:EQU
+  Last:  FTN:XJSE:EQU, FPT:XJSE:EQU, FRN:XJSE:EQU, FRX:XJSE:EQU, FRMP:XJSE:EQU
+Page 08: 100 rows, 100 unique, range 701-800 of 1872, overlap 0
+  First: FAM:XJSE:EQU, FRS:XJSE:EQU, ALR:XJSE:EQU, FRS.DEL:XJSE:EQU, FRA:XJSE:EQU
+  Last:  GDL:XJSE:EQU, GPI:XJSE:EQU, JOE:XJSE:EQU, HJC:XJSE:EQU, HAG:XJSE:EQU
+Page 09: 100 rows, 100 unique, range 801-900 of 1872, overlap 0
+  First: HAB:XJSE:EQU, HAL:XJSE:EQU, HMN:XJSE:EQU, HWW:XJSE:EQU, HARO:XJSE:EQU
+  Last:  ISB:XJSE:EQU, INS:XJSE:EQU, IEH:XJSE:EQU, ITG:XJSE:EQU, IHL:XJSE:EQU
+Page 10: 100 rows, 100 unique, range 901-1000 of 1872, overlap 0
+  First: ITH:XJSE:EQU, ITL:XJSE:EQU, ITR:XJSE:EQU, ITV:XJSE:EQU, IWE:XJSE:EQU
+  Last:  LIB:XJSE:EQU, LGL:XJSE:EQU, LBHP:XJSE:EQU, LBH:XJSE:EQU, LBV:XJSE:EQU
+Page 11: 100 rows, 100 unique, range 1001-1100 of 1872, overlap 0
+  First: L2D:XJSE:EQU, LBS:XJSE:EQU, LBR:XJSE:EQU, LHC:XJSE:EQU, LTE:XJSE:EQU
+  Last:  MZG:XJSE:EQU, MTK:XJSE:EQU, MML:XJSE:EQU, MTX:XJSE:EQU, MOZ:XJSE:EQU
+Page 12: 100 rows, 100 unique, range 1101-1200 of 1872, overlap 0
+  First: MTC:XJSE:EQU, MFL:XJSE:EQU, MTR:XJSE:EQU, MLE:XJSE:EQU, MEL:XJSE:EQU
+  Last:  NPT:XJSE:EQU, NXT:XJSE:EQU, NCS:XJSE:EQU, NGL:XJSE:EQU, NMB:XJSE:EQU
+Page 13: 100 rows, 100 unique, range 1201-1300 of 1872, overlap 0
+  First: NY1:XJSE:EQU, N91:XJSE:EQU, NIN:XJSE:EQU, NIV:XJSE:EQU, NKP:XJSE:EQU
+  Last:  PBL:XJSE:EQU, PHL:XJSE:EQU, PIC:XJSE:EQU, PWN:XJSE:EQU, PWK:XJSE:EQU
+Page 14: 100 rows, 100 unique, range 1301-1400 of 1872, overlap 0
+  First: PIK:XJSE:EQU, PKN:XJSE:EQU, PNG:XJSE:EQU, PFG:XJSE:EQU, PNR:XJSE:EQU
+  Last:  RFN:XJSE:EQU, RNG:XJSE:EQU, RAP:XJSE:EQU, RCO:XJSE:EQU, RAR:XJSE:EQU
+Page 15: 100 rows, 100 unique, range 1401-1500 of 1872, overlap 0
+  First: RBX:XJSE:EQU, RAV:XJSE:EQU, RBA:XJSE:EQU, RCL:XJSE:EQU, RPL:XJSE:EQU
+  Last:  SFP1:XJSE:EQU, SGG:XJSE:EQU, SGGP:XJSE:EQU, SGE:XJSE:EQU, SGR:XJSE:EQU
+Page 16: 100 rows, 100 unique, range 1501-1600 of 1872, overlap 0
+  First: SIR:XJSE:EQU, SGP:XJSE:EQU, SKR:XJSE:EQU, SKRP:XJSE:EQU, SAL:XJSE:EQU
+  Last:  SPE:XJSE:EQU, SPN:XJSE:EQU, SPC:XJSE:EQU, SPS:XJSE:EQU, SPI:XJSE:EQU
+Page 17: 100 rows, 100 unique, range 1601-1700 of 1872, overlap 0
+  First: SPL:XJSE:EQU, SPN.DEL:XJSE:EQU, SUR:XJSE:EQU, SPH:XJSE:EQU, SPU:XJSE:EQU
+  Last:  TGA:XJSE:EQU, THK:XJSE:EQU, THW:XJSE:EQU, TAL:XJSE:EQU, TBSP:XJSE:EQU
+Page 18: 100 rows, 100 unique, range 1701-1800 of 1872, overlap 0
+  First: TBS:XJSE:EQU, TIW:XJSE:EQU, TGN:XJSE:EQU, TLF:XJSE:EQU, TIM:XJSE:EQU
+  Last:  VIS:XJSE:EQU, VIF:XJSE:EQU, VVO:XJSE:EQU, VLA:XJSE:EQU, VOD:XJSE:EQU
+Page 19: 72 rows, 72 unique, range 1801-1872 of 1872, overlap 0
+  First: VOG:XJSE:EQU, VKS:XJSE:EQU, VLX:XJSE:EQU, VOX:XJSE:EQU, VKE:XJSE:EQU
+  Last:  ZED:XJSE:EQU, ZNT:XJSE:EQU, ZNTO:XJSE:EQU, ZOZ:XJSE:EQU, ZSA:XJSE:EQU
+
+DUPLICATE PAGE ANALYSIS
+No overlapping pages
+Base64 decode mismatches: 0
+CSV ID sequence matches pages: True
+
+MISSING COVERAGE
+Thesis master IDs absent from Screener: 0
+Screener IDs absent from thesis master: 3
+
+ROOT CAUSE
+No repeated page content, master coverage gap, or ID decode error detected.
+
+RECOMMENDED FIX
+Wait for both the expected footer and changed, non-overlapping instrument content; verify total, row count, filters and ordering before saving each page. Stage new output until the complete run validates.
+
+=== FINAL METADATA EXTRACTION SUMMARY ===
+Screener rows captured: 1872
+Unique instrument IDs: 1872
+Duplicate instrument IDs: 0
+Pages successfully captured: 19
+Expected Screener result count: 1872
+Pagination validation: PASS
+Duplicate-page validation: PASS
+
+THESIS RECONCILIATION
+Unique instruments in thesis: 1869
+Matched instruments: 1869
+Thesis-only instruments: 0
+Screener-only instruments: 3
+Thesis-only IDs: (none)
+Screener-only IDs: IMRP17:XJSE:EQU, IMRP18:XJSE:EQU, PBT_DEL:XJSE:EQU
+
+ISIN VALIDATION
+Nonempty ISIN values: 1872
+Valid ISIN format: 1492
+Invalid or placeholder ISIN values: 380
+Missing ISIN values: 0
+
+OUTPUTS
+Metadata CSV: /home/tiaan/Projects/iress-export/metadata/jse_screener_snapshot.csv
+Summary JSON: /home/tiaan/Projects/iress-export/metadata/jse_screener_snapshot.summary.json
+Page snapshots: /home/tiaan/Projects/iress-export/metadata/screener_pages
+Diagnostics JSON: /home/tiaan/Projects/iress-export/metadata/screener_diagnostics.json
+
+FINAL STATUS: PASS
+
+TESTS: 7 unit tests passed; offline Chromium DOM smoke test passed.

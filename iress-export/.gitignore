@@ -1,0 +1,19 @@
+# Licensed observations, extraction logs and authentication/browser state.
+exports/
+data/
+reports/
+.venv/
+.env*
+.aws/
+.codex/
+.agents/
+*profile*/
+*browser*/
+.auth/
+.playwright/
+*storage_state*.json
+*auth*.json
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/

@@ -1,0 +1,6 @@
+event_id,event_name,event_date,aligned_event_date,estimation_first_required_close,estimation_start,estimation_end,visualisation_first_required_close,visualisation_start,visualisation_end,expected_estimation_returns,available_estimation_returns,expected_visualisation_returns,available_visualisation_returns,all_required_benchmark_sessions_present
+mining_charter_2017,Mining Charter 2017,2017-06-15,2017-06-15,2016-06-13,2016-06-14,2017-05-04,2017-05-31,2017-06-01,2017-06-30,221,221,21,21,True
+mining_charter_2018,Final Mining Charter 2018,2018-09-27,2018-09-27,2017-09-27,2017-09-28,2018-08-15,2018-09-11,2018-09-12,2018-10-11,221,221,21,21,True
+ee_draft_2023,Draft EE sector targets,2023-05-12,2023-05-12,2022-05-11,2022-05-12,2023-03-27,2023-04-25,2023-04-26,2023-05-26,221,221,21,21,True
+ee_final_2025,Final EE sector targets,2025-04-15,2025-04-15,2024-04-15,2024-04-16,2025-03-03,2025-03-31,2025-04-01,2025-05-05,221,221,21,21,True
+bbbee_draft_2026,Draft B-BBEE Code amendments,2026-01-29,2026-01-29,2025-01-28,2025-01-29,2025-12-12,2026-01-14,2026-01-15,2026-02-12,221,221,21,21,True
