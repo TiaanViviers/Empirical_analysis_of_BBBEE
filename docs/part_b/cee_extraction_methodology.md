@@ -1,0 +1,11 @@
+# Extraction methodology
+
+All source PDFs are retained unchanged. The 25th report is pinned to its known SHA-256. The 2024 extraction adapter uses Appendix A page 68 and Appendix C pages 81–98. The extended count adapter identifies the first top and senior eleven-cell count and percentage rows in each report-specific Appendix A/C page for 2017 and 2019–2023 and 2025. For 2017 there are 11 sector pages; for 2019 onward there are 18. The 2020 and 2017 reports require parsing numbers with embedded thousands spaces. Each year is saved to the shared outputs separately; failures stop that year's adapter.
+
+For 2018 the national Appendix A count cells are readable, but many 2018 sector count glyphs are corrupted in Poppler text. The early-years adapter therefore retains published percentages in Appendix C as a fallback, not invented counts. The 2016 sector values come from the 17th report Appendix A tables 51–61; the national percentages are the 19th report's retrospective Appendix E page 106, with publication year 2019. Percentage sums of rounded components are explicitly labelled. This does not establish that 2018 counts are unavailable in the publication; manual or alternative extraction is still needed.
+
+EAP cells are read from each report's national EAP table and retain Q3 benchmark year. `cee_2024_coverage_transcribed.csv` is a manual transcription of Table 6 PDF page 30, visually checked against the rendered page. National 2017–2019 and 2022–2025 coverage totals are from later reports' Table 3. Management pages 68 and 81–83 of the 25th report were visually inspected; remaining extracted pages require full visual cell-by-cell inspection. Automated appendix-title search in the availability inventory is not a complete audit.
+
+## Subsequent extraction
+
+The 2018 sector counts are now decoded using the punctuation glyph mapping in `extend_early_cee.py`; two printed construction totals are explicitly transcribed from page 89. All 2018 records are count-based. `sector_coverage_cee.py` extracts historical coverage by source row order and validates national sums, but deliberately flags potentially incomplete wrapped labels. It identifies a 300-employee discrepancy in 2023. `reproduce_cee.sh` runs the current pipeline.

@@ -1,0 +1,11 @@
+reporting_year,source_id,appendix_a_pdf_pages,appendix_c_pdf_pages,count_availability,sector_coverage,extraction_status,notes
+2016,cee_17th,,,National counts; sector percentages only,11,Independently checked in PDF text; rendered pages sampled,2016 national counts transcribed from 19th report retrospective Appendix E; sectors percentage only
+2017,cee_18th,,,National and sector,11,Independently checked in PDF text; rendered pages sampled,Counts and published percentages independently checked; rendered pages sampled
+2018,cee_19th,,,National and sector,11,Independently checked in PDF text; rendered pages sampled,2018 encoded digit glyphs independently decoded; construction totals checked against rendered page
+2019,cee_20th,50.0,62.0,National and sector,18,Independently checked in PDF text; rendered pages sampled,2019 published sector totals fall below published national totals
+2020,cee_21st,69.0,81.0,National and sector,18,Independently checked in PDF text; rendered pages sampled,Counts and published percentages independently checked; rendered pages sampled
+2021,cee_22nd,84.0,98.0,National and sector,18,Independently checked in PDF text; rendered pages sampled,Counts and published percentages independently checked; rendered pages sampled
+2022,cee_23rd,86.0,98.0,National and sector,18,Independently checked in PDF text; rendered pages sampled,Counts and published percentages independently checked; rendered pages sampled
+2023,cee_24th,70.0,82.0,National and sector,18,Independently checked in PDF text; rendered pages sampled,Counts and published percentages independently checked; rendered pages sampled
+2024,cee_25th,68.0,81.0,National and sector,18,Independently checked in PDF text; rendered pages sampled,Counts and published percentages independently checked; rendered pages sampled
+2025,cee_26th,75.0,89.0,National and sector,18,Independently checked in PDF text; rendered pages sampled,Counts and published percentages independently checked; rendered pages sampled
