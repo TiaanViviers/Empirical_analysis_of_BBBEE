@@ -1,0 +1,109 @@
+reporting_year,publication_date,sector_original,sector_id,occupational_level,population_group,gender,observed_pct,reporting_population,published_value_original,source_id,source_page_pdf,source_page_printed,quality_flag
+2022,2023-05-12,"AGRICULTURE, FORESTRY & FISHING",agriculture,top_management,black,male,9.9,Workforce Profile 2022 (All employers),9.9%,EE2023,4,22,ok
+2022,2023-05-12,"AGRICULTURE, FORESTRY & FISHING",agriculture,top_management,black,female,6.2,Workforce Profile 2022 (All employers),6.2%,EE2023,4,22,ok
+2022,2023-05-12,"AGRICULTURE, FORESTRY & FISHING",agriculture,top_management,black,total,16.1,Workforce Profile 2022 (All employers),16.1%,EE2023,4,22,ok
+2022,2023-05-12,"AGRICULTURE, FORESTRY & FISHING",agriculture,senior_management,black,male,15.9,Workforce Profile 2022 (All employers),15.9%,EE2023,4,22,ok
+2022,2023-05-12,"AGRICULTURE, FORESTRY & FISHING",agriculture,senior_management,black,female,8.2,Workforce Profile 2022 (All employers),8.2%,EE2023,4,22,ok
+2022,2023-05-12,"AGRICULTURE, FORESTRY & FISHING",agriculture,senior_management,black,total,24.1,Workforce Profile 2022 (All employers),24.1%,EE2023,4,22,ok
+2022,2023-05-12,MINING AND QUARRYING,mining,top_management,black,male,27.3,Workforce Profile 2022 (All employers),"27,3%",EE2023,6,24,ok
+2022,2023-05-12,MINING AND QUARRYING,mining,top_management,black,female,13.0,Workforce Profile 2022 (All employers),"13,0%",EE2023,6,24,ok
+2022,2023-05-12,MINING AND QUARRYING,mining,top_management,black,total,40.3,Workforce Profile 2022 (All employers),"40,3%",EE2023,6,24,ok
+2022,2023-05-12,MINING AND QUARRYING,mining,senior_management,black,male,30.2,Workforce Profile 2022 (All employers),"30,2%",EE2023,6,24,ok
+2022,2023-05-12,MINING AND QUARRYING,mining,senior_management,black,female,12.7,Workforce Profile 2022 (All employers),"12,7%",EE2023,6,24,ok
+2022,2023-05-12,MINING AND QUARRYING,mining,senior_management,black,total,42.9,Workforce Profile 2022 (All employers),"42,9%",EE2023,6,24,ok
+2022,2023-05-12,MANUFACTURING,manufacturing,top_management,black,male,19.5,Workforce Profile 2022 (All employers),"19,5%",EE2023,8,26,ok
+2022,2023-05-12,MANUFACTURING,manufacturing,top_management,black,female,10.1,Workforce Profile 2022 (All employers),"10,1%",EE2023,8,26,ok
+2022,2023-05-12,MANUFACTURING,manufacturing,top_management,black,total,29.6,Workforce Profile 2022 (All employers),"29,6%",EE2023,8,26,ok
+2022,2023-05-12,MANUFACTURING,manufacturing,senior_management,black,male,26.6,Workforce Profile 2022 (All employers),"26,6%",EE2023,8,26,ok
+2022,2023-05-12,MANUFACTURING,manufacturing,senior_management,black,female,13.8,Workforce Profile 2022 (All employers),"13,8%",EE2023,8,26,ok
+2022,2023-05-12,MANUFACTURING,manufacturing,senior_management,black,total,40.4,Workforce Profile 2022 (All employers),"40,4%",EE2023,8,26,ok
+2022,2023-05-12,CONSTRUCTION,construction,top_management,black,male,26.7,Workforce Profile 2022 (All employers),"26,7%",EE2023,10,28,ok
+2022,2023-05-12,CONSTRUCTION,construction,top_management,black,female,13.1,Workforce Profile 2022 (All employers),"13,1%",EE2023,10,28,ok
+2022,2023-05-12,CONSTRUCTION,construction,top_management,black,total,39.8,Workforce Profile 2022 (All employers),"39,8%",EE2023,10,28,ok
+2022,2023-05-12,CONSTRUCTION,construction,senior_management,black,male,33.8,Workforce Profile 2022 (All employers),"33,8%",EE2023,10,28,ok
+2022,2023-05-12,CONSTRUCTION,construction,senior_management,black,female,14.7,Workforce Profile 2022 (All employers),"14,7%",EE2023,10,28,ok
+2022,2023-05-12,CONSTRUCTION,construction,senior_management,black,total,48.5,Workforce Profile 2022 (All employers),"48,5%",EE2023,10,28,ok
+2022,2023-05-12,FINANCIAL AND INSURANCE ACTIVITIES,financial_insurance,top_management,black,male,21.3,Workforce Profile 2022 (All employers),"21,3%",EE2023,12,30,ok
+2022,2023-05-12,FINANCIAL AND INSURANCE ACTIVITIES,financial_insurance,top_management,black,female,14.9,Workforce Profile 2022 (All employers),"14,9%",EE2023,12,30,ok
+2022,2023-05-12,FINANCIAL AND INSURANCE ACTIVITIES,financial_insurance,top_management,black,total,36.2,Workforce Profile 2022 (All employers),"36,2%",EE2023,12,30,ok
+2022,2023-05-12,FINANCIAL AND INSURANCE ACTIVITIES,financial_insurance,senior_management,black,male,25.4,Workforce Profile 2022 (All employers),"25,4%",EE2023,12,30,ok
+2022,2023-05-12,FINANCIAL AND INSURANCE ACTIVITIES,financial_insurance,senior_management,black,female,22.7,Workforce Profile 2022 (All employers),"22,7%",EE2023,12,30,ok
+2022,2023-05-12,FINANCIAL AND INSURANCE ACTIVITIES,financial_insurance,senior_management,black,total,48.1,Workforce Profile 2022 (All employers),"48,1%",EE2023,12,30,ok
+2022,2023-05-12,TRANSPORTATION AND STORAGE,transport_storage,top_management,black,male,25.3,Workforce Profile 2022 (All employers),"25,3%",EE2023,14,32,ok
+2022,2023-05-12,TRANSPORTATION AND STORAGE,transport_storage,top_management,black,female,14.1,Workforce Profile 2022 (All employers),"14,1%",EE2023,14,32,ok
+2022,2023-05-12,TRANSPORTATION AND STORAGE,transport_storage,top_management,black,total,39.4,Workforce Profile 2022 (All employers),"39,4%",EE2023,14,32,ok
+2022,2023-05-12,TRANSPORTATION AND STORAGE,transport_storage,senior_management,black,male,31.7,Workforce Profile 2022 (All employers),"31,7%",EE2023,14,32,ok
+2022,2023-05-12,TRANSPORTATION AND STORAGE,transport_storage,senior_management,black,female,17.9,Workforce Profile 2022 (All employers),"17,9%",EE2023,14,32,ok
+2022,2023-05-12,TRANSPORTATION AND STORAGE,transport_storage,senior_management,black,total,49.6,Workforce Profile 2022 (All employers),"49,6%",EE2023,14,32,ok
+2022,2023-05-12,INFORMATION AND COMMUNICATION,information_communication,top_management,black,male,20.4,Workforce Profile 2022 (All employers),"20,4%",EE2023,16,34,ok
+2022,2023-05-12,INFORMATION AND COMMUNICATION,information_communication,top_management,black,female,13.9,Workforce Profile 2022 (All employers),"13,9%",EE2023,16,34,ok
+2022,2023-05-12,INFORMATION AND COMMUNICATION,information_communication,top_management,black,total,34.3,Workforce Profile 2022 (All employers),"34,3%",EE2023,16,34,ok
+2022,2023-05-12,INFORMATION AND COMMUNICATION,information_communication,senior_management,black,male,24.3,Workforce Profile 2022 (All employers),"24,3%",EE2023,16,34,ok
+2022,2023-05-12,INFORMATION AND COMMUNICATION,information_communication,senior_management,black,female,16.5,Workforce Profile 2022 (All employers),"16,5%",EE2023,16,34,ok
+2022,2023-05-12,INFORMATION AND COMMUNICATION,information_communication,senior_management,black,total,40.8,Workforce Profile 2022 (All employers),"40,8%",EE2023,16,34,ok
+2022,2023-05-12,"WATER SUPPLY, SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",water_waste,top_management,black,male,47.5,Workforce Profile 2022 (All employers),"47,5%",EE2023,18,36,ok
+2022,2023-05-12,"WATER SUPPLY, SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",water_waste,top_management,black,female,22.7,Workforce Profile 2022 (All employers),"22,7%",EE2023,18,36,ok
+2022,2023-05-12,"WATER SUPPLY, SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",water_waste,top_management,black,total,70.2,Workforce Profile 2022 (All employers),"70,2%",EE2023,18,36,ok
+2022,2023-05-12,"WATER SUPPLY, SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",water_waste,senior_management,black,male,52.0,Workforce Profile 2022 (All employers),"52,0%",EE2023,18,36,ok
+2022,2023-05-12,"WATER SUPPLY, SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",water_waste,senior_management,black,female,25.5,Workforce Profile 2022 (All employers),"25,5%",EE2023,18,36,ok
+2022,2023-05-12,"WATER SUPPLY, SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",water_waste,senior_management,black,total,77.5,Workforce Profile 2022 (All employers),"77,5%",EE2023,18,36,ok
+2022,2023-05-12,"ELECTRICITY, GAS STEAM AND AIR CONDITIONING SUPPLY",electricity_gas,top_management,black,male,25.9,Workforce Profile 2022 (All employers),"25,9%",EE2023,20,38,ok
+2022,2023-05-12,"ELECTRICITY, GAS STEAM AND AIR CONDITIONING SUPPLY",electricity_gas,top_management,black,female,17.6,Workforce Profile 2022 (All employers),"17,6%",EE2023,20,38,ok
+2022,2023-05-12,"ELECTRICITY, GAS STEAM AND AIR CONDITIONING SUPPLY",electricity_gas,top_management,black,total,43.5,Workforce Profile 2022 (All employers),"43,5%",EE2023,20,38,ok
+2022,2023-05-12,"ELECTRICITY, GAS STEAM AND AIR CONDITIONING SUPPLY",electricity_gas,senior_management,black,male,35.9,Workforce Profile 2022 (All employers),"35,9%",EE2023,20,38,ok
+2022,2023-05-12,"ELECTRICITY, GAS STEAM AND AIR CONDITIONING SUPPLY",electricity_gas,senior_management,black,female,23.9,Workforce Profile 2022 (All employers),"23,9%",EE2023,20,38,ok
+2022,2023-05-12,"ELECTRICITY, GAS STEAM AND AIR CONDITIONING SUPPLY",electricity_gas,senior_management,black,total,59.8,Workforce Profile 2022 (All employers),"59,8%",EE2023,20,38,ok
+2022,2023-05-12,HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,health_social_work,top_management,black,male,20.0,Workforce Profile 2022 (All employers),"20,0%",EE2023,22,40,ok
+2022,2023-05-12,HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,health_social_work,top_management,black,female,18.4,Workforce Profile 2022 (All employers),"18,4%",EE2023,22,40,ok
+2022,2023-05-12,HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,health_social_work,top_management,black,total,38.4,Workforce Profile 2022 (All employers),"38,4%",EE2023,22,40,ok
+2022,2023-05-12,HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,health_social_work,senior_management,black,male,21.9,Workforce Profile 2022 (All employers),"21,9%",EE2023,22,40,ok
+2022,2023-05-12,HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,health_social_work,senior_management,black,female,33.0,Workforce Profile 2022 (All employers),"33,0%",EE2023,22,40,ok
+2022,2023-05-12,HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,health_social_work,senior_management,black,total,54.9,Workforce Profile 2022 (All employers),"54,9%",EE2023,22,40,ok
+2022,2023-05-12,"ARTS, ENTERTAINMENT AND RECREATION",arts_recreation,top_management,black,male,26.8,Workforce Profile 2022 (All employers),"26,8%",EE2023,24,42,ok
+2022,2023-05-12,"ARTS, ENTERTAINMENT AND RECREATION",arts_recreation,top_management,black,female,18.5,Workforce Profile 2022 (All employers),"18,5%",EE2023,24,42,ok
+2022,2023-05-12,"ARTS, ENTERTAINMENT AND RECREATION",arts_recreation,top_management,black,total,45.3,Workforce Profile 2022 (All employers),"45,3%",EE2023,24,42,ok
+2022,2023-05-12,"ARTS, ENTERTAINMENT AND RECREATION",arts_recreation,senior_management,black,male,37.1,Workforce Profile 2022 (All employers),"37,1%",EE2023,24,42,ok
+2022,2023-05-12,"ARTS, ENTERTAINMENT AND RECREATION",arts_recreation,senior_management,black,female,26.1,Workforce Profile 2022 (All employers),"26,1%",EE2023,24,42,ok
+2022,2023-05-12,"ARTS, ENTERTAINMENT AND RECREATION",arts_recreation,senior_management,black,total,63.2,Workforce Profile 2022 (All employers),"63,2%",EE2023,24,42,ok
+2022,2023-05-12,REAL ESTATE ACTIVITIES,real_estate,top_management,black,male,15.4,Workforce Profile 2022 (All employers),15.4%,EE2023,26,44,ok
+2022,2023-05-12,REAL ESTATE ACTIVITIES,real_estate,top_management,black,female,11.6,Workforce Profile 2022 (All employers),11.6%,EE2023,26,44,ok
+2022,2023-05-12,REAL ESTATE ACTIVITIES,real_estate,top_management,black,total,27.0,Workforce Profile 2022 (All employers),27.0%,EE2023,26,44,ok
+2022,2023-05-12,REAL ESTATE ACTIVITIES,real_estate,senior_management,black,male,21.8,Workforce Profile 2022 (All employers),21.8%,EE2023,26,44,ok
+2022,2023-05-12,REAL ESTATE ACTIVITIES,real_estate,senior_management,black,female,18.0,Workforce Profile 2022 (All employers),18.0%,EE2023,26,44,ok
+2022,2023-05-12,REAL ESTATE ACTIVITIES,real_estate,senior_management,black,total,39.8,Workforce Profile 2022 (All employers),39.8%,EE2023,26,44,ok
+2022,2023-05-12,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",professional_technical,top_management,black,male,17.3,Workforce Profile 2022 (All employers),"17,3%",EE2023,28,46,ok
+2022,2023-05-12,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",professional_technical,top_management,black,female,14.3,Workforce Profile 2022 (All employers),"14,3%",EE2023,28,46,ok
+2022,2023-05-12,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",professional_technical,top_management,black,total,31.6,Workforce Profile 2022 (All employers),"31,6%",EE2023,28,46,ok
+2022,2023-05-12,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",professional_technical,senior_management,black,male,21.3,Workforce Profile 2022 (All employers),"21,3%",EE2023,28,46,ok
+2022,2023-05-12,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",professional_technical,senior_management,black,female,18.6,Workforce Profile 2022 (All employers),"18,6%",EE2023,28,46,ok
+2022,2023-05-12,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",professional_technical,senior_management,black,total,39.9,Workforce Profile 2022 (All employers),"39,9%",EE2023,28,46,ok
+2022,2023-05-12,WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES,trade_repair,top_management,black,male,20.3,Workforce Profile 2022 (All employers),"20,3%",EE2023,30,48,ok
+2022,2023-05-12,WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES,trade_repair,top_management,black,female,8.6,Workforce Profile 2022 (All employers),"8,6%",EE2023,30,48,ok
+2022,2023-05-12,WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES,trade_repair,top_management,black,total,28.9,Workforce Profile 2022 (All employers),"28,9%",EE2023,30,48,ok
+2022,2023-05-12,WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES,trade_repair,senior_management,black,male,29.2,Workforce Profile 2022 (All employers),"29,2%",EE2023,30,48,ok
+2022,2023-05-12,WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES,trade_repair,senior_management,black,female,16.6,Workforce Profile 2022 (All employers),"16,6%",EE2023,30,48,ok
+2022,2023-05-12,WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES,trade_repair,senior_management,black,total,45.8,Workforce Profile 2022 (All employers),"45,8%",EE2023,30,48,ok
+2022,2023-05-12,ACCOMMODATION AND FOOD SERVICE ACTIVITIES,accommodation_food,top_management,black,male,12.1,Workforce Profile 2022 (All employers),"12,1%",EE2023,32,50,ok
+2022,2023-05-12,ACCOMMODATION AND FOOD SERVICE ACTIVITIES,accommodation_food,top_management,black,female,11.4,Workforce Profile 2022 (All employers),"11,4%",EE2023,32,50,ok
+2022,2023-05-12,ACCOMMODATION AND FOOD SERVICE ACTIVITIES,accommodation_food,top_management,black,total,23.5,Workforce Profile 2022 (All employers),"23,5%",EE2023,32,50,ok
+2022,2023-05-12,ACCOMMODATION AND FOOD SERVICE ACTIVITIES,accommodation_food,senior_management,black,male,23.1,Workforce Profile 2022 (All employers),"23,1%",EE2023,32,50,ok
+2022,2023-05-12,ACCOMMODATION AND FOOD SERVICE ACTIVITIES,accommodation_food,senior_management,black,female,23.2,Workforce Profile 2022 (All employers),"23,2%",EE2023,32,50,ok
+2022,2023-05-12,ACCOMMODATION AND FOOD SERVICE ACTIVITIES,accommodation_food,senior_management,black,total,46.3,Workforce Profile 2022 (All employers),"46,3%",EE2023,32,50,ok
+2022,2023-05-12,PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY,public_administration,top_management,black,male,51.0,Workforce Profile 2022 (All employers),"51,0%",EE2023,34,52,ok
+2022,2023-05-12,PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY,public_administration,top_management,black,female,28.4,Workforce Profile 2022 (All employers),"28,4%",EE2023,34,52,ok
+2022,2023-05-12,PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY,public_administration,top_management,black,total,79.4,Workforce Profile 2022 (All employers),"79,4%",EE2023,34,52,ok
+2022,2023-05-12,PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY,public_administration,senior_management,black,male,48.3,Workforce Profile 2022 (All employers),"48,3%",EE2023,34,52,ok
+2022,2023-05-12,PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY,public_administration,senior_management,black,female,33.5,Workforce Profile 2022 (All employers),"33,5%",EE2023,34,52,ok
+2022,2023-05-12,PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY,public_administration,senior_management,black,total,81.8,Workforce Profile 2022 (All employers),"81,8%",EE2023,34,52,ok
+2022,2023-05-12,EDUCATION,education,top_management,black,male,20.6,Workforce Profile 2022 (All employers),"20,6%",EE2023,36,54,ok
+2022,2023-05-12,EDUCATION,education,top_management,black,female,17.0,Workforce Profile 2022 (All employers),"17,0%",EE2023,36,54,ok
+2022,2023-05-12,EDUCATION,education,top_management,black,total,37.6,Workforce Profile 2022 (All employers),"37,6%",EE2023,36,54,ok
+2022,2023-05-12,EDUCATION,education,senior_management,black,male,20.8,Workforce Profile 2022 (All employers),"20,8%",EE2023,36,54,ok
+2022,2023-05-12,EDUCATION,education,senior_management,black,female,19.4,Workforce Profile 2022 (All employers),"19,4%",EE2023,36,54,ok
+2022,2023-05-12,EDUCATION,education,senior_management,black,total,40.2,Workforce Profile 2022 (All employers),"40,2%",EE2023,36,54,ok
+2022,2023-05-12,ADMINISTRATIVE AND SUPPORT ACTIVITIES,administrative_support,top_management,black,male,27.3,Workforce Profile 2022 (All employers),"27,3%",EE2023,38,56,ok
+2022,2023-05-12,ADMINISTRATIVE AND SUPPORT ACTIVITIES,administrative_support,top_management,black,female,18.4,Workforce Profile 2022 (All employers),"18,4%",EE2023,38,56,ok
+2022,2023-05-12,ADMINISTRATIVE AND SUPPORT ACTIVITIES,administrative_support,top_management,black,total,45.7,Workforce Profile 2022 (All employers),"45,7%",EE2023,38,56,ok
+2022,2023-05-12,ADMINISTRATIVE AND SUPPORT ACTIVITIES,administrative_support,senior_management,black,male,35.5,Workforce Profile 2022 (All employers),"35,5%",EE2023,38,56,ok
+2022,2023-05-12,ADMINISTRATIVE AND SUPPORT ACTIVITIES,administrative_support,senior_management,black,female,24.2,Workforce Profile 2022 (All employers),"24,2%",EE2023,38,56,ok
+2022,2023-05-12,ADMINISTRATIVE AND SUPPORT ACTIVITIES,administrative_support,senior_management,black,total,59.7,Workforce Profile 2022 (All employers),"59,7%",EE2023,38,56,ok

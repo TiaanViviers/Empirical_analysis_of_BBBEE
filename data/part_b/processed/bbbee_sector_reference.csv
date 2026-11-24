@@ -1,0 +1,23 @@
+series_id,sector_original,sector_classification,source_id,source_table,source_page_pdf,source_page_printed,effective_period,notes
+retro_2026,Agri-BEE,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,CA,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Construction,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Defence,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Financial Services,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Forestry,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Generic,B-BBEE code,retro_2026,2,48,46,,"Generic is a code category, not an industry; labels need not map to CEE sectors."
+retro_2026,ICT,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,MAC,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Property,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Tourism,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+retro_2026,Transport,B-BBEE code,retro_2026,2,48,46,,Original retrospective classification; no CEE crosswalk.
+status_2022,Agri-BEE,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,Construction,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,Financial,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,Forestry,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,Generic,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,ICT,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,MAC,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,Property,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,Tourism,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.
+status_2022,Transport,B-BBEE code,status_2022,Figure 7 and 10,19;21,19;21,,Original portal chart label; no asserted equivalence to other classifications.

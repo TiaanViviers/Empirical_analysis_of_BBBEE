@@ -1,0 +1,646 @@
+dataset,source,check,expected_result,actual_result,status,discrepancy_or_explanation
+source_inventory,EE2023,SHA-256,ae287837ddc991679ee44240937b7434a54ff4e679e18e767ba3a635e242b55d,ae287837ddc991679ee44240937b7434a54ff4e679e18e767ba3a635e242b55d,pass,
+source_inventory,EE2023,file size in bytes,17006149,17006149,pass,
+source_inventory,EE2023,physical page count,39,39,pass,
+source_inventory,EE2024,SHA-256,df7dca15ababbfa888af9ce68e3daf68ab7741b05fa5afe3875d92b4e99fcb82,df7dca15ababbfa888af9ce68e3daf68ab7741b05fa5afe3875d92b4e99fcb82,pass,
+source_inventory,EE2024,file size in bytes,4046219,4046219,pass,
+source_inventory,EE2024,physical page count,16,16,pass,
+source_inventory,EE2025,SHA-256,05d8b13677a1fee218b8f3b782f6464fd792350681a5f98c4afd553a4ebc6177,05d8b13677a1fee218b8f3b782f6464fd792350681a5f98c4afd553a4ebc6177,pass,
+source_inventory,EE2025,file size in bytes,275650,275650,pass,
+source_inventory,EE2025,physical page count,8,8,pass,
+source_inventory,EEADMIN2025,SHA-256,1a293ffdacab66199408788c6174a178ead0d0df7e7dbffea2d863a281193da8,1a293ffdacab66199408788c6174a178ead0d0df7e7dbffea2d863a281193da8,pass,
+source_inventory,EEADMIN2025,file size in bytes,1282190,1282190,pass,
+source_inventory,EEADMIN2025,physical page count,104,104,pass,
+source_inventory,CEE24,SHA-256,12a12af5df23cd05e4514f9907cb19047391b7caa5b7a8e6b75804c5eea2b846,12a12af5df23cd05e4514f9907cb19047391b7caa5b7a8e6b75804c5eea2b846,pass,
+source_inventory,CEE24,file size in bytes,8463035,8463035,pass,
+source_inventory,CEE24,physical page count,109,109,pass,
+source_inventory,CEE25,SHA-256,96de924bb89b77cb3b2a02537b6c2e207247b5ec09ea7d802b4f44f37358fcde,96de924bb89b77cb3b2a02537b6c2e207247b5ec09ea7d802b4f44f37358fcde,pass,
+source_inventory,CEE25,file size in bytes,11674954,11674954,pass,
+source_inventory,CEE25,physical page count,108,108,pass,
+statssa_sector_employment,QLFS_TRENDS2025,historical attachment acquisition,Download original attachment,Unavailable from this environment,source_limitation,Attachment title confirmed in indexed official release page. Challenge prevented opening the live listing and confirming the download href. Both spaced and unspaced XLSX candidate paths returned HTML.
+statssa_sector_employment,QLFS_TRENDS2024,historical attachment acquisition,Download original attachment,Unavailable from this environment,source_limitation,The link is confirmed from the official release page. Direct HTTPS returned HTML. Browser reader identified XLSX MIME type and could not deliver the binary.
+source_inventory,QLFS2017Q3,SHA-256,1daf5393c35a6c80a68b03264f54b9d8d58fba36ecdc48cad2295df33419b932,1daf5393c35a6c80a68b03264f54b9d8d58fba36ecdc48cad2295df33419b932,pass,
+source_inventory,QLFS2017Q3,file size in bytes,4990309,4990309,pass,
+source_inventory,QLFS2017Q3,physical page count,131,131,pass,
+source_inventory,QLFS2019Q3,SHA-256,322a1c5018826a7c6511701668bad86b81fb487745445622aca675bbcd04dfb7,322a1c5018826a7c6511701668bad86b81fb487745445622aca675bbcd04dfb7,pass,
+source_inventory,QLFS2019Q3,file size in bytes,3855735,3855735,pass,
+source_inventory,QLFS2019Q3,physical page count,131,131,pass,
+source_inventory,QLFS2021Q3,SHA-256,33caa04fd4b6210d97fc3239348ffb146e91836bb9a3aa8028b92f34c3211cc4,33caa04fd4b6210d97fc3239348ffb146e91836bb9a3aa8028b92f34c3211cc4,pass,
+source_inventory,QLFS2021Q3,file size in bytes,5627091,5627091,pass,
+source_inventory,QLFS2021Q3,physical page count,138,138,pass,
+source_inventory,QLFS2023Q3,SHA-256,4bedd9cd7f2abc53cf8d3cedf7587dfc2bd9601a06026e91360eadcf7ed1d843,4bedd9cd7f2abc53cf8d3cedf7587dfc2bd9601a06026e91360eadcf7ed1d843,pass,
+source_inventory,QLFS2023Q3,file size in bytes,2434781,2434781,pass,
+source_inventory,QLFS2023Q3,physical page count,133,133,pass,
+source_inventory,QLFS2025Q3,SHA-256,21ceea47a122425e1bb50427ea50dea278ba3c7b38325b6545a4399271ade8cf,21ceea47a122425e1bb50427ea50dea278ba3c7b38325b6545a4399271ade8cf,pass,
+source_inventory,QLFS2025Q3,file size in bytes,5302773,5302773,pass,
+source_inventory,QLFS2025Q3,physical page count,140,140,pass,
+source_inventory,QLFS2025Q3_CHECK,SHA-256,a7f28a33d6c74ecfe4459256ce0ba0c27a12d7246803d05e9fb12cf78b1356ff,a7f28a33d6c74ecfe4459256ce0ba0c27a12d7246803d05e9fb12cf78b1356ff,pass,
+source_inventory,QLFS2025Q3_CHECK,file size in bytes,5305900,5305900,pass,
+source_inventory,QLFS2025Q3_CHECK,physical page count,140,140,pass,
+ee_sector_targets,EE2023,"PDF 4, national_top, male",20.0%,20.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 4, national_top, female",15.0%,15.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 4, national_top, total",35.0%,35.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 4, national_senior, male",25.0%,25.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 4, national_senior, female",15.0%,15.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 4, national_senior, total",40.0%,40.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 4, workforce_top, male",9.9%,9.9%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 4, workforce_top, female",6.2%,6.2%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 4, workforce_top, total",16.1%,16.1%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 4, workforce_senior, male",15.9%,15.9%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 4, workforce_senior, female",8.2%,8.2%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 4, workforce_senior, total",24.1%,24.1%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 6, national_top, male","29,9%","29,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 6, national_top, female","20,1%","20,1%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 6, national_top, total","50,0%","50,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 6, national_senior, male","35,0%","35,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 6, national_senior, female","21,0%","21,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 6, national_senior, total","56,0%","56,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 6, workforce_top, male","27,3%","27,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 6, workforce_top, female","13,0%","13,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 6, workforce_top, total","40,3%","40,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 6, workforce_senior, male","30,2%","30,2%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 6, workforce_senior, female","12,7%","12,7%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 6, workforce_senior, total","42,9%","42,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 8, national_top, male","25,0%","25,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_sector_targets,EE2023,"PDF 8, national_top, female","15,0%","15,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_sector_targets,EE2023,"PDF 8, national_top, total","40,0%","40,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_sector_targets,EE2023,"PDF 8, national_senior, male","33,0%","33,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_sector_targets,EE2023,"PDF 8, national_senior, female","17,0%","17,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_sector_targets,EE2023,"PDF 8, national_senior, total","50,0%","50,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 8, workforce_top, male","19,5%","19,5%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 8, workforce_top, female","10,1%","10,1%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 8, workforce_top, total","29,6%","29,6%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 8, workforce_senior, male","26,6%","26,6%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 8, workforce_senior, female","13,8%","13,8%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 8, workforce_senior, total","40,4%","40,4%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26,69 → 26,6%, 13,89 → 13,8%, 40,4 → 40,4%."
+ee_sector_targets,EE2023,"PDF 10, national_top, male","33,0%","33,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_sector_targets,EE2023,"PDF 10, national_top, female","17,0%","17,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_sector_targets,EE2023,"PDF 10, national_top, total","50,0%","50,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_sector_targets,EE2023,"PDF 10, national_senior, male","40,0%","40,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_sector_targets,EE2023,"PDF 10, national_senior, female","20,0%","20,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_sector_targets,EE2023,"PDF 10, national_senior, total","60,0%","60,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 10, workforce_top, male","26,7%","26,7%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 10, workforce_top, female","13,1%","13,1%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 10, workforce_top, total","39,8%","39,8%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 10, workforce_senior, male","33,8%","33,8%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 10, workforce_senior, female","14,7%","14,7%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 10, workforce_senior, total","48,5%","48,5%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 26.7% → 26,7%."
+ee_sector_targets,EE2023,"PDF 12, national_top, male","30,0%","30,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_sector_targets,EE2023,"PDF 12, national_top, female","21,3%","21,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_sector_targets,EE2023,"PDF 12, national_top, total","51,3%","51,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_sector_targets,EE2023,"PDF 12, national_senior, male","31,0%","31,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_sector_targets,EE2023,"PDF 12, national_senior, female","26,0%","26,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_sector_targets,EE2023,"PDF 12, national_senior, total","57,0%","57,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 12, workforce_top, male","21,3%","21,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 12, workforce_top, female","14,9%","14,9%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 12, workforce_top, total","36,2%","36,2%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 12, workforce_senior, male","25,4%","25,4%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 12, workforce_senior, female","22,7%","22,7%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 12, workforce_senior, total","48,1%","48,1%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 21,34 → 21,3%, 14,99 → 14,9%."
+ee_sector_targets,EE2023,"PDF 14, national_top, male","30,0%","30,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_sector_targets,EE2023,"PDF 14, national_top, female","20,0%","20,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_sector_targets,EE2023,"PDF 14, national_top, total","50,0%","50,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_sector_targets,EE2023,"PDF 14, national_senior, male","38,0%","38,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_sector_targets,EE2023,"PDF 14, national_senior, female","22,0%","22,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_sector_targets,EE2023,"PDF 14, national_senior, total","60,0%","60,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 14, workforce_top, male","25,3%","25,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 14, workforce_top, female","14,1%","14,1%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 14, workforce_top, total","39,4%","39,4%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 14, workforce_senior, male","31,7%","31,7%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 14, workforce_senior, female","17,9%","17,9%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 14, workforce_senior, total","49,6%","49,6%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,7 → 31,7%, 49,6 → 49,6%."
+ee_sector_targets,EE2023,"PDF 16, national_top, male","28,0%","28,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 16, national_top, female","22,0%","22,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 16, national_top, total","50,0%","50,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 16, national_senior, male","35,0%","35,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 16, national_senior, female","25,0%","25,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 16, national_senior, total","60,0%","60,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 16, workforce_top, male","20,4%","20,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 16, workforce_top, female","13,9%","13,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 16, workforce_top, total","34,3%","34,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 16, workforce_senior, male","24,3%","24,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 16, workforce_senior, female","16,5%","16,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 16, workforce_senior, total","40,8%","40,8%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 18, national_top, male","45,0%","45,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_sector_targets,EE2023,"PDF 18, national_top, female","35,0%","35,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_sector_targets,EE2023,"PDF 18, national_top, total","80,0%","80,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_sector_targets,EE2023,"PDF 18, national_senior, male","50,0%","50,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_sector_targets,EE2023,"PDF 18, national_senior, female","38,0%","38,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_sector_targets,EE2023,"PDF 18, national_senior, total","88,0%","88,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 18, workforce_top, male","47,5%","47,5%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 18, workforce_top, female","22,7%","22,7%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 18, workforce_top, total","70,2%","70,2%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 18, workforce_senior, male","52,0%","52,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 18, workforce_senior, female","25,5%","25,5%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 18, workforce_senior, total","77,5%","77,5%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 475% → 47,5%."
+ee_sector_targets,EE2023,"PDF 20, national_top, male","28,0%","28,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 20, national_top, female","22,0%","22,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 20, national_top, total","50,0%","50,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 20, national_senior, male","39,0%","39,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 20, national_senior, female","26,0%","26,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 20, national_senior, total","65,0%","65,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 20, workforce_top, male","25,9%","25,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 20, workforce_top, female","17,6%","17,6%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 20, workforce_top, total","43,5%","43,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 20, workforce_senior, male","35,9%","35,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 20, workforce_senior, female","23,9%","23,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 20, workforce_senior, total","59,8%","59,8%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 22, national_top, male","25,0%","25,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 22, national_top, female","25,0%","25,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 22, national_top, total","50,0%","50,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 22, national_senior, male","30,0%","30,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 22, national_senior, female","30,0%","30,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 22, national_senior, total","60,0%","60,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 22, workforce_top, male","20,0%","20,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 22, workforce_top, female","18,4%","18,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 22, workforce_top, total","38,4%","38,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 22, workforce_senior, male","21,9%","21,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 22, workforce_senior, female","33,0%","33,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 22, workforce_senior, total","54,9%","54,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 24, national_top, male","25,0%","25,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_sector_targets,EE2023,"PDF 24, national_top, female","25,0%","25,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_sector_targets,EE2023,"PDF 24, national_top, total","50,0%","50,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_sector_targets,EE2023,"PDF 24, national_senior, male","45,0%","45,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_sector_targets,EE2023,"PDF 24, national_senior, female","30,0%","30,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_sector_targets,EE2023,"PDF 24, national_senior, total","75,0%","75,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 24, workforce_top, male","26,8%","26,8%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 24, workforce_top, female","18,5%","18,5%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 24, workforce_top, total","45,3%","45,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 24, workforce_senior, male","37,1%","37,1%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 24, workforce_senior, female","26,1%","26,1%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 24, workforce_senior, total","63,2%","63,2%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 25.0% → 25,0%."
+ee_sector_targets,EE2023,"PDF 26, national_top, male",25.0%,25.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 26, national_top, female",20.0%,20.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 26, national_top, total",45.0%,45.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 26, national_senior, male",27.0%,27.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 26, national_senior, female",23.0%,23.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 26, national_senior, total",50.0%,50.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 26, workforce_top, male",15.4%,15.4%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 26, workforce_top, female",11.6%,11.6%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 26, workforce_top, total",27.0%,27.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 26, workforce_senior, male",21.8%,21.8%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 26, workforce_senior, female",18.0%,18.0%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 26, workforce_senior, total",39.8%,39.8%,pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 28, national_top, male","25,0%","25,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_sector_targets,EE2023,"PDF 28, national_top, female","20,0%","20,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_sector_targets,EE2023,"PDF 28, national_top, total","45,0%","45,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_sector_targets,EE2023,"PDF 28, national_senior, male","27,0%","27,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_sector_targets,EE2023,"PDF 28, national_senior, female","23,0%","23,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_sector_targets,EE2023,"PDF 28, national_senior, total","50,0%","50,0%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 28, workforce_top, male","17,3%","17,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 28, workforce_top, female","14,3%","14,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 28, workforce_top, total","31,6%","31,6%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 28, workforce_senior, male","21,3%","21,3%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 28, workforce_senior, female","18,6%","18,6%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 28, workforce_senior, total","39,9%","39,9%",pass,"Tesseract 5.3.4 cell OCR compared with visual transcription. 240 dpi crop adjudication of OCR artifacts: 31,64 → 31,6%, 18,69 → 18,6%."
+ee_sector_targets,EE2023,"PDF 30, national_top, male","25,0%","25,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 30, national_top, female","15,0%","15,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 30, national_top, total","40,0%","40,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 30, national_senior, male","33,0%","33,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 30, national_senior, female","23,0%","23,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 30, national_senior, total","56,0%","56,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 30, workforce_top, male","20,3%","20,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 30, workforce_top, female","8,6%","8,6%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 30, workforce_top, total","28,9%","28,9%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 30, workforce_senior, male","29,2%","29,2%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 30, workforce_senior, female","16,6%","16,6%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 30, workforce_senior, total","45,8%","45,8%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 32, national_top, male","22,5%","22,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 32, national_top, female","22,5%","22,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 32, national_top, total","45,0%","45,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 32, national_senior, male","28,0%","28,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 32, national_senior, female","30,0%","30,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 32, national_senior, total","58,0%","58,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 32, workforce_top, male","12,1%","12,1%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 32, workforce_top, female","11,4%","11,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 32, workforce_top, total","23,5%","23,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 32, workforce_senior, male","23,1%","23,1%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 32, workforce_senior, female","23,2%","23,2%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 32, workforce_senior, total","46,3%","46,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 34, national_top, male","50,4%","50,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 34, national_top, female","40,8%","40,8%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 34, national_top, total","91,2%","91,2%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 34, national_senior, male","50,4%","50,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 34, national_senior, female","40,8%","40,8%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 34, national_senior, total","91,2%","91,2%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 34, workforce_top, male","51,0%","51,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 34, workforce_top, female","28,4%","28,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 34, workforce_top, total","79,4%","79,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 34, workforce_senior, male","48,3%","48,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 34, workforce_senior, female","33,5%","33,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 34, workforce_senior, total","81,8%","81,8%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 36, national_top, male","33,0%","33,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 36, national_top, female","25,0%","25,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 36, national_top, total","58,0%","58,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 36, national_senior, male","31,5%","31,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 36, national_senior, female","29,5%","29,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 36, national_senior, total","61,0%","61,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 36, workforce_top, male","20,6%","20,6%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 36, workforce_top, female","17,0%","17,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 36, workforce_top, total","37,6%","37,6%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 36, workforce_senior, male","20,8%","20,8%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 36, workforce_senior, female","19,4%","19,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 36, workforce_senior, total","40,2%","40,2%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 38, national_top, male","30,0%","30,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 38, national_top, female","20,0%","20,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 38, national_top, total","50,0%","50,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 38, national_senior, male","38,0%","38,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 38, national_senior, female","27,0%","27,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2023,"PDF 38, national_senior, total","65,0%","65,0%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 38, workforce_top, male","27,3%","27,3%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 38, workforce_top, female","18,4%","18,4%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 38, workforce_top, total","45,7%","45,7%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 38, workforce_senior, male","35,5%","35,5%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 38, workforce_senior, female","24,2%","24,2%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_gazette_workforce_baseline_2022,EE2023,"PDF 38, workforce_senior, total","59,7%","59,7%",pass,Tesseract 5.3.4 cell OCR compared with visual transcription.
+ee_sector_targets,EE2025,"accommodation_food, top_management, male",18.6%,18.6%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"accommodation_food, top_management, female",38.1%,38.1%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"accommodation_food, top_management, total",56.7%,56.7%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"accommodation_food, senior_management, male",32.2%,32.2%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"accommodation_food, senior_management, female",46.1%,46.1%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"accommodation_food, senior_management, total",78.3%,78.3%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"administrative_support, top_management, male",33.2%,33.2%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"administrative_support, top_management, female",36.7%,36.7%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"administrative_support, top_management, total",69.9%,69.9%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"administrative_support, senior_management, male",42.3%,42.3%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"administrative_support, senior_management, female",43.5%,43.5%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"administrative_support, senior_management, total",85.8%,85.8%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"agriculture, top_management, male",13.2%,13.2%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"agriculture, top_management, female",20.8%,20.8%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"agriculture, top_management, total",34.0%,34.0%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"agriculture, senior_management, male",21.6%,21.6%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"agriculture, senior_management, female",31.0%,31.0%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"agriculture, senior_management, total",52.6%,52.6%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"arts_recreation, top_management, male",35.1%,35.1%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"arts_recreation, top_management, female",33.5%,33.5%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"arts_recreation, top_management, total",68.6%,68.6%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"arts_recreation, senior_management, male",40.3%,40.3%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"arts_recreation, senior_management, female",43.8%,43.8%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"arts_recreation, senior_management, total",84.1%,84.1%,pass,PDF 4; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"construction, top_management, male",30.0%,30.0%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"construction, top_management, female",24.8%,24.8%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"construction, top_management, total",54.8%,54.8%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"construction, senior_management, male",38.3%,38.3%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"construction, senior_management, female",27.8%,27.8%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"construction, senior_management, total",66.1%,66.1%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"education, top_management, male",27.6%,27.6%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"education, top_management, female",46.1%,46.1%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"education, top_management, total",73.7%,73.7%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"education, senior_management, male",30.5%,30.5%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"education, senior_management, female",46.1%,46.1%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"education, senior_management, total",76.6%,76.6%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"electricity_gas, top_management, male",31.7%,31.7%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"electricity_gas, top_management, female",27.9%,27.9%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"electricity_gas, top_management, total",59.6%,59.6%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"electricity_gas, senior_management, male",42.7%,42.7%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"electricity_gas, senior_management, female",39.5%,39.5%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"electricity_gas, senior_management, total",82.2%,82.2%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"financial_insurance, top_management, male",27.8%,27.8%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"financial_insurance, top_management, female",35.3%,35.3%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"financial_insurance, top_management, total",63.1%,63.1%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"financial_insurance, senior_management, male",31.7%,31.7%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"financial_insurance, senior_management, female",45.3%,45.3%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"financial_insurance, senior_management, total",77.0%,77.0%,pass,PDF 5; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"health_social_work, top_management, male",27.6%,27.6%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"health_social_work, top_management, female",43.7%,43.7%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"health_social_work, top_management, total",71.3%,71.3%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"health_social_work, senior_management, male",39.8%,39.8%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"health_social_work, senior_management, female",46.1%,46.1%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"health_social_work, senior_management, total",85.9%,85.9%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"information_communication, top_management, male",25.4%,25.4%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"information_communication, top_management, female",31.2%,31.2%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"information_communication, top_management, total",56.6%,56.6%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"information_communication, senior_management, male",28.6%,28.6%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"information_communication, senior_management, female",40.0%,40.0%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"information_communication, senior_management, total",68.6%,68.6%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"manufacturing, top_management, male",24.1%,24.1%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"manufacturing, top_management, female",25.0%,25.0%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"manufacturing, top_management, total",49.1%,49.1%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"manufacturing, senior_management, male",32.4%,32.4%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"manufacturing, senior_management, female",33.6%,33.6%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"manufacturing, senior_management, total",66.0%,66.0%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"mining, top_management, male",33.1%,33.1%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"mining, top_management, female",24.4%,24.4%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"mining, top_management, total",57.5%,57.5%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"mining, senior_management, male",36.3%,36.3%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"mining, senior_management, female",28.2%,28.2%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"mining, senior_management, total",64.5%,64.5%,pass,PDF 6; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"professional_technical, top_management, male",24.4%,24.4%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"professional_technical, top_management, female",38.1%,38.1%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"professional_technical, top_management, total",62.5%,62.5%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"professional_technical, senior_management, male",29.9%,29.9%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"professional_technical, senior_management, female",46.1%,46.1%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"professional_technical, senior_management, total",76.0%,76.0%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"public_administration, top_management, male",49.8%,49.8%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"public_administration, top_management, female",41.9%,41.9%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"public_administration, top_management, total",91.7%,91.7%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"public_administration, senior_management, male",49.8%,49.8%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"public_administration, senior_management, female",46.1%,46.1%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"public_administration, senior_management, total",95.9%,95.9%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"real_estate, top_management, male",18.9%,18.9%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"real_estate, top_management, female",30.3%,30.3%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"real_estate, top_management, total",49.2%,49.2%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"real_estate, senior_management, male",22.9%,22.9%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"real_estate, senior_management, female",46.1%,46.1%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"real_estate, senior_management, total",69.0%,69.0%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"transport_storage, top_management, male",32.2%,32.2%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"transport_storage, top_management, female",30.0%,30.0%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"transport_storage, top_management, total",62.2%,62.2%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"transport_storage, senior_management, male",42.1%,42.1%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"transport_storage, senior_management, female",35.9%,35.9%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"transport_storage, senior_management, total",78.0%,78.0%,pass,PDF 7; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"water_waste, top_management, male",49.8%,49.8%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"water_waste, top_management, female",35.9%,35.9%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"water_waste, top_management, total",85.7%,85.7%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"water_waste, senior_management, male",49.8%,49.8%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"water_waste, senior_management, female",41.0%,41.0%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"water_waste, senior_management, total",90.8%,90.8%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"trade_repair, top_management, male",24.2%,24.2%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"trade_repair, top_management, female",27.5%,27.5%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"trade_repair, top_management, total",51.7%,51.7%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"trade_repair, senior_management, male",35.0%,35.0%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"trade_repair, senior_management, female",38.6%,38.6%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2025,"trade_repair, senior_management, total",73.6%,73.6%,pass,PDF 8; compared Poppler extraction with visual transcription.
+ee_sector_targets,EE2023,"agriculture, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"agriculture, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"agriculture, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"agriculture, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"mining, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"mining, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"mining, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"mining, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"manufacturing, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"manufacturing, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"manufacturing, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"manufacturing, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"construction, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"construction, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"construction, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"construction, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"financial_insurance, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"financial_insurance, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"financial_insurance, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"financial_insurance, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"transport_storage, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"transport_storage, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"transport_storage, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"transport_storage, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"information_communication, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"information_communication, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"information_communication, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"information_communication, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"water_waste, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"water_waste, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"water_waste, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"water_waste, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"electricity_gas, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"electricity_gas, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"electricity_gas, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"electricity_gas, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"health_social_work, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"health_social_work, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"health_social_work, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"health_social_work, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"arts_recreation, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"arts_recreation, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"arts_recreation, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"arts_recreation, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"real_estate, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"real_estate, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"real_estate, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"real_estate, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"professional_technical, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"professional_technical, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"professional_technical, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"professional_technical, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"trade_repair, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"trade_repair, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"trade_repair, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"trade_repair, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"accommodation_food, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"accommodation_food, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"accommodation_food, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"accommodation_food, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"public_administration, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"public_administration, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"public_administration, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"public_administration, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"education, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"education, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"education, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"education, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"administrative_support, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2023,"administrative_support, senior_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"administrative_support, top_management: total minus male and female",0,0.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"administrative_support, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"accommodation_food, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"accommodation_food, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"administrative_support, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"administrative_support, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"agriculture, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"agriculture, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"arts_recreation, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"arts_recreation, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"construction, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"construction, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"education, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"education, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"electricity_gas, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"electricity_gas, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"financial_insurance, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"financial_insurance, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"health_social_work, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"health_social_work, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"information_communication, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"information_communication, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"manufacturing, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"manufacturing, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"mining, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"mining, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"professional_technical, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"professional_technical, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"public_administration, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"public_administration, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"real_estate, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"real_estate, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"transport_storage, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"transport_storage, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"water_waste, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"water_waste, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"trade_repair, top_management: total minus male and female",0,0.0,pass,
+ee_sector_targets,EE2025,"trade_repair, senior_management: total minus male and female",0,0.0,pass,
+ee_sector_reference,CEE24,"trade label evidence, Top management","(Decimal('5.2'), Decimal('3.0'), Decimal('12.7'), Decimal('52.9'), Decimal('2.9'), Decimal('1.8'), Decimal('4.4'), Decimal('15.2'), Decimal('1.4'), Decimal('0.5'), Decimal('100.0'))","(Decimal('5.2'), Decimal('3.0'), Decimal('12.7'), Decimal('52.9'), Decimal('2.9'), Decimal('1.8'), Decimal('4.4'), Decimal('15.2'), Decimal('1.4'), Decimal('0.5'), Decimal('100.0'))",pass,Body PDF page 34 compared with reviewed Appendix C percentages.
+ee_sector_reference,CEE24,"trade label evidence, Senior management","(Decimal('13.3'), Decimal('5.8'), Decimal('10.6'), Decimal('32.6'), Decimal('7.8'), Decimal('4.3'), Decimal('5.2'), Decimal('18.4'), Decimal('1.6'), Decimal('0.3'), Decimal('100.0'))","(Decimal('13.3'), Decimal('5.8'), Decimal('10.6'), Decimal('32.6'), Decimal('7.8'), Decimal('4.3'), Decimal('5.2'), Decimal('18.4'), Decimal('1.6'), Decimal('0.3'), Decimal('100.0'))",pass,Body PDF page 39 compared with reviewed Appendix C percentages.
+ee_sector_reference,CEE25,"trade label evidence, Top management","(Decimal('5.5'), Decimal('3.0'), Decimal('13.1'), Decimal('52.0'), Decimal('3.4'), Decimal('1.8'), Decimal('4.7'), Decimal('14.7'), Decimal('1.3'), Decimal('0.4'), Decimal('100.0'))","(Decimal('5.5'), Decimal('3.0'), Decimal('13.1'), Decimal('52.0'), Decimal('3.4'), Decimal('1.8'), Decimal('4.7'), Decimal('14.7'), Decimal('1.3'), Decimal('0.4'), Decimal('100.0'))",pass,Body PDF page 35 compared with reviewed Appendix C percentages.
+ee_sector_reference,CEE25,"trade label evidence, Senior management","(Decimal('13.5'), Decimal('5.7'), Decimal('10.7'), Decimal('32.0'), Decimal('8.2'), Decimal('4.4'), Decimal('5.3'), Decimal('18.2'), Decimal('1.3'), Decimal('0.3'), Decimal('100.0'))","(Decimal('13.5'), Decimal('5.7'), Decimal('10.7'), Decimal('32.0'), Decimal('8.2'), Decimal('4.4'), Decimal('5.3'), Decimal('18.2'), Decimal('1.3'), Decimal('0.3'), Decimal('100.0'))",pass,Body PDF page 40 compared with reviewed Appendix C percentages.
+ee_sector_reference,EE2023; EE2025; EEADMIN2025; CEE24; CEE25,draft_2023_sector_original,18,18,pass,
+ee_sector_reference,EE2023; EE2025; EEADMIN2025; CEE24; CEE25,final_2025_sector_original,18,18,pass,
+ee_sector_reference,EE2023; EE2025; EEADMIN2025; CEE24; CEE25,cee_2023_sector_original,18,18,pass,
+ee_sector_reference,EE2023; EE2025; EEADMIN2025; CEE24; CEE25,cee_2024_sector_original,18,18,pass,
+ee_sector_reference,CEE24,2023 proxy input completeness,36,36,pass,Ten count cells reconcile to one inclusive occupational-level total in each sector-level group.
+ee_sector_reference,CEE25,2024 proxy input completeness,36,36,pass,Ten count cells reconcile to one inclusive occupational-level total in each sector-level group.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Total*",15833,15833,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Agriculture",881,881,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Mining",438,438,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Manufacturing",1683,1683,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Utilities",118,118,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Construction",1491,1491,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Trade",3198,3198,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Transport",915,915,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Finance and other business services",2323,2323,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Community and social services",3499,3499,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2016 Q3, Private households",1281,1281,pass,printed 2; PDF 7; Jul-Sep 2016; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,2016 Q3 total minus ten displayed industries,Published total retained,6,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Total*",16192,16192,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Agriculture",810,810,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Mining",446,446,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Manufacturing",1749,1749,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Utilities",153,153,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Construction",1365,1365,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Trade",3286,3286,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Transport",988,988,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Finance and other business services",2463,2463,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Community and social services",3616,3616,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,"2017 Q3, Private households",1313,1313,pass,printed 2; PDF 7; Jul-Sep 2017; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2017Q3,2017 Q3 total minus ten displayed industries,Published total retained,3,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Total*",16380,16380,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Agriculture",842,842,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Mining",406,406,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Manufacturing",1719,1719,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Utilities",156,156,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Construction",1502,1502,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Trade",3305,3305,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Transport",996,996,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Finance",2502,2502,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Community and social services",3675,3675,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2018 Q3, Private households",1267,1267,pass,printed 2; PDF 7; Jul-Sep 2018; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,2018 Q3 total minus ten displayed industries,Published total retained,10,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Total*",16375,16375,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Agriculture",880,880,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Mining",419,419,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Manufacturing",1760,1760,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Utilities",133,133,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Construction",1339,1339,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Trade",3408,3408,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Transport",975,975,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Finance",2492,2492,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Community and social services",3679,3679,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,"2019 Q3, Private households",1286,1286,pass,printed 2; PDF 7; Jul-Sep 2019; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2019Q3,2019 Q3 total minus ten displayed industries,Published total retained,4,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Total*",14691,14691,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Agriculture",808,808,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Mining",419,419,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Manufacturing",1460,1460,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Utilities",90,90,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Construction",1080,1080,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Trade",3008,3008,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Transport",878,878,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Finance",2434,2434,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Community and social services",3381,3381,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2020 Q3, Private households",1121,1121,pass,printed 3; PDF 8; Jul-Sep 2020; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,2020 Q3 total minus ten displayed industries,Published total retained,12,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Total*",14282,14282,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Agriculture",829,829,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Mining",345,345,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Manufacturing",1402,1402,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Utilities",96,96,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Construction",1157,1157,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Trade",2778,2778,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Transport",964,964,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Finance",2386,2386,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Community and social services",3191,3191,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,"2021 Q3, Private households",1130,1130,pass,printed 3; PDF 8; Jul-Sep 2021; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2021Q3,2021 Q3 total minus ten displayed industries,Published total retained,4,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Total*",15765,15765,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Agriculture",873,873,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Mining",407,407,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Manufacturing",1630,1630,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Utilities",116,116,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Construction",1223,1223,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Trade",3245,3245,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Transport",939,939,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Finance",2380,2380,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Community and social services",3849,3849,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2022 Q3, Private households",1088,1088,pass,printed 2; PDF 7; Jul-Sep 2022; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,2022 Q3 total minus ten displayed industries,Published total retained,15,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Total*",16745,16745,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Agriculture",956,956,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Mining",409,409,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Manufacturing",1508,1508,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Utilities",113,113,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Construction",1357,1357,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Trade",3390,3390,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Transport",966,966,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Finance",2836,2836,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Community and social services",4084,4084,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,"2023 Q3, Private households",1116,1116,pass,printed 2; PDF 7; Jul-Sep 2023; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2023Q3,2023 Q3 total minus ten displayed industries,Published total retained,10,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Total*",16946,16946,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Agriculture",935,935,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Mining",484,484,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Manufacturing",1635,1635,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Utilities",127,127,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Construction",1381,1381,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Trade",3469,3469,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Transport",1047,1047,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Finance",2716,2716,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Community and social services",4021,4021,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2024 Q3, Private households",1128,1128,pass,printed 3; PDF 8; Jul-Sep 2024; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,2024 Q3 total minus ten displayed industries,Published total retained,3,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Total*",17055,17055,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Agriculture",920,920,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Mining",449,449,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Manufacturing",1610,1610,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Utilities",109,109,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Construction",1390,1390,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Trade",3424,3424,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Transport",1113,1113,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Finance",2930,2930,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Community and social services",3988,3988,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,"2025 Q3, Private households",1111,1111,pass,printed 3; PDF 8; Jul-Sep 2025; rendered Table B checked against Poppler extraction.
+statssa_sector_employment,QLFS2025Q3,2025 Q3 total minus ten displayed industries,Published total retained,11,source_note,Thousand persons. Total includes Other and displayed figures are rounded; no residual series.
+statssa_sector_employment,QLFS2025Q3; QLFS2025Q3_CHECK,printed page 3 including all Table B cells agrees across archives,True,True,pass,The files have different SHA-256 hashes and different content elsewhere in the release.
+ee_sector_targets,EE2023,"Agriculture top_management, male anchor",20.0,20.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"Agriculture top_management, male anchor",9.9,9.9,pass,
+ee_sector_targets,EE2023,"Agriculture top_management, female anchor",15.0,15.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"Agriculture top_management, female anchor",6.2,6.2,pass,
+ee_sector_targets,EE2023,"Agriculture senior_management, male anchor",25.0,25.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"Agriculture senior_management, male anchor",15.9,15.9,pass,
+ee_sector_targets,EE2023,"Agriculture senior_management, female anchor",15.0,15.0,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"Agriculture senior_management, female anchor",8.2,8.2,pass,
+ee_sector_targets,EE2025,"accommodation_food, top_management total anchor",56.7,56.7,pass,
+ee_sector_targets,EE2025,"accommodation_food, senior_management total anchor",78.3,78.3,pass,
+ee_sector_targets,EE2025,"agriculture, top_management total anchor",34.0,34.0,pass,
+ee_sector_targets,EE2025,"agriculture, senior_management total anchor",52.6,52.6,pass,
+ee_sector_targets,EE2025,"manufacturing, top_management total anchor",49.1,49.1,pass,
+ee_sector_targets,EE2025,"manufacturing, senior_management total anchor",66.0,66.0,pass,
+ee_sector_targets,EE2025,"mining, top_management total anchor",57.5,57.5,pass,
+ee_sector_targets,EE2025,"mining, senior_management total anchor",64.5,64.5,pass,
+statssa_sector_employment,QLFS2025Q3,national_total 2025 anchor (thousands),17055,17055,pass,
+statssa_sector_employment,QLFS2025Q3,agriculture 2025 anchor (thousands),920,920,pass,
+statssa_sector_employment,QLFS2025Q3,mining 2025 anchor (thousands),449,449,pass,
+statssa_sector_employment,QLFS2025Q3,manufacturing 2025 anchor (thousands),1610,1610,pass,
+statssa_sector_employment,QLFS2025Q3,utilities 2025 anchor (thousands),109,109,pass,
+statssa_sector_employment,QLFS2025Q3,construction 2025 anchor (thousands),1390,1390,pass,
+statssa_sector_employment,QLFS2025Q3,trade 2025 anchor (thousands),3424,3424,pass,
+statssa_sector_employment,QLFS2025Q3,transport 2025 anchor (thousands),1113,1113,pass,
+statssa_sector_employment,QLFS2025Q3,finance 2025 anchor (thousands),2930,2930,pass,
+statssa_sector_employment,QLFS2025Q3,community_social_services 2025 anchor (thousands),3988,3988,pass,
+statssa_sector_employment,QLFS2025Q3,private_households 2025 anchor (thousands),1111,1111,pass,
+ee_sector_targets,EE2023,row count,108,108,pass,
+ee_sector_targets,EE2023,unique complete sector × level × gender keys,True,True,pass,
+ee_sector_targets,EE2023,"nonmissing percentages in [0, 100] with source references",108,108,pass,
+ee_sector_targets,EE2025,row count,108,108,pass,
+ee_sector_targets,EE2025,unique complete sector × level × gender keys,True,True,pass,
+ee_sector_targets,EE2025,"nonmissing percentages in [0, 100] with source references",108,108,pass,
+ee_gazette_workforce_baseline_2022,EE2023,row count,108,108,pass,
+ee_gazette_workforce_baseline_2022,EE2023,unique complete sector × level × gender keys,True,True,pass,
+ee_gazette_workforce_baseline_2022,EE2023,"nonmissing percentages in [0, 100] with source references",108,108,pass,
+ee_sector_targets,EE2023; EE2025,unique target IDs,216,216,pass,
+ee_sector_targets,EE2023; EE2025,"same-version status, population and horizon",True,True,pass,
+ee_sector_reference,EE2023; EE2025; EEADMIN2025; CEE24; CEE25,unique canonical sector count,18,18,pass,
+statssa_sector_employment,QLFS paired Q3 PDFs,complete unique Q3 industry keys,True,True,pass,
+statssa_sector_employment,QLFS paired Q3 PDFs,"quarter, scale, values and provenance",110,110,pass,
+ee_sector_targets,source_inventory,registered row provenance,216,216,pass,
+ee_gazette_workforce_baseline_2022,source_inventory,registered row provenance,108,108,pass,
+statssa_sector_employment,source_inventory,registered row provenance,110,110,pass,

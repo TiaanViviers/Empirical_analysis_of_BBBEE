@@ -9,3 +9,6 @@ mon_thesis/.Rhistory
 mon_thesis/.Rlib/
 mon_thesis/.renv-cache/
 mon_thesis/outputs/baselines/*/derived/
+
+# Acquired publications may carry redistribution restrictions.
+data/part_b/raw/bbbee_commission/

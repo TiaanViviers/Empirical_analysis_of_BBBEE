@@ -1,0 +1,36 @@
+source_id,source_table,source_page_pdf,group,cells_checked,result
+retro_2026,16,66,ownership,44,pass
+retro_2026,23,79,ownership,44,pass
+retro_2026,28,84,ownership,44,pass
+retro_2026,35,90,ownership,44,pass
+retro_2026,42,95,ownership,44,pass
+retro_2026,50,100,ownership,28,pass
+retro_2026,60,108,ownership,43,pass
+retro_2026,67,113,ownership,44,pass
+retro_2026,74,120,ownership,44,pass
+retro_2026,81,125,ownership,44,pass
+retro_2026,88,132,ownership,44,pass
+retro_2026,4,55,compliance counts,110,pass
+retro_2026,5,55,compliance percentages,99,pass
+retro_2026,20,76,compliance counts,110,pass
+retro_2026,21,76,compliance percentages,99,pass
+retro_2026,26,82,compliance counts,110,pass
+retro_2026,27,82,compliance percentages,99,pass
+retro_2026,32,87,compliance counts,110,pass
+retro_2026,33,88,compliance percentages,99,pass
+retro_2026,39,92,compliance counts,110,pass
+retro_2026,40,93,compliance percentages,99,pass
+retro_2026,47,98,compliance counts,70,pass
+retro_2026,48,98,compliance percentages,63,pass
+retro_2026,57,105,compliance counts,110,pass
+retro_2026,58,106,compliance percentages,99,pass
+retro_2026,64,111,compliance counts,110,pass
+retro_2026,65,111,compliance percentages,99,pass
+retro_2026,71,117,compliance counts,110,pass
+retro_2026,72,118,compliance percentages,99,pass
+retro_2026,78,123,compliance counts,110,pass
+retro_2026,79,123,compliance percentages,99,pass
+retro_2026,85,129,compliance counts,110,pass
+retro_2026,86,129,compliance percentages,99,pass
+retro_2026,1,47,sample composition,55,pass
+retro_2026,2,48,sample composition,154,pass

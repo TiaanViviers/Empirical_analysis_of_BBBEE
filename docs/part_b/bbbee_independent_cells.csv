@@ -1,0 +1,36 @@
+source_table,source_page_pdf,type,cells_checked,result
+16,66,ownership,44,pass
+23,79,ownership,44,pass
+28,84,ownership,44,pass
+35,90,ownership,44,pass
+42,95,ownership,44,pass
+50,100,ownership,28,pass
+60,108,ownership,43,pass
+67,113,ownership,44,pass
+74,120,ownership,44,pass
+81,125,ownership,44,pass
+88,132,ownership,44,pass
+4,55,counts,110,pass
+5,55,percentages,99,pass
+20,76,counts,110,pass
+21,76,percentages,99,pass
+26,82,counts,110,pass
+27,82,percentages,99,pass
+32,87,counts,110,pass
+33,88,percentages,99,pass
+39,92,counts,110,pass
+40,93,percentages,99,pass
+47,98,counts,70,pass
+48,98,percentages,63,pass
+57,105,counts,110,pass
+58,106,percentages,99,pass
+64,111,counts,110,pass
+65,111,percentages,99,pass
+71,117,counts,110,pass
+72,118,percentages,99,pass
+78,123,counts,110,pass
+79,123,percentages,99,pass
+85,129,counts,110,pass
+86,129,percentages,99,pass
+1,47,sample composition,55,pass
+2,48,sample composition,154,pass

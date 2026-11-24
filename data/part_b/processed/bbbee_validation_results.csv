@@ -1,0 +1,171 @@
+check_id,status,source_id,source_table,reporting_year,detail
+unique_keys,pass,,,,Ownership and compliance keys unique; coverage reconciled by year.
+ranges,pass,,,,Ownership and compliance percentages 0–100; count integers nonnegative.
+compliance_reconciliation,pass,retro_2026,71,2013,Agri-BEE: numeric status sum 2 vs published 2; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2014,Agri-BEE: numeric status sum 4 vs published 4; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2015,Agri-BEE: numeric status sum 11 vs published 11; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2016,Agri-BEE: numeric status sum 10 vs published 10; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2017,Agri-BEE: numeric status sum 85 vs published 85; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2018,Agri-BEE: numeric status sum 60 vs published 60; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2019,Agri-BEE: numeric status sum 59 vs published 59; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2020,Agri-BEE: numeric status sum 63 vs published 63; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2021,Agri-BEE: numeric status sum 134 vs published 134; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2022,Agri-BEE: numeric status sum 197 vs published 197; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,71,2023,Agri-BEE: numeric status sum 138 vs published 138; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2013,Construction: numeric status sum 267 vs published 267; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2014,Construction: numeric status sum 95 vs published 95; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2015,Construction: numeric status sum 109 vs published 109; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2016,Construction: numeric status sum 46 vs published 46; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2017,Construction: numeric status sum 23 vs published 23; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2018,Construction: numeric status sum 313 vs published 313; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2019,Construction: numeric status sum 616 vs published 616; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2020,Construction: numeric status sum 938 vs published 938; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2021,Construction: numeric status sum 1357 vs published 1357; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2022,Construction: numeric status sum 1944 vs published 1944; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,85,2023,Construction: numeric status sum 1381 vs published 1381; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2013,Financial Services: numeric status sum 4 vs published 4; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2014,Financial Services: numeric status sum 5 vs published 5; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2015,Financial Services: numeric status sum 15 vs published 15; dashes not assigned values
+compliance_reconciliation,issue,retro_2026,78,2016,Financial Services: numeric status sum 9 vs published 10; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2017,Financial Services: numeric status sum 56 vs published 56; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2018,Financial Services: numeric status sum 109 vs published 109; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2019,Financial Services: numeric status sum 57 vs published 57; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2020,Financial Services: numeric status sum 80 vs published 80; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2021,Financial Services: numeric status sum 160 vs published 160; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2022,Financial Services: numeric status sum 212 vs published 212; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,78,2023,Financial Services: numeric status sum 165 vs published 165; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2013,Forestry: numeric status sum 2 vs published 2; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2014,Forestry: numeric status sum 3 vs published 3; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2015,Forestry: numeric status sum 4 vs published 4; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2016,Forestry: numeric status sum 3 vs published 3; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2017,Forestry: numeric status sum 6 vs published 6; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2018,Forestry: numeric status sum 10 vs published 10; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2019,Forestry: numeric status sum 7 vs published 7; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2020,Forestry: numeric status sum 5 vs published 5; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2021,Forestry: numeric status sum 19 vs published 19; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2022,Forestry: numeric status sum 41 vs published 41; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,20,2023,Forestry: numeric status sum 15 vs published 15; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2013,Generic: numeric status sum 327 vs published 327; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2014,Generic: numeric status sum 176 vs published 176; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2015,Generic: numeric status sum 212 vs published 212; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2016,Generic: numeric status sum 412 vs published 412; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2017,Generic: numeric status sum 1020 vs published 1020; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2018,Generic: numeric status sum 1343 vs published 1343; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2019,Generic: numeric status sum 921 vs published 921; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2020,Generic: numeric status sum 1109 vs published 1109; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2021,Generic: numeric status sum 1693 vs published 1693; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2022,Generic: numeric status sum 2364 vs published 2364; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,39,2023,Generic: numeric status sum 1470 vs published 1470; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2013,ICT: numeric status sum 19 vs published 19; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2014,ICT: numeric status sum 93 vs published 93; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2015,ICT: numeric status sum 105 vs published 105; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2016,ICT: numeric status sum 231 vs published 231; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2017,ICT: numeric status sum 124 vs published 124; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2018,ICT: numeric status sum 276 vs published 276; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2019,ICT: numeric status sum 144 vs published 144; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2020,ICT: numeric status sum 182 vs published 182; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2021,ICT: numeric status sum 357 vs published 357; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2022,ICT: numeric status sum 488 vs published 488; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,32,2023,ICT: numeric status sum 258 vs published 258; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,47,2017,MAC: numeric status sum 23 vs published 23; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,47,2018,MAC: numeric status sum 40 vs published 40; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,47,2019,MAC: numeric status sum 32 vs published 32; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,47,2020,MAC: numeric status sum 30 vs published 30; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,47,2021,MAC: numeric status sum 49 vs published 49; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,47,2022,MAC: numeric status sum 54 vs published 54; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,47,2023,MAC: numeric status sum 42 vs published 42; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2013,National: numeric status sum 681 vs published 681; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2014,National: numeric status sum 573 vs published 573; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2015,National: numeric status sum 857 vs published 857; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2016,National: numeric status sum 909 vs published 909; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2017,National: numeric status sum 1787 vs published 1787; dashes not assigned values
+compliance_reconciliation,issue,retro_2026,4,2018,National: numeric status sum 2473 vs published 2605; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2019,National: numeric status sum 2224 vs published 2224; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2020,National: numeric status sum 2886 vs published 2886; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2021,National: numeric status sum 4649 vs published 4649; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2022,National: numeric status sum 6571 vs published 6571; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,4,2023,National: numeric status sum 4106 vs published 4106; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2013,Property: numeric status sum 2 vs published 2; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2014,Property: numeric status sum 9 vs published 9; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2015,Property: numeric status sum 15 vs published 15; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2016,Property: numeric status sum 12 vs published 12; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2017,Property: numeric status sum 25 vs published 25; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2018,Property: numeric status sum 23 vs published 23; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2019,Property: numeric status sum 23 vs published 23; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2020,Property: numeric status sum 20 vs published 20; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2021,Property: numeric status sum 43 vs published 43; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2022,Property: numeric status sum 159 vs published 159; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,57,2023,Property: numeric status sum 60 vs published 60; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2013,Tourism: numeric status sum 12 vs published 12; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2014,Tourism: numeric status sum 29 vs published 29; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2015,Tourism: numeric status sum 37 vs published 37; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2016,Tourism: numeric status sum 31 vs published 31; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2017,Tourism: numeric status sum 42 vs published 42; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2018,Tourism: numeric status sum 78 vs published 78; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2019,Tourism: numeric status sum 29 vs published 29; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2020,Tourism: numeric status sum 63 vs published 63; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2021,Tourism: numeric status sum 52 vs published 52; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2022,Tourism: numeric status sum 114 vs published 114; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,64,2023,Tourism: numeric status sum 48 vs published 48; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2013,Transport: numeric status sum 46 vs published 46; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2014,Transport: numeric status sum 37 vs published 37; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2015,Transport: numeric status sum 31 vs published 31; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2016,Transport: numeric status sum 33 vs published 33; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2017,Transport: numeric status sum 164 vs published 164; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2018,Transport: numeric status sum 245 vs published 245; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2019,Transport: numeric status sum 252 vs published 252; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2020,Transport: numeric status sum 336 vs published 336; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2021,Transport: numeric status sum 573 vs published 573; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2022,Transport: numeric status sum 831 vs published 831; dashes not assigned values
+compliance_reconciliation,pass,retro_2026,26,2023,Transport: numeric status sum 512 vs published 512; dashes not assigned values
+female_exceeds_overall,issue,retro_2026,42,2016,Generic black_female_economic_interest 21.62; denominators unknown
+female_exceeds_overall,issue,retro_2026,67,2020,Tourism black_female_economic_interest 23.56; denominators unknown
+female_exceeds_overall,issue,retro_2026,67,2021,Tourism black_female_economic_interest 14.38; denominators unknown
+female_exceeds_overall,issue,retro_2026,74,2019,Agri-BEE black_female_economic_interest 5.78; denominators unknown
+female_exceeds_overall,issue,retro_2026,74,2020,Agri-BEE black_female_economic_interest 14.66; denominators unknown
+female_exceeds_overall,issue,retro_2026,81,2015,Financial Services black_female_voting_rights 26.07; denominators unknown
+female_exceeds_overall,issue,retro_2026,81,2015,Financial Services black_female_economic_interest 29.0; denominators unknown
+female_exceeds_overall,issue,retro_2026,81,2016,Financial Services black_female_voting_rights 3.44; denominators unknown
+female_exceeds_overall,issue,retro_2026,81,2020,Financial Services black_female_economic_interest 22.89; denominators unknown
+female_exceeds_overall,issue,retro_2026,88,2017,Construction black_female_economic_interest 16.13; denominators unknown
+supplementary_generic,pass,status_2022,"Figures 7,10",2017-2018,"Four printed zeros preserved, analytical values missing: narrative says not analysed."
+source_authentication,issue,,,,Retrospective original acquisition recorded verified TLS; 2022 local acquisition TLS verification bypassed and independent match not established. Hashes verify local identity only.
+table_coordinate_comparison,pass,retro_2026,16,,44 printed data cells compared using word coordinates; PDF page 66
+table_coordinate_comparison,pass,retro_2026,23,,44 printed data cells compared using word coordinates; PDF page 79
+table_coordinate_comparison,pass,retro_2026,28,,44 printed data cells compared using word coordinates; PDF page 84
+table_coordinate_comparison,pass,retro_2026,35,,44 printed data cells compared using word coordinates; PDF page 90
+table_coordinate_comparison,pass,retro_2026,42,,44 printed data cells compared using word coordinates; PDF page 95
+table_coordinate_comparison,pass,retro_2026,50,,28 printed data cells compared using word coordinates; PDF page 100
+table_coordinate_comparison,pass,retro_2026,60,,43 printed data cells compared using word coordinates; PDF page 108
+table_coordinate_comparison,pass,retro_2026,67,,44 printed data cells compared using word coordinates; PDF page 113
+table_coordinate_comparison,pass,retro_2026,74,,44 printed data cells compared using word coordinates; PDF page 120
+table_coordinate_comparison,pass,retro_2026,81,,44 printed data cells compared using word coordinates; PDF page 125
+table_coordinate_comparison,pass,retro_2026,88,,44 printed data cells compared using word coordinates; PDF page 132
+table_coordinate_comparison,pass,retro_2026,4,,110 printed data cells compared using word coordinates; PDF page 55
+table_coordinate_comparison,pass,retro_2026,5,,99 printed data cells compared using word coordinates; PDF page 55
+table_coordinate_comparison,pass,retro_2026,20,,110 printed data cells compared using word coordinates; PDF page 76
+table_coordinate_comparison,pass,retro_2026,21,,99 printed data cells compared using word coordinates; PDF page 76
+table_coordinate_comparison,pass,retro_2026,26,,110 printed data cells compared using word coordinates; PDF page 82
+table_coordinate_comparison,pass,retro_2026,27,,99 printed data cells compared using word coordinates; PDF page 82
+table_coordinate_comparison,pass,retro_2026,32,,110 printed data cells compared using word coordinates; PDF page 87
+table_coordinate_comparison,pass,retro_2026,33,,99 printed data cells compared using word coordinates; PDF page 88
+table_coordinate_comparison,pass,retro_2026,39,,110 printed data cells compared using word coordinates; PDF page 92
+table_coordinate_comparison,pass,retro_2026,40,,99 printed data cells compared using word coordinates; PDF page 93
+table_coordinate_comparison,pass,retro_2026,47,,70 printed data cells compared using word coordinates; PDF page 98
+table_coordinate_comparison,pass,retro_2026,48,,63 printed data cells compared using word coordinates; PDF page 98
+table_coordinate_comparison,pass,retro_2026,57,,110 printed data cells compared using word coordinates; PDF page 105
+table_coordinate_comparison,pass,retro_2026,58,,99 printed data cells compared using word coordinates; PDF page 106
+table_coordinate_comparison,pass,retro_2026,64,,110 printed data cells compared using word coordinates; PDF page 111
+table_coordinate_comparison,pass,retro_2026,65,,99 printed data cells compared using word coordinates; PDF page 111
+table_coordinate_comparison,pass,retro_2026,71,,110 printed data cells compared using word coordinates; PDF page 117
+table_coordinate_comparison,pass,retro_2026,72,,99 printed data cells compared using word coordinates; PDF page 118
+table_coordinate_comparison,pass,retro_2026,78,,110 printed data cells compared using word coordinates; PDF page 123
+table_coordinate_comparison,pass,retro_2026,79,,99 printed data cells compared using word coordinates; PDF page 123
+table_coordinate_comparison,pass,retro_2026,85,,110 printed data cells compared using word coordinates; PDF page 129
+table_coordinate_comparison,pass,retro_2026,86,,99 printed data cells compared using word coordinates; PDF page 129
+table_coordinate_comparison,pass,retro_2026,1,,55 printed data cells compared using word coordinates; PDF page 47
+table_coordinate_comparison,pass,retro_2026,2,,154 printed data cells compared using word coordinates; PDF page 48
+figure_rendered_comparison,pass,status_2022,Figure 7,2017-2022,60 printed chart cells visually compared to rendered figure
+figure_rendered_comparison,pass,status_2022,Figure 8,2017-2022,18 printed chart cells visually compared to rendered figure
+figure_rendered_comparison,pass,status_2022,Figure 10,2017-2022,60 printed chart cells visually compared to rendered figure
+local_source_sha256,pass,both,,,Both PDF hashes match acquisition inventory; byte identity is not source authentication.
