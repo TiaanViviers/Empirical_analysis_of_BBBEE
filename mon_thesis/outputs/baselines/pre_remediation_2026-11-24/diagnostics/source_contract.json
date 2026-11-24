@@ -1,0 +1,180 @@
+{
+  "pyarrow": "26.0.1",
+  "pandas": "3.1.1",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "tables": {
+    "prices_daily": {
+      "rows": 4784640,
+      "key": [
+        "instrument_id",
+        "date"
+      ],
+      "sha256": "b67b20422f4b248971b2602492d0b8509555194bd41c057e47a3b645d46ef863",
+      "schema": {
+        "date": "date32[day]",
+        "instrument_id": "string",
+        "ticker": "string",
+        "company_name": "string",
+        "close_raw": "double",
+        "volume": "int64",
+        "number_of_trades": "int64",
+        "source_batch": "int16",
+        "source_file": "string",
+        "source_sheet": "string",
+        "source_row": "int32",
+        "source_sha256": "string",
+        "duplicate_copy_count": "int32",
+        "has_valid_price": "bool",
+        "is_missing_price": "bool",
+        "is_zero_price": "bool",
+        "is_negative_price": "bool",
+        "is_nonfinite_price": "bool",
+        "invalid_price": "bool",
+        "has_positive_volume": "bool",
+        "is_zero_volume": "bool",
+        "is_missing_volume": "bool",
+        "is_negative_volume": "bool",
+        "is_missing_trade_count": "bool",
+        "is_negative_trade_count": "bool",
+        "is_empty_placeholder": "bool",
+        "numeric_parse_issue": "bool",
+        "parse_issues": "string",
+        "unparsed_values": "string",
+        "previous_observed_date": "date32[day]",
+        "previous_price_date": "date32[day]",
+        "price_gap_sessions": "int32",
+        "is_adjacent_to_previous_session": "bool",
+        "has_valid_adjacent_price": "bool",
+        "missing_or_invalid_adjacent_observation": "bool",
+        "unchanged_adjacent_price": "bool",
+        "trailing_constant_price_sessions": "int32",
+        "potential_stale_price": "bool",
+        "extreme_price_change": "bool",
+        "diagnostic_price_return": "double",
+        "quality_rule_version": "string"
+      }
+    },
+    "instruments": {
+      "rows": 1869,
+      "key": [
+        "instrument_id"
+      ],
+      "sha256": "16fd6e74fb0ab41a75df43a68b6f1a3dfeee663e9e0516c3b5946438b975697d",
+      "schema": {
+        "instrument_id": "string",
+        "ticker": "string",
+        "company_name": "string",
+        "company_names": "list<element: string>",
+        "observed_price_start": "date32[day]",
+        "observed_price_end": "date32[day]",
+        "observed_positive_volume_start": "date32[day]",
+        "observed_positive_volume_end": "date32[day]",
+        "total_observations": "int64",
+        "reported_financial_observations": "int64",
+        "valid_price_observations": "int64",
+        "positive_volume_observations": "int64",
+        "missing_price_observations": "int64",
+        "calendar_sessions": "int64",
+        "valid_price_coverage_pct": "double",
+        "raw_source_rows": "int64",
+        "duplicate_extra_rows": "int64",
+        "source_batches": "list<element: int16>",
+        "source_files": "list<element: string>",
+        "isin": "string",
+        "issuer_id": "string",
+        "security_type": "string",
+        "sector_code": "string",
+        "listing_date": "date32[day]",
+        "delisting_date": "date32[day]"
+      }
+    },
+    "market_index": {
+      "rows": 2559,
+      "key": [
+        "index_id",
+        "date"
+      ],
+      "sha256": "6c8216bcc4171daac7cc6c7b2a794f702758a0fb042f83a3b94607e9645df883",
+      "schema": {
+        "date": "date32[day]",
+        "index_id": "string",
+        "index_name": "string",
+        "close_raw": "double",
+        "source_file": "string",
+        "source_sheet": "string",
+        "source_row": "int32",
+        "source_sha256": "string",
+        "frequency": "string",
+        "return_variant": "string",
+        "units": "string",
+        "has_valid_price": "bool",
+        "previous_observed_date": "date32[day]",
+        "is_adjacent_to_previous_session": "bool",
+        "calendar_complete": "bool"
+      }
+    },
+    "event_industry_classifications": {
+      "rows": 1668,
+      "key": [
+        "event_id",
+        "instrument_id"
+      ],
+      "sha256": "64563e4a2ec92f9783fcf2f13a0301ced97bb7f0a249ba9ab9e3d4897cb247e2",
+      "schema": {
+        "historical_security_name": "string",
+        "historical_share_code": "string",
+        "nature_of_business_raw": "string",
+        "source_file": "string",
+        "source_sha256": "string",
+        "worksheet": "string",
+        "security_type_rule": "string",
+        "instrument_id": "string",
+        "match_status": "string",
+        "match_method": "string",
+        "match_confidence": "string",
+        "match_evidence": "string",
+        "candidate_instrument_ids": "string",
+        "event_id": "string",
+        "quality_flags": "string",
+        "bulletin_month": "date32[day]",
+        "event_date": "date32[day]",
+        "publication_date": "date32[day]",
+        "identity_incomplete": "bool",
+        "industry_missing": "bool",
+        "likely_investment_product": "bool",
+        "likely_non_company_security": "bool",
+        "mining_candidate": "bool",
+        "has_historical_prices_record": "bool",
+        "preannouncement_availability_verified": "bool",
+        "is_retrospective": "bool",
+        "event_date_provisional": "bool",
+        "source_row": "int64",
+        "header_row": "int64"
+      }
+    },
+    "instrument_metadata_2026-11-23": {
+      "rows": 1872,
+      "key": [
+        "instrument_id"
+      ],
+      "sha256": "b76e29b5a4ec2d8d5d8df9259f52faff2a2197543b9f2eee02b55b8ae17980b8",
+      "schema": {
+        "instrument_id": "string",
+        "ticker": "string",
+        "company_name": "string",
+        "isin_raw": "string",
+        "isin_valid": "bool",
+        "isin_format_valid_source": "bool",
+        "instrument_type": "string",
+        "exchange": "string",
+        "country": "string",
+        "listing_status_snapshot": "string",
+        "snapshot_date": "date32[day]",
+        "captured_at": "timestamp[us, tz=Africa/Johannesburg]",
+        "has_historical_prices_record": "bool",
+        "screener_position": "int32",
+        "landing_href": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+instrument_id,group,n_sessions,car,complete,window,event_id,rank_abs,company_name,historical_security_name,nature_of_business_raw
+AGL:XJSE:EQU,mining,2,-0.0528684827333904,TRUE,primary,mining_charter_2017,19,Anglo American Plc,Anglo American plc,Gen Mining
+ANG:XJSE:EQU,unknown,2,-0.111315694321415,TRUE,primary,mining_charter_2017,2,Anglogold Ashanti Plc,,
+ASR:XJSE:EQU,mining,2,-0.133736432871883,TRUE,primary,mining_charter_2017,1,Assore Ltd,Assore Ltd,Gen Mining
+DAW:XJSE:EQU,non_mining,2,-0.0648108792695565,TRUE,primary,mining_charter_2017,11,Distr And Warehousing,Distr and Warehousing,Build Mat & Fix
+DLT:XJSE:EQU,non_mining,2,-0.0616806838596559,TRUE,primary,mining_charter_2017,13,Delta Property Fund Ltd,Delta Property Fund Ltd,Industrial & Office REITs
+DRD:XJSE:EQU,mining,2,-0.0695934819035693,TRUE,primary,mining_charter_2017,8,Drd Gold Ltd,DRD Gold Ltd,Gold
+EXX:XJSE:EQU,mining,2,-0.076078272139368,TRUE,primary,mining_charter_2017,5,Exxaro Resources Ltd,Exxaro Resources Ltd,Coal
+GFI:XJSE:EQU,mining,2,-0.0575131957476085,TRUE,primary,mining_charter_2017,15,Gold Fields Ltd,Gold Fields Ltd,Gold
+GND:XJSE:EQU,non_mining,2,-0.089611284033468,TRUE,primary,mining_charter_2017,3,Grindrod Ltd,Grindrod Ltd,Marine Tranp
+HAR:XJSE:EQU,mining,2,-0.0683393665152931,TRUE,primary,mining_charter_2017,9,Harmony Gm Co Ltd,Harmony GM Co Ltd,Gold
+HLM:XJSE:EQU,mining,2,-0.0546355111296061,TRUE,primary,mining_charter_2017,18,Hulamin Ltd,Hulamin Ltd,Aluminium
+KIO:XJSE:EQU,non_mining,2,-0.0730269174037556,TRUE,primary,mining_charter_2017,6,Kumba Iron Ore Ltd,Kumba Iron Ore Ltd,Iron & Steel
+MPT:XJSE:EQU,non_mining,2,-0.0764527838752996,TRUE,primary,mining_charter_2017,4,Mpact Limited,Mpact Limited,Cont & Pack
+NPK:XJSE:EQU,non_mining,2,-0.0716038781657283,TRUE,primary,mining_charter_2017,7,Nampak Ltd,Nampak Ltd,Cont & Pack
+PAN:XJSE:EQU,mining,2,-0.0596713366064054,TRUE,primary,mining_charter_2017,14,Pan African Resource Plc,Pan African Resource plc,Gold
+RBP:XJSE:EQU,mining,2,0.062435837564051,TRUE,primary,mining_charter_2017,12,Royal Bafokeng Platinum,Royal Bafokeng Platinum Ltd,Plat & Prec. Met
+RCL:XJSE:EQU,non_mining,2,0.0565701091826274,TRUE,primary,mining_charter_2017,16,Rcl Foods Limited,RCL Foods Limited,Farm & Fish
+S32:XJSE:EQU,mining,2,-0.0525553260055456,TRUE,primary,mining_charter_2017,20,South32 Limited,South32 Limited,Gen Mining
+SUI:XJSE:EQU,non_mining,2,-0.0666239241432017,TRUE,primary,mining_charter_2017,10,Sun International Ltd,Sun International Ltd,Gambling
+VAL:XJSE:EQU,unknown,2,-0.0549235278278342,TRUE,primary,mining_charter_2017,17,Valterra Platinum Ltd,,
+ACG:XJSE:EQU,non_mining,2,0.0650287903746597,TRUE,primary,mining_charter_2018,13,Anchor Group Limited,Anchor Group Limited,Asset man
+ADR:XJSE:EQU,non_mining,2,0.0693136668971303,TRUE,primary,mining_charter_2018,11,Adcorp Holdings Limited,Adcorp Holdings Limited,Bus Train & empl agen
+AEG:XJSE:EQU,non_mining,2,0.370257437548164,TRUE,primary,mining_charter_2018,1,Aveng Group Limited,Aveng Group Limited,Heavy Contr.
+AFT:XJSE:EQU,non_mining,2,0.090113193711046,TRUE,primary,mining_charter_2018,9,Afrimat Limited,Afrimat Limited,Build Mat & Fix
+CPI:XJSE:EQU,unknown,2,0.0566638545806746,TRUE,primary,mining_charter_2018,16,Capitec Limited,,
+GRF:XJSE:EQU,non_mining,2,-0.116606288973997,TRUE,primary,mining_charter_2018,3,Group Five Ltd,Group Five Ltd,Heavy Contr.
+HAR:XJSE:EQU,mining,2,-0.0912082957499596,TRUE,primary,mining_charter_2018,8,Harmony Gm Co Ltd,Harmony GM Co Ltd,Gold
+HLM:XJSE:EQU,mining,2,0.066745853137586,TRUE,primary,mining_charter_2018,12,Hulamin Ltd,Hulamin Ltd,Aluminium
+IVT:XJSE:EQU,non_mining,2,0.108583844996766,TRUE,primary,mining_charter_2018,4,Invicta Holdings Ltd,Invicta Holdings Ltd,Industr mach
+KIO:XJSE:EQU,non_mining,2,0.0981788740718618,TRUE,primary,mining_charter_2018,6,Kumba Iron Ore Ltd,Kumba Iron Ore Ltd,Iron & Steel
+LHC:XJSE:EQU,non_mining,2,-0.0523957721289944,TRUE,primary,mining_charter_2018,19,Life Healthc Grp Hldgs L,Life Healthc Grp Hldgs Ltd,Healthc Prov
+MTA:XJSE:EQU,non_mining,2,0.0940652368583922,TRUE,primary,mining_charter_2018,7,Metair Investments Ltd,Metair Investments Ltd,Auto parts
+NTC:XJSE:EQU,non_mining,2,-0.120875342397238,TRUE,primary,mining_charter_2018,2,Netcare Limited,Netcare Limited,Healthc Prov
+PAN:XJSE:EQU,mining,2,-0.0727973739945994,TRUE,primary,mining_charter_2018,10,Pan African Resource Plc,Pan African Resource plc,Gold
+RBP:XJSE:EQU,mining,2,-0.098292754933857,TRUE,primary,mining_charter_2018,5,Royal Bafokeng Platinum,Royal Bafokeng Platinum Ltd,Plat & Prec. Met
+RBX:XJSE:EQU,non_mining,2,0.051788172013135,TRUE,primary,mining_charter_2018,20,Raubex Group Ltd,Raubex Group Ltd,Heavy Contr.
+RES:XJSE:EQU,non_mining,2,0.0641346154450895,TRUE,primary,mining_charter_2018,14,Resilient Reit Limited,Resilient REIT Limited,Retail REITs
+SDO:XJSE:EQU,non_mining,2,-0.0599819602910701,TRUE,primary,mining_charter_2018,15,Stadio Holdings Limited,Stadio Holdings Limited,Spec Cons Serv
+SLG:XJSE:EQU,unknown,2,0.052926728380426,TRUE,primary,mining_charter_2018,18,Salungano Group Limited,,
+SNH:XJSE:EQU,non_mining,2,-0.0537436873525765,TRUE,primary,mining_charter_2018,17,Steinhoff Int Hldgs N.V.,Steinhoff Int Hldgs N.V.,Furnish
+ACL:XJSE:EQU,non_mining,2,-0.0498367983178365,TRUE,primary,ee_draft_2023,13,Arcelormittal Sa Limited,ArcelorMittal SA Limited,Iron & Steel
+AEL:XJSE:EQU,non_mining,2,-0.0438168694014004,TRUE,primary,ee_draft_2023,18,Altron Limited A,Altron Limited A,Comp Serv
+AFH:XJSE:EQU,non_mining,2,0.0715654219241093,TRUE,primary,ee_draft_2023,5,Alexander Forbes Grp Hld,Alexander Forbes Grp Hldgs,Asset Managers and Custodians
+ANG:XJSE:EQU,unknown,2,-0.0656598847542753,TRUE,primary,ee_draft_2023,7,Anglogold Ashanti Plc,,
+APH:XJSE:EQU,mining,2,0.0681500679673379,TRUE,primary,ee_draft_2023,6,Alphamin Resources Corp,Alphamin Resources Corp,Nom-ferr Metals
+CLH:XJSE:EQU,non_mining,2,0.0405138994894023,TRUE,primary,ee_draft_2023,20,City Lodge Hotels Ltd,City Lodge Hotels Ltd,Hotels and Motels
+DTC:XJSE:EQU,non_mining,2,-0.0499162449367723,TRUE,primary,ee_draft_2023,12,Datatec Ltd,Datatec Ltd,Comp Serv
+IOC:XJSE:EQU,unknown,2,0.0477873420549202,TRUE,primary,ee_draft_2023,14,Ioco Limited,,
+KAP:XJSE:EQU,non_mining,2,-0.0449547585761204,TRUE,primary,ee_draft_2023,17,Kap Limited,KAP Limited,Div Indust
+KRO:XJSE:EQU,non_mining,2,-0.0522093509345208,TRUE,primary,ee_draft_2023,10,Karooooo Ltd,Karooooo Ltd,Software
+LEW:XJSE:EQU,non_mining,2,0.0500490060811571,TRUE,primary,ee_draft_2023,11,Lewis Group Ltd,Lewis Group Ltd,Home Imp Ret
+MKR:XJSE:EQU,non_mining,2,0.0829617677027216,TRUE,primary,ee_draft_2023,4,Montauk Renewables Inc,Montauk Renewables Inc,Alternative Fuels
+MLI:XJSE:EQU,non_mining,2,-0.126247699487733,TRUE,primary,ee_draft_2023,1,Industrials Reit Limited,Industrials REIT Limited,Industrial REITs
+MTA:XJSE:EQU,non_mining,2,-0.0848453445928938,TRUE,primary,ee_draft_2023,3,Metair Investments Ltd,Metair Investments Ltd,Auto parts
+MTN:XJSE:EQU,non_mining,2,0.0460776646309206,TRUE,primary,ee_draft_2023,15,Mtn Group Ltd,MTN Group Ltd,Telecommunications Services
+PPE:XJSE:EQU,non_mining,2,0.101755144940694,TRUE,primary,ee_draft_2023,2,Purple Group Ltd,Purple Group Ltd,Inv serv
+RLO:XJSE:EQU,non_mining,2,0.0418587281950912,TRUE,primary,ee_draft_2023,19,Reunert Ltd,Reunert Ltd,Electrical Components
+SSK:XJSE:EQU,non_mining,2,-0.0560663381709929,TRUE,primary,ee_draft_2023,9,Stefanutti Stck Hldgs Lt,Stefanutti Stck Hldgs Ltd,Construction
+SUI:XJSE:EQU,non_mining,2,-0.0452880922992477,TRUE,primary,ee_draft_2023,16,Sun International Ltd,Sun International Ltd,Casinos and Gambling
+WBO:XJSE:EQU,non_mining,2,0.0579033499491387,TRUE,primary,ee_draft_2023,8,Wilson Bayly Hlm-Ovc Ltd,Wilson Bayly Hlm-Ovc Ltd,Eng and Contracting Services
+AEG:XJSE:EQU,non_mining,2,-0.0523988766006004,TRUE,primary,ee_final_2025,11,Aveng Group Limited,Aveng Group Limited,Construction
+AFH:XJSE:EQU,non_mining,2,0.0480484842215583,TRUE,primary,ee_final_2025,14,Alexander Forbes Grp Hld,Alexander Forbes Grp Hldgs,Asset Managers and Custodians
+ANG:XJSE:EQU,mining,2,0.0586154923772119,TRUE,primary,ee_final_2025,6,Anglogold Ashanti Plc,AngloGold Ashanti plc,Gold
+COH:XJSE:EQU,non_mining,2,-0.0477814706143358,TRUE,primary,ee_final_2025,15,Curro Holdings Limited,Curro Holdings Limited,Education Services
+JBL:XJSE:EQU,mining,2,0.0543654818491934,TRUE,primary,ee_final_2025,9,Jubilee Metals Group Plc,Jubilee Metals Group plc,Plat & Prec. Met
+MDI:XJSE:EQU,mining,2,0.0604206638135419,TRUE,primary,ee_final_2025,5,Master Drilling Grp Ltd,Master Drilling Grp Ltd,Gen Mining
+MRP:XJSE:EQU,non_mining,2,-0.0460532949917569,TRUE,primary,ee_final_2025,19,Mr Price Group Ltd,Mr Price Group Ltd,Appar Retail
+MTA:XJSE:EQU,non_mining,2,0.155439949486792,TRUE,primary,ee_final_2025,1,Metair Investments Ltd,Metair Investments Ltd,Auto parts
+NED:XJSE:EQU,non_mining,2,-0.0499500700053441,TRUE,primary,ee_final_2025,12,Nedbank Group Ltd,Nedbank Group Ltd,Banks
+NTU:XJSE:EQU,non_mining,2,-0.080123494393137,TRUE,primary,ee_final_2025,3,Nutun Limited,Nutun Limited,Consumer Lending
+PAN:XJSE:EQU,mining,2,0.0463761400062644,TRUE,primary,ee_final_2025,18,Pan African Resource Plc,Pan African Resource plc,Gold
+REN:XJSE:EQU,non_mining,2,-0.0497967340581069,TRUE,primary,ee_final_2025,13,Renergen Limited,Renergen Limited,Alternative Fuels
+S32:XJSE:EQU,mining,2,-0.0629446568405941,TRUE,primary,ee_final_2025,4,South32 Limited,South32 Limited,Gen Mining
+SSK:XJSE:EQU,non_mining,2,-0.0467434667950555,TRUE,primary,ee_final_2025,17,Stefanutti Stck Hldgs Lt,Stefanutti Stck Hldgs Ltd,Construction
+SSW:XJSE:EQU,mining,2,0.0812118164195869,TRUE,primary,ee_final_2025,2,Sibanye Stillwater Ltd,Sibanye Stillwater Ltd,Plat & Prec. Met
+TFG:XJSE:EQU,non_mining,2,-0.0456784301690653,TRUE,primary,ee_final_2025,20,The Foschini Group Limit,The Foschini Group Limited,Appar Retail
+THA:XJSE:EQU,mining,2,0.047204133582099,TRUE,primary,ee_final_2025,16,Tharisa Plc,Tharisa plc,Gen Mining
+TRU:XJSE:EQU,non_mining,2,-0.0550915003995201,TRUE,primary,ee_final_2025,7,Truworths Int Ltd,Truworths Int Ltd,Appar Retail
+VAL:XJSE:EQU,unknown,2,0.0541487748677168,TRUE,primary,ee_final_2025,10,Valterra Platinum Ltd,,
+ZED:XJSE:EQU,non_mining,2,-0.0544293084439577,TRUE,primary,ee_final_2025,8,Zeder Inv Ltd,Zeder Inv Ltd,Asset Managers and Custodians
+ACL:XJSE:EQU,non_mining,2,0.0905153231380879,TRUE,primary,bbbee_draft_2026,4,Arcelormittal Sa Limited,ArcelorMittal SA Limited,Iron & Steel
+ANG:XJSE:EQU,mining,2,-0.0801727430470857,TRUE,primary,bbbee_draft_2026,7,Anglogold Ashanti Plc,AngloGold Ashanti plc,Gold
+DRD:XJSE:EQU,mining,2,-0.0954953703478911,TRUE,primary,bbbee_draft_2026,3,Drd Gold Ltd,DRD Gold Ltd,Gold
+DSY:XJSE:EQU,non_mining,2,0.0567555516268865,TRUE,primary,bbbee_draft_2026,16,Discovery Ltd,Discovery Ltd,Life Ins
+FBR:XJSE:EQU,non_mining,2,0.0728191625186484,TRUE,primary,bbbee_draft_2026,9,Famous Brands Ltd,Famous Brands Ltd,Rest & Bars
+HLM:XJSE:EQU,mining,2,0.0855116969153022,TRUE,primary,bbbee_draft_2026,5,Hulamin Ltd,Hulamin Ltd,Aluminum
+MKR:XJSE:EQU,non_mining,2,-0.113475606251812,TRUE,primary,bbbee_draft_2026,2,Montauk Renewables Inc,Montauk Renewables Inc,Alternative Fuels
+MRP:XJSE:EQU,non_mining,2,0.0743424799269292,TRUE,primary,bbbee_draft_2026,8,Mr Price Group Ltd,Mr Price Group Ltd,Appar Retail
+MTNZF:XJSE:EQU,non_mining,2,0.119974831225961,TRUE,primary,bbbee_draft_2026,1,Mtn Zakhele Futhi,MTN Zakhele Futhi,Open End and Misc Inv Veh
+NED:XJSE:EQU,non_mining,2,0.0607419041656259,TRUE,primary,bbbee_draft_2026,11,Nedbank Group Ltd,Nedbank Group Ltd,Banks
+NPH:XJSE:EQU,mining,2,-0.0592844448695557,TRUE,primary,bbbee_draft_2026,14,Northam Platinum Hldgs L,Northam Platinum Hldgs Ltd,Plat & Prec. Met
+NTU:XJSE:EQU,non_mining,2,0.0823114712838255,TRUE,primary,bbbee_draft_2026,6,Nutun Limited,Nutun Limited,Consumer Lending
+OMU:XJSE:EQU,non_mining,2,0.053384467814817,TRUE,primary,bbbee_draft_2026,19,Old Mutual Limited,Old Mutual Limited,Life Ins
+PAN:XJSE:EQU,mining,2,-0.0530552720579852,TRUE,primary,bbbee_draft_2026,20,Pan African Resource Plc,Pan African Resource plc,Gold
+PPC:XJSE:EQU,non_mining,2,0.0584179089111207,TRUE,primary,bbbee_draft_2026,15,Ppc Limited,PPC Limited,Cement
+RBX:XJSE:EQU,non_mining,2,0.0549945582113576,TRUE,primary,bbbee_draft_2026,18,Raubex Group Ltd,Raubex Group Ltd,Construction
+RFG:XJSE:EQU,non_mining,2,0.0610921840437359,TRUE,primary,bbbee_draft_2026,10,Rfg Holdings Limited,RFG Holdings Limited,Food Prod
+S32:XJSE:EQU,mining,2,0.0597639110946212,TRUE,primary,bbbee_draft_2026,13,South32 Limited,South32 Limited,Gen Mining
+SUI:XJSE:EQU,non_mining,2,0.0562239609124898,TRUE,primary,bbbee_draft_2026,17,Sun International Ltd,Sun International Ltd,Casinos and Gambling
+WHL:XJSE:EQU,non_mining,2,-0.0604656140957983,TRUE,primary,bbbee_draft_2026,12,Woolworths Holdings Ltd,Woolworths Holdings Ltd,Diversified Retailers

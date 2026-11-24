@@ -1,0 +1,6 @@
+anchor,last_session,n_mining,n_control,spread,description
+2018-09-19,2018-09-20,16,128,0.011211036549383676,2018 baseline models frozen; common complete constituents; point estimates only
+2018-09-20,2018-09-21,16,128,0.02768818333804026,2018 baseline models frozen; common complete constituents; point estimates only
+2018-09-21,2018-09-25,16,128,0.04621475078137898,2018 baseline models frozen; common complete constituents; point estimates only
+2018-09-26,2018-09-27,16,128,-0.03554286666746274,2018 baseline models frozen; common complete constituents; point estimates only
+2018-09-27,2018-09-28,16,128,-0.022436585095933968,2018 baseline models frozen; common complete constituents; point estimates only

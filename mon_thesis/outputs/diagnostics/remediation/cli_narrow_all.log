@@ -1,0 +1,11 @@
+10:14:46 Validating immutable package and event register 
+10:14:50 Constructing and independently checking calendar-adjacent returns 
+10:15:00 Estimating bbbee_draft_2026 
+10:15:01 bbbee_draft_2026 165 estimation-eligible securities ; primary inference: ok 
+10:15:01 Generating tables, figures and research handover 
+10:15:03 Balanced CAAR and pointwise intervals bbbee_draft_2026 
+Warning message:
+In fwrite(x, path, na = "", logical01 = FALSE) :
+  Input has no columns; doing nothing.
+If you intended to overwrite the file at outputs/tables/exposure_regressions.csv with an empty one, please use file.remove first.
+10:15:11 Finished. Source fingerprints unchanged. See outputs/reports/part_a_preliminary_results.md 

@@ -1,0 +1,11 @@
+{
+  "event_car_summary.csv": true,
+  "exposure_regressions.csv": true,
+  "market_model_summary.csv": true,
+  "descriptive_statistics.csv": true,
+  "daily_event_aggregates.csv": true,
+  "placebo_results.csv": true,
+  "robustness_summary.csv": true,
+  "headline_results_percent.csv": true,
+  "event_study_inference.csv": true
+}

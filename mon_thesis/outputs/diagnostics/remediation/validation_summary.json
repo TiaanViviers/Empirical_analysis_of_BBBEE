@@ -1,0 +1,48 @@
+{
+  "all_validation_fingerprints_match": {
+    "independent": true,
+    "calibration": true,
+    "test_analysis": true,
+    "test_sources": true
+  },
+  "tests": {
+    "cases": 31,
+    "passed": 395,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "reproduced_statistical_csvs": 17,
+  "reproduced_derived_parquet": 7,
+  "all_reproduction_files_byte_identical": true,
+  "independent_numeric_checks": {
+    "valid_source_stock_returns": 980380,
+    "source_return_max_error": 0.0,
+    "independently_applied_verified_conversions": 1,
+    "raw_close_max_error": 0.0,
+    "raw_volume_max_error": 0.0,
+    "derived_return_rows_reconciled": 982129,
+    "sample_rows_independently_screened": 9345,
+    "independent_ols_fits": 844,
+    "model_max_coefficient_or_sigma_error": 7.771561172376096e-15,
+    "car_rows_checked": 4179,
+    "complete_car_max_error": 6.106226635438361e-16,
+    "inference_estimate_max_error": 4.718447854656915e-16,
+    "plotted_caar_max_error": 5.273559366969494e-16,
+    "classification_rows_reconciled_to_event_specific_source": 9345,
+    "null_issuer_ids_in_primary": 833,
+    "null_security_types_in_primary": 833,
+    "primary_total_security_event_rows": 833
+  },
+  "preservation": {
+    "source_package_unchanged": true,
+    "event_register_unchanged": true,
+    "baseline_archive_files_checked": 157,
+    "baseline_files_missing": [],
+    "baseline_files_changed": [],
+    "current_run_code_config_ledgers_match": true
+  },
+  "cli_cases_passed": 3,
+  "calibration_trials_per_scenario": 400,
+  "calibration_scenarios": 6
+}

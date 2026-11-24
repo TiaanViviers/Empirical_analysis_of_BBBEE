@@ -1,0 +1,1 @@
+PASS: 26 payload files; 8 readable Parquet datasets; all checksums, schemas, counts and date coverage agree.

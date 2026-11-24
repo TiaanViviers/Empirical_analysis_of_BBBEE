@@ -1,0 +1,2 @@
+index_id,preferred_equity_return,reference_evidence,j203_url,j203t_url,provider_series_status,cash_distributions,overall_status
+J203:XJSE:IND,security-unit-consistent price return,JSE identifies J203 All Share and separately J203T All Share Total Return,https://www.jse.co.za/all-share-j203,https://www.jse.co.za/jse/instruments/3416,IRESS export return variant and adjustment convention not independently certified,not added in price-only baseline; verified/unresolved actions and exclusions reported separately,price-index-compatible intent; provider-level match remains partial

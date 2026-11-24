@@ -1,0 +1,29 @@
+[
+  {
+    "case": "single_event_override",
+    "event": "mining_charter_2017",
+    "p": 0.19,
+    "holm": 0.95,
+    "reserved_family": 5,
+    "mode": "full",
+    "status": "passed"
+  },
+  {
+    "case": "narrow_all",
+    "event": "bbbee_draft_2026",
+    "p": 0.025,
+    "holm": 0.125,
+    "reserved_family": 5,
+    "mode": "full",
+    "status": "passed"
+  },
+  {
+    "case": "smoke",
+    "event": "mining_charter_2017",
+    "p": 0.19,
+    "holm": 0.95,
+    "reserved_family": 5,
+    "mode": "smoke",
+    "status": "passed"
+  }
+]

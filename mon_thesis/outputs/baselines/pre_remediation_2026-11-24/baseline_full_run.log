@@ -1,0 +1,124 @@
+09:28:13 Validating immutable package and event register 
+09:28:21 Constructing and independently checking calendar-adjacent returns 
+09:28:31 Estimating mining_charter_2017 
+09:28:34 mining_charter_2017 169 estimation-eligible securities ; primary inference: ok; ok; ok; ok 
+09:28:34 Estimating mining_charter_2018 
+09:28:37 mining_charter_2018 177 estimation-eligible securities ; primary inference: ok; ok; ok; ok 
+09:28:37 Estimating ee_draft_2023 
+09:28:38 ee_draft_2023 172 estimation-eligible securities ; primary inference: ok 
+09:28:38 Estimating ee_final_2025 
+09:28:39 ee_final_2025 161 estimation-eligible securities ; primary inference: ok 
+09:28:39 Estimating bbbee_draft_2026 
+09:28:40 bbbee_draft_2026 165 estimation-eligible securities ; primary inference: ok 
+09:28:40 Sensitivity mining_charter_2017 min_200 
+09:28:41 Sensitivity mining_charter_2017 no_volume_screen 
+09:28:42 Sensitivity mining_charter_2017 no_zero_restriction 
+09:28:42 Sensitivity mining_charter_2017 market_adjusted 
+09:28:43 Sensitivity mining_charter_2017 drop_flagged_extremes 
+09:28:44 Sensitivity mining_charter_2017 next_session 
+09:28:44 Sensitivity mining_charter_2017 previous_session 
+09:28:45 Sensitivity mining_charter_2017 strict_mining 
+09:28:45 Sensitivity mining_charter_2017 balanced_plot_sample 
+09:28:46 Sensitivity mining_charter_2017 block_1 
+09:28:47 Sensitivity mining_charter_2017 block_10 
+09:28:48 Sensitivity mining_charter_2017 mineral_value_chain 
+09:28:48 Refitted placebo mining_charter_2017 2017-01-12 
+09:28:49 Refitted placebo mining_charter_2017 2017-02-13 
+09:28:50 Refitted placebo mining_charter_2017 2017-03-16 
+09:28:50 Refitted placebo mining_charter_2017 2017-04-20 
+09:28:51 Refitted placebo mining_charter_2017 2017-08-01 
+09:28:52 Refitted placebo mining_charter_2017 2017-12-05 
+09:28:52 Refitted placebo mining_charter_2017 2018-03-14 
+09:28:53 Refitted placebo mining_charter_2017 2018-05-03 
+09:28:54 Refitted placebo mining_charter_2017 2018-06-13 
+09:28:54 Refitted placebo mining_charter_2017 2018-08-03 
+09:28:55 Sensitivity mining_charter_2018 min_200 
+09:28:56 Sensitivity mining_charter_2018 no_volume_screen 
+09:28:56 Sensitivity mining_charter_2018 no_zero_restriction 
+09:28:57 Sensitivity mining_charter_2018 market_adjusted 
+09:28:58 Sensitivity mining_charter_2018 drop_flagged_extremes 
+09:28:59 Sensitivity mining_charter_2018 next_session 
+09:28:59 Sensitivity mining_charter_2018 previous_session 
+09:29:00 Sensitivity mining_charter_2018 strict_mining 
+09:29:01 Sensitivity mining_charter_2018 balanced_plot_sample 
+09:29:02 Sensitivity mining_charter_2018 block_1 
+09:29:02 Sensitivity mining_charter_2018 block_10 
+09:29:03 Sensitivity mining_charter_2018 mineral_value_chain 
+09:29:04 Sensitivity mining_charter_2018 cabinet_2018_09_19 
+09:29:04 Refitted placebo mining_charter_2018 2017-03-15 
+09:29:05 Refitted placebo mining_charter_2018 2017-04-20 
+09:29:06 Refitted placebo mining_charter_2018 2017-08-17 
+09:29:06 Refitted placebo mining_charter_2018 2017-09-22 
+09:29:07 Refitted placebo mining_charter_2018 2017-11-06 
+09:29:08 Refitted placebo mining_charter_2018 2017-12-29 
+09:29:08 Refitted placebo mining_charter_2018 2018-02-05 
+09:29:09 Refitted placebo mining_charter_2018 2018-03-19 
+09:29:10 Refitted placebo mining_charter_2018 2018-05-29 
+09:29:11 Refitted placebo mining_charter_2018 2018-07-05 
+09:29:11 Sensitivity ee_draft_2023 min_200 
+09:29:12 Sensitivity ee_draft_2023 no_volume_screen 
+09:29:12 Sensitivity ee_draft_2023 no_zero_restriction 
+09:29:12 Sensitivity ee_draft_2023 market_adjusted 
+09:29:12 Sensitivity ee_draft_2023 drop_flagged_extremes 
+09:29:13 Sensitivity ee_draft_2023 next_session 
+09:29:13 Sensitivity ee_draft_2023 previous_session 
+09:29:13 Sensitivity ee_draft_2023 balanced_plot_sample 
+09:29:14 Sensitivity ee_draft_2023 block_1 
+09:29:14 Sensitivity ee_draft_2023 block_10 
+09:29:14 Refitted placebo ee_draft_2023 2021-10-20 
+09:29:14 Refitted placebo ee_draft_2023 2021-12-29 
+09:29:15 Refitted placebo ee_draft_2023 2022-02-14 
+09:29:15 Refitted placebo ee_draft_2023 2022-03-23 
+09:29:15 Refitted placebo ee_draft_2023 2022-06-13 
+09:29:16 Refitted placebo ee_draft_2023 2022-07-27 
+09:29:16 Refitted placebo ee_draft_2023 2022-09-28 
+09:29:16 Refitted placebo ee_draft_2023 2022-11-25 
+09:29:17 Refitted placebo ee_draft_2023 2023-01-16 
+09:29:17 Refitted placebo ee_draft_2023 2023-03-20 
+09:29:17 Sensitivity ee_final_2025 min_200 
+09:29:17 Sensitivity ee_final_2025 no_volume_screen 
+09:29:18 Sensitivity ee_final_2025 no_zero_restriction 
+09:29:18 Sensitivity ee_final_2025 market_adjusted 
+09:29:18 Sensitivity ee_final_2025 drop_flagged_extremes 
+09:29:19 Sensitivity ee_final_2025 next_session 
+09:29:19 Sensitivity ee_final_2025 previous_session 
+09:29:19 Sensitivity ee_final_2025 balanced_plot_sample 
+09:29:19 Sensitivity ee_final_2025 block_1 
+09:29:20 Sensitivity ee_final_2025 block_10 
+09:29:20 Refitted placebo ee_final_2025 2023-10-17 
+09:29:20 Refitted placebo ee_final_2025 2023-12-29 
+09:29:21 Refitted placebo ee_final_2025 2024-04-03 
+09:29:21 Refitted placebo ee_final_2025 2024-05-14 
+09:29:21 Refitted placebo ee_final_2025 2024-06-20 
+09:29:21 Refitted placebo ee_final_2025 2024-07-31 
+09:29:22 Refitted placebo ee_final_2025 2024-09-25 
+09:29:22 Refitted placebo ee_final_2025 2024-11-26 
+09:29:22 Refitted placebo ee_final_2025 2025-01-09 
+09:29:22 Refitted placebo ee_final_2025 2025-02-27 
+09:29:23 Sensitivity bbbee_draft_2026 min_200 
+09:29:23 Sensitivity bbbee_draft_2026 no_volume_screen 
+09:29:23 Sensitivity bbbee_draft_2026 no_zero_restriction 
+09:29:24 Sensitivity bbbee_draft_2026 market_adjusted 
+09:29:24 Sensitivity bbbee_draft_2026 drop_flagged_extremes 
+09:29:24 Sensitivity bbbee_draft_2026 next_session 
+09:29:24 Sensitivity bbbee_draft_2026 previous_session 
+09:29:25 Sensitivity bbbee_draft_2026 balanced_plot_sample 
+09:29:25 Sensitivity bbbee_draft_2026 block_1 
+09:29:25 Sensitivity bbbee_draft_2026 block_10 
+09:29:25 Refitted placebo bbbee_draft_2026 2024-06-25 
+09:29:26 Refitted placebo bbbee_draft_2026 2024-08-26 
+09:29:26 Refitted placebo bbbee_draft_2026 2024-10-14 
+09:29:26 Refitted placebo bbbee_draft_2026 2024-11-18 
+09:29:27 Refitted placebo bbbee_draft_2026 2025-01-31 
+09:29:27 Refitted placebo bbbee_draft_2026 2025-06-10 
+09:29:27 Refitted placebo bbbee_draft_2026 2025-07-16 
+09:29:27 Refitted placebo bbbee_draft_2026 2025-09-09 
+09:29:28 Refitted placebo bbbee_draft_2026 2025-10-15 
+09:29:28 Refitted placebo bbbee_draft_2026 2025-11-18 
+09:29:28 Generating tables, figures and research handover 
+09:29:31 Balanced CAAR and pointwise intervals mining_charter_2017 
+09:29:43 Balanced CAAR and pointwise intervals mining_charter_2018 
+09:29:57 Balanced CAAR and pointwise intervals ee_draft_2023 
+09:30:01 Balanced CAAR and pointwise intervals ee_final_2025 
+09:30:06 Balanced CAAR and pointwise intervals bbbee_draft_2026 
+09:30:13 Finished. Source fingerprints unchanged. See outputs/reports/part_a_preliminary_results.md 

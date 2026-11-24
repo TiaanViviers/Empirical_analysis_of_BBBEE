@@ -1,0 +1,16 @@
+{
+  "valid_source_stock_returns": 980380,
+  "source_return_max_error": 0.0,
+  "derived_return_rows_reconciled": 982129,
+  "sample_rows_independently_screened": 9345,
+  "independent_ols_fits": 844,
+  "model_max_coefficient_or_sigma_error": 7.771561172376096e-15,
+  "car_rows_checked": 4179,
+  "complete_car_max_error": 9.992007221626409e-16,
+  "inference_estimate_max_error": 4.996003610813204e-16,
+  "plotted_caar_max_error": 5.273559366969494e-16,
+  "classification_rows_reconciled_to_event_specific_source": 9345,
+  "null_issuer_ids_in_primary": 833,
+  "null_security_types_in_primary": 833,
+  "primary_total_security_event_rows": 833
+}

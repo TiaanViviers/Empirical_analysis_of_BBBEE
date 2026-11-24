@@ -1,0 +1,96 @@
+paths:
+  source: data/thesis_data
+  events: research/events.csv
+  derived: data/derived
+  outputs: outputs
+  python: ../iress-export/.venv/bin/python
+  corporate_actions: research/corporate_actions_v1.csv
+  security_review: research/security_exposure_review_v1.csv
+  chronology: research/event_information_chronology.csv
+  news: research/contemporaneous_news.csv
+  testing_family: config/headline_hypotheses.csv
+  comparison_baseline: outputs/baselines/pre_remediation_2026-11-24
+analysis:
+  events:
+  - mining_charter_2017
+  - mining_charter_2018
+  - ee_draft_2023
+  - ee_final_2025
+  - bbbee_draft_2026
+  estimation:
+  - -250
+  - -30
+  min_estimation: 180
+  positive_volume: yes
+  event_positive_volume: yes
+  return_measure: unit_consistent_price
+  apply_verified_conversions: yes
+  exposure_definition: source_industry_proxy
+  weighting: equal_security
+  max_zero_fraction: 0.2
+  exclude_known_noncompany: yes
+  extreme_threshold: 0.3
+  primary_window: primary
+  windows:
+    primary:
+    - 0
+    - 1
+    short:
+    - -1
+    - 3
+    week:
+    - 0
+    - 5
+    anticipation:
+    - -10
+    - -1
+    plot:
+    - -10
+    - 10
+  strict_mining_labels:
+  - Coal
+  - Copper
+  - Diamonds & Gems
+  - Gen Mining
+  - Gold
+  - Nom-ferr Metals
+  - Plat & Prec. Met
+bootstrap:
+  replications: 4999
+  block_length: 5
+  min_null_dates: 60
+  seed: 170615
+  alpha: 0.05
+  inference_convention: absolute_tail_inversion
+  event_sd_multiplier: 1
+  null_positive_volume: no
+robustness:
+  min_estimation: 200
+  broad_mineral_labels:
+  - Iron & Steel
+  - Iron & Steel Prod
+  block_lengths:
+  - 1
+  - 10
+  timing_shift: 1
+  earlier_2018_date: '2018-09-19'
+  placebo_lookback_sessions: 400
+  placebo_lookahead_sessions: 300
+  placebo_count: 10
+  placebo_event_buffer: 30
+  placebo_min_spacing: 22
+  seed: 20180927
+  placebo_exclude_own_event_from_fit: yes
+  timing_2018:
+    cabinet_meeting_reference: '2018-09-19'
+    public_stimulus_approval: '2018-09-21'
+    ministerial_advisory: '2018-09-26'
+  event_sd_multipliers:
+  - 1.5
+  - 2
+calibration:
+  trials: 400
+  replications: 999
+  securities: 12
+  seed: 640000
+

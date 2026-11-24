@@ -1,0 +1,1 @@
+event_id,window,group,n,n_mining,n_control,estimate,se,ci_lower,ci_upper,p_value,null_dates,block_length,replications,method,status,holm_primary_p,interval_excludes_zero,p_rejects

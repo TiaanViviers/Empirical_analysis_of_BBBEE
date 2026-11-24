@@ -1,0 +1,2 @@
+p_absolute,p_equal_tail,ci_lower,ci_upper,ci_excludes_zero,se,skewness,null_q025,null_q975,null_min,null_max,symmetric_ci_lower,symmetric_ci_upper,specification
+0.0488,0.0692,-0.0700002174889903,0.00832019658404887,FALSE,0.0196955192127523,-0.991512826862168,-0.0445750642803438,0.0337453497926953,-0.109249247246813,0.0706623588207239,-0.0720988499289619,-0.000410885463627983,mining_charter_2018 previous_session

@@ -1,0 +1,30 @@
+{
+  "valid_source_stock_returns": 980380,
+  "source_return_max_error": 0.0,
+  "independently_applied_verified_conversions": 1,
+  "raw_close_max_error": 0.0,
+  "raw_volume_max_error": 0.0,
+  "derived_return_rows_reconciled": 982129,
+  "sample_rows_independently_screened": 9345,
+  "independent_ols_fits": 844,
+  "model_max_coefficient_or_sigma_error": 7.771561172376096e-15,
+  "car_rows_checked": 4179,
+  "complete_car_max_error": 6.106226635438361e-16,
+  "inference_estimate_max_error": 4.718447854656915e-16,
+  "plotted_caar_max_error": 5.273559366969494e-16,
+  "classification_rows_reconciled_to_event_specific_source": 9345,
+  "null_issuer_ids_in_primary": 833,
+  "null_security_types_in_primary": 833,
+  "primary_total_security_event_rows": 833
+}
+           event_id  tau       date  market_return  mean_raw_stock_return  aar_all_target  mining_minus_control_aar
+mining_charter_2017    0 2017-06-15      -0.012765              -0.009528       -0.001371                 -0.024099
+mining_charter_2017    1 2017-06-19       0.015424              -0.001845       -0.011951                 -0.010844
+mining_charter_2018    0 2018-09-27      -0.010281              -0.005570        0.000155                 -0.032077
+mining_charter_2018    1 2018-09-28      -0.005003               0.001688        0.004622                  0.009909
+      ee_draft_2023    0 2023-05-12       0.017313               0.008145       -0.000969                  0.006044
+      ee_draft_2023    1 2023-05-15      -0.000875              -0.001830       -0.000998                 -0.004879
+      ee_final_2025    0 2025-04-15       0.009070               0.006345       -0.000138                  0.008403
+      ee_final_2025    1 2025-04-16       0.001954               0.000604       -0.001026                  0.020375
+   bbbee_draft_2026    0 2026-01-29       0.001438               0.002828        0.002031                  0.007353
+   bbbee_draft_2026    1 2026-01-30      -0.041544              -0.012804        0.013745                 -0.034858

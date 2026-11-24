@@ -1,0 +1,11 @@
+{
+  "daily_event_aggregates.csv": "identical",
+  "descriptive_statistics.csv": "identical",
+  "event_car_summary.csv": "identical",
+  "event_study_inference.csv": "identical",
+  "exposure_regressions.csv": "identical",
+  "headline_results_percent.csv": "identical",
+  "market_model_summary.csv": "identical",
+  "placebo_results.csv": "identical",
+  "robustness_summary.csv": "identical"
+}

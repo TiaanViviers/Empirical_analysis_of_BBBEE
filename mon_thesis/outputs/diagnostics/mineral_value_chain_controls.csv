@@ -1,0 +1,11 @@
+event_id,instrument_id,historical_security_name,nature_of_business_raw
+mining_charter_2017,ACL:XJSE:EQU,ArcelorMittal SA Limited,Iron & Steel
+mining_charter_2017,KIO:XJSE:EQU,Kumba Iron Ore Ltd,Iron & Steel
+mining_charter_2018,ACL:XJSE:EQU,ArcelorMittal SA Limited,Iron & Steel
+mining_charter_2018,KIO:XJSE:EQU,Kumba Iron Ore Ltd,Iron & Steel
+ee_draft_2023,ACL:XJSE:EQU,ArcelorMittal SA Limited,Iron & Steel
+ee_draft_2023,KIO:XJSE:EQU,Kumba Iron Ore Ltd,Iron & Steel
+ee_final_2025,ACL:XJSE:EQU,ArcelorMittal SA Limited,Iron & Steel
+ee_final_2025,KIO:XJSE:EQU,Kumba Iron Ore Ltd,Iron & Steel
+bbbee_draft_2026,ACL:XJSE:EQU,ArcelorMittal SA Limited,Iron & Steel
+bbbee_draft_2026,KIO:XJSE:EQU,Kumba Iron Ore Ltd,Iron & Steel

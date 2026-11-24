@@ -1,0 +1,13 @@
+{
+  "trials_per_scenario": 400,
+  "replications": 999,
+  "securities": 12,
+  "seed": 640000,
+  "mode": "full",
+  "code_sha256": {
+    "review/remediation/calibrate_inference.R": "b3611607275aca39e10167b32d00388ab4cbfd1aac4086d356c31f3d7d56aea8",
+    "R/05_inference.R": "731609f4a0d4289eedbc5a9f024625ebf0dc1b579984f638ee90237a1046d42e",
+    "R/11_standardized_diagnostics.R": "52c3be9d4220822769eac26cf4478573d500a1e867a97abb59be821009affc38",
+    "config/analysis.yml": "4aa2ef068782dd4a95e950252a7cd4a7a25d1cbdef651f5bc4a091c703820877"
+  }
+}

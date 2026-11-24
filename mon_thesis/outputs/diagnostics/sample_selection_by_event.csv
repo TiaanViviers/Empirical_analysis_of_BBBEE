@@ -1,0 +1,6 @@
+event_id,source_instruments,historical_prices,enough_estimation,eligible,eligible_classified,eligible_unknown,complete_primary,complete_plot,primary_mining,primary_control
+mining_charter_2017,1869,475,255,169,135,34,168,164,15,120
+mining_charter_2018,1869,465,261,177,146,31,176,173,16,130
+ee_draft_2023,1869,354,212,172,159,13,169,157,25,133
+ee_final_2025,1869,329,195,161,157,4,160,155,22,134
+bbbee_draft_2026,1869,320,196,165,162,3,160,155,22,137

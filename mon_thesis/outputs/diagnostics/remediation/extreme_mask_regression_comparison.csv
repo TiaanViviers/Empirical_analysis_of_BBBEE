@@ -1,0 +1,6 @@
+event_id,legacy_se,full_exclusion_se,legacy_p,full_exclusion_p,null_dates_before,null_dates_after,reference_se_error,status
+mining_charter_2017,0.0251956424458669,0.0240515180135013,0.1654,0.1392,221,217,-1.38777878078145e-17,reviewer diagnostic reproduced on preserved raw-price input
+mining_charter_2018,0.0199195347435863,0.0169594349817435,0.2284,0.216,217,203,-4.5102810375397e-17,reviewer diagnostic reproduced on preserved raw-price input
+ee_draft_2023,0.00556002056695328,0.00520181102433186,0.7028,0.6898,221,211,1.73472347597681e-18,reviewer diagnostic reproduced on preserved raw-price input
+ee_final_2025,0.00465979791187928,0.00471280201513143,0.8018,0.7944,221,214,-8.67361737988404e-19,reviewer diagnostic reproduced on preserved raw-price input
+bbbee_draft_2026,0.00538598871414798,0.00504364520021343,0.012,0.0106,221,211,-4.33680868994202e-18,reviewer diagnostic reproduced on preserved raw-price input

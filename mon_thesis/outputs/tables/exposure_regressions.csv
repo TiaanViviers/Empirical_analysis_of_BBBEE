@@ -1,0 +1,11 @@
+event_id,window,n,intercept,mining_coefficient,specification,inference
+mining_charter_2017,primary,135,-0.00943925146436503,-0.0349431559843585,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2017,short,134,-0.00679828469707147,-0.0447165167523828,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2017,week,134,-0.0164697589395695,-0.0274406723781133,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2017,anticipation,133,0.0068366655279385,0.00807652809121724,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2017,plot,132,-0.00667639739815504,0.0195219794167061,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2018,primary,146,0.00720718802847387,-0.0221673525468395,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2018,short,145,0.00998291777638279,0.00559333903245646,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2018,week,146,0.00193447386424562,0.0344182099052573,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2018,anticipation,144,-0.0111753326173674,0.100604030903832,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values
+mining_charter_2018,plot,144,-0.00456519083045584,0.179780194035088,unadjusted descriptive CAR on mining indicator,use synchronous spread inference; no cross-sectional OLS p-values

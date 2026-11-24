@@ -1,0 +1,90 @@
+Calibrating stable_gaussian trials 400 draws 999 
+Calibrating serial_AR06 trials 400 draws 999 
+Calibrating heavy_tails_t5 trials 400 draws 999 
+Calibrating centered_lognormal trials 400 draws 999 
+Calibrating event_all_residual_sd2 trials 400 draws 999 
+Calibrating event_factor_sd2 trials 400 draws 999 
+                  scenario trials rejection_rate interval_coverage
+                    <char>  <int>          <num>             <num>
+ 1:        stable_gaussian    400         0.0425            0.9575
+ 2:            serial_AR06    400         0.0550            0.9450
+ 3:         heavy_tails_t5    400         0.0675            0.9325
+ 4:     centered_lognormal    400         0.0325            0.9675
+ 5: event_all_residual_sd2    400         0.3175            0.6825
+ 6:       event_factor_sd2    400         0.2825            0.7175
+ 7:        stable_gaussian    400         0.0600            0.9400
+ 8:            serial_AR06    400         0.0650            0.9350
+ 9:         heavy_tails_t5    400         0.0450            0.9550
+10:     centered_lognormal    400         0.0575            0.9425
+11: event_all_residual_sd2    400         0.3450            0.6550
+12:       event_factor_sd2    400         0.2675            0.7325
+13:        stable_gaussian    400         0.3075                NA
+14:            serial_AR06    400         0.3325                NA
+15:         heavy_tails_t5    400         0.3300                NA
+16:     centered_lognormal    400         0.3525                NA
+17: event_all_residual_sd2    400         0.3025                NA
+18:       event_factor_sd2    400         0.5175                NA
+19:        stable_gaussian    400         0.0400            0.9600
+20:            serial_AR06    400         0.0375            0.9625
+21:         heavy_tails_t5    400         0.0525            0.9475
+22:     centered_lognormal    400         0.1125            0.8875
+23: event_all_residual_sd2    400         0.0375            0.9625
+24:       event_factor_sd2    400         0.2125            0.7875
+                  scenario trials rejection_rate interval_coverage
+                    <char>  <int>          <num>             <num>
+                  method bootstrap_draws securities rejection_mc_lower
+                  <char>           <int>      <int>              <num>
+ 1:                  all             999         12         0.02670147
+ 2:                  all             999         12         0.03659822
+ 3:                  all             999         12         0.04680115
+ 4:                  all             999         12         0.01908966
+ 5:                  all             999         12         0.27380101
+ 6:                  all             999         12         0.24060955
+ 7: mining_minus_control             999         12         0.04064768
+ 8: mining_minus_control             999         12         0.04474018
+ 9: mining_minus_control             999         12         0.02865122
+10: mining_minus_control             999         12         0.03861726
+11: mining_minus_control             999         12         0.30008704
+12: mining_minus_control             999         12         0.22648168
+13:              bmp_all             999         12         0.26428664
+14:              bmp_all             999         12         0.28811718
+15:              bmp_all             999         12         0.28572750
+16:              bmp_all             999         12         0.30728585
+17:              bmp_all             999         12         0.25953861
+18:              bmp_all             999         12         0.46859674
+19:         kp_style_all             999         12         0.02476885
+20:         kp_style_all             999         12         0.02285482
+21:         kp_style_all             999         12         0.03459127
+22:         kp_style_all             999         12         0.08514802
+23:         kp_style_all             999         12         0.02285482
+24:         kp_style_all             999         12         0.17524288
+                  method bootstrap_draws securities rejection_mc_lower
+                  <char>           <int>      <int>              <num>
+    rejection_mc_upper coverage_mc_lower coverage_mc_upper
+                 <num>             <num>             <num>
+ 1:         0.06700260         0.9329974         0.9732985
+ 2:         0.08186803         0.9181320         0.9634018
+ 3:         0.09642728         0.9035727         0.9531988
+ 4:         0.05480466         0.9451953         0.9809103
+ 5:         0.36467111         0.6353289         0.7261990
+ 6:         0.32852845         0.6714715         0.7593905
+ 7:         0.08772344         0.9122766         0.9593523
+ 8:         0.09353582         0.9064642         0.9552598
+ 9:         0.07000528         0.9299947         0.9713488
+10:         0.08480143         0.9151986         0.9613827
+11:         0.39286188         0.6071381         0.6999130
+12:         0.31294170         0.6870583         0.7735183
+13:         0.35437572                NA                NA
+14:         0.38006956                NA                NA
+15:         0.37750680                NA                NA
+16:         0.40052038                NA                NA
+17:         0.34921888                NA                NA
+18:         0.56607032                NA                NA
+19:         0.06398278         0.9360172         0.9752312
+20:         0.06094437         0.9390556         0.9771452
+21:         0.07892255         0.9210775         0.9654087
+22:         0.14722428         0.8527757         0.9148520
+23:         0.06094437         0.9390556         0.9771452
+24:         0.25522689         0.7447731         0.8247571
+    rejection_mc_upper coverage_mc_lower coverage_mc_upper
+                 <num>             <num>             <num>

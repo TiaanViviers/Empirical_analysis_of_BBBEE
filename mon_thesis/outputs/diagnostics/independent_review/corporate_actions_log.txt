@@ -1,0 +1,16 @@
+              event_id                          specification     n    estimate
+                <char>                                 <char> <int>       <num>
+1: mining_charter_2018                               baseline   146 -0.02185924
+2: mining_charter_2018 single_source_backed_action_diagnostic   146 -0.02216735
+3: mining_charter_2018                      omit_RNI:XJSE:EQU   145 -0.02229457
+4:    bbbee_draft_2026                               baseline   160  0.01577571
+5:    bbbee_draft_2026 single_source_backed_action_diagnostic   160  0.01581055
+6:    bbbee_draft_2026                    omit_MTNZF:XJSE:EQU   159  0.01512037
+            se p_value     ci_lower   ci_upper
+         <num>   <num>        <num>      <num>
+1: 0.019857416  0.1894 -0.055453464 0.02398828
+2: 0.017911742  0.1814 -0.055185333 0.01701734
+3: 0.017943104  0.1804 -0.055397333 0.01702746
+4: 0.005406098  0.0134  0.004997485 0.02632313
+5: 0.005335953  0.0136  0.005060916 0.02606207
+6: 0.005040685  0.0112  0.005379473 0.02565350

@@ -1,0 +1,2 @@
+event_id,window,group,n,n_mining,n_control,estimate,se,ci_lower,ci_upper,p_value,null_dates,block_length,replications,method,status,specification,placebo_date,classification_caveat,interval_excludes_zero,p_rejects
+bbbee_draft_2026,primary,all,158,0,0,-0.00917107553009186,0.00470673607893943,-0.0214485121576645,-0.000733928034784998,0.05,221.0,5,4999,synchronous_residual_moving_blocks_with_firm_refit_error,ok,refitted_pseudo_event,2025-01-31,Original event snapshot frozen; not pseudo-date exposure evidence,True,False

@@ -1,0 +1,5 @@
+event_id,anchor_date,last_return_date,n_mining,n_control,estimate,method
+mining_charter_2018,2018-09-19,2018-09-20,16,128,0.0105269235287387,point estimates only; common constituents and baseline OLS coefficients frozen
+mining_charter_2018,2018-09-21,2018-09-25,16,128,0.0454682563105934,point estimates only; common constituents and baseline OLS coefficients frozen
+mining_charter_2018,2018-09-26,2018-09-27,16,128,-0.0358457575156003,point estimates only; common constituents and baseline OLS coefficients frozen
+mining_charter_2018,2018-09-27,2018-09-28,16,128,-0.0227495152803732,point estimates only; common constituents and baseline OLS coefficients frozen

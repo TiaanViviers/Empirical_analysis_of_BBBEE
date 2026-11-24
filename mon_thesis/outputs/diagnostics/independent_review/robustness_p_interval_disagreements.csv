@@ -1,0 +1,2 @@
+event_id,window,group,n,n_mining,n_control,estimate,se,ci_lower,ci_upper,p_value,null_dates,block_length,replications,method,status,specification,interval_excludes_zero,p_rejects
+mining_charter_2018,primary,mining_minus_non_mining,145,16,129,-0.036254867696295,0.0196955192127523,-0.0700002174889903,0.00832019658404883,0.0488,216,5,4999,synchronous_residual_moving_blocks_with_firm_refit_error,ok,previous_session,False,True

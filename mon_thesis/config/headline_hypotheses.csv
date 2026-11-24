@@ -1,0 +1,6 @@
+family_id,event_id,window,group
+part_a_five_events_v1,mining_charter_2017,primary,mining_minus_non_mining
+part_a_five_events_v1,mining_charter_2018,primary,mining_minus_non_mining
+part_a_five_events_v1,ee_draft_2023,primary,all
+part_a_five_events_v1,ee_final_2025,primary,all
+part_a_five_events_v1,bbbee_draft_2026,primary,all

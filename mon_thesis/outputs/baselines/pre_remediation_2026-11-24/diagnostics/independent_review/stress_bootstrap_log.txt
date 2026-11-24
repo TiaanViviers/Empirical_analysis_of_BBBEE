@@ -1,0 +1,22 @@
+Scenario iid_gaussian 
+Scenario ar_0.6_block5 
+Scenario ar_0.6_block10 
+Scenario student_t5 
+Scenario centered_lognormal 
+Scenario event_sd_doubled 
+             scenario simulations bootstrap_draws rejection_absolute
+               <char>       <int>           <int>              <num>
+1:       iid_gaussian         500             999              0.064
+2:      ar_0.6_block5         500             999              0.048
+3:     ar_0.6_block10         500             999              0.048
+4:         student_t5         500             999              0.056
+5: centered_lognormal         500             999              0.052
+6:   event_sd_doubled         500             999              0.342
+   rejection_equal_tail coverage_basic   mc_lower   mc_upper
+                  <num>          <num>      <num>      <num>
+1:                0.066          0.926 0.04569573 0.08895293
+2:                0.042          0.952 0.03246498 0.07042768
+3:                0.042          0.948 0.03246498 0.07042768
+4:                0.056          0.940 0.03902536 0.07974530
+5:                0.038          0.956 0.03573002 0.07510164
+6:                0.344          0.650 0.30176479 0.38464459

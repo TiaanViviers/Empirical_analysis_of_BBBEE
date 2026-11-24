@@ -1,0 +1,12 @@
+10:15:11 Validating immutable package and event register 
+10:15:15 Constructing and independently checking calendar-adjacent returns 
+10:15:25 Estimating mining_charter_2017 
+10:15:28 mining_charter_2017 169 estimation-eligible securities ; primary inference: ok; ok; ok; ok 
+10:15:28 Sensitivity mining_charter_2017 min_200 
+10:15:28 Sensitivity mining_charter_2017 market_adjusted 
+10:15:29 Sensitivity mining_charter_2017 next_session 
+10:15:30 Refitted placebo mining_charter_2017 2017-03-16 
+10:15:30 Refitted placebo mining_charter_2017 2017-04-20 
+10:15:31 Generating tables, figures and research handover 
+10:15:33 Balanced CAAR and pointwise intervals mining_charter_2017 
+10:15:47 Finished. Source fingerprints unchanged. See outputs/reports/part_a_preliminary_results.md 

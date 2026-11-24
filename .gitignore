@@ -1,0 +1,11 @@
+# Licensed source is already tracked: this does not remove existing records.
+mon_thesis/data/derived/
+mon_thesis/.venv-io/
+mon_thesis/renv/library/
+mon_thesis/renv/staging/
+mon_thesis/.RData
+mon_thesis/.Rhistory
+**/__pycache__/
+mon_thesis/.Rlib/
+mon_thesis/.renv-cache/
+mon_thesis/outputs/baselines/*/derived/

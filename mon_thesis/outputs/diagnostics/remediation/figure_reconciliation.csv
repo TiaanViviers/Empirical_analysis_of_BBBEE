@@ -1,0 +1,12 @@
+event_id,group,maximum_cumulative_error
+mining_charter_2017,all,5.0306980803327406e-17
+mining_charter_2017,mining,8.326672684688674e-17
+mining_charter_2017,non_mining,2.7755575615628914e-17
+mining_charter_2017,mining_minus_non_mining,4.85722573273506e-17
+mining_charter_2018,all,7.632783294297951e-17
+mining_charter_2018,mining,5.273559366969494e-16
+mining_charter_2018,non_mining,2.7755575615628914e-17
+mining_charter_2018,mining_minus_non_mining,4.579669976578771e-16
+ee_draft_2023,all,4.85722573273506e-17
+ee_final_2025,all,6.245004513516506e-17
+bbbee_draft_2026,all,4.85722573273506e-17

@@ -1,0 +1,6 @@
+event_id,attempted,valid,raw_rejections,minimum_policy_buffer,minimum_spacing,fit_contains_own_event,future_dates
+mining_charter_2017,10,10,1,32,22,5,6
+mining_charter_2018,10,10,0,38,23,0,0
+ee_draft_2023,10,10,2,34,26,0,0
+ee_final_2025,10,9,0,32,25,0,0
+bbbee_draft_2026,10,10,0,36,24,0,0

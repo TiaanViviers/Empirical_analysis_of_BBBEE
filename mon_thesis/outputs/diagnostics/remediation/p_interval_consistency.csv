@@ -1,0 +1,4 @@
+table,valid_rows,p_interval_disagreements
+event_study_inference,55,0
+robustness_summary,109,0
+placebo_results,45,0

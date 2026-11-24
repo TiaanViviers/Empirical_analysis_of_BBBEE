@@ -1,0 +1,6 @@
+event_id,window,group,n,n_mining,n_control,estimate,se,ci_lower,ci_upper,p_value,null_dates,block_length,replications,method,status,holm_primary_p,independent_holm
+mining_charter_2017,primary,mining_minus_non_mining,135,15,120,-0.0349431559843584,0.0251946374021514,-0.0925247973811189,0.00653683840416714,0.162,221,5,4999,synchronous_residual_moving_blocks_with_firm_refit_error,ok,0.648,0.648
+mining_charter_2018,primary,mining_minus_non_mining,146,16,130,-0.0218592366729301,0.0198574157212865,-0.0554534637147139,0.0239882817566151,0.1894,217,5,4999,synchronous_residual_moving_blocks_with_firm_refit_error,ok,0.648,0.648
+ee_draft_2023,primary,all,169,0,0,-0.00196685152906531,0.00556104480196668,-0.0125872595895524,0.00956642562417312,0.7056,221,5,4999,synchronous_residual_moving_blocks_with_firm_refit_error,ok,1.0,1.0
+ee_final_2025,primary,all,160,0,0,-0.00116406814984018,0.00466193913926896,-0.0132436219949833,0.00771521918096933,0.7842,221,5,4999,synchronous_residual_moving_blocks_with_firm_refit_error,ok,1.0,1.0
+bbbee_draft_2026,primary,all,160,0,0,0.0157757147495263,0.00540609813915073,0.00499748512821281,0.0263231304711716,0.0134,221,5,4999,synchronous_residual_moving_blocks_with_firm_refit_error,ok,0.067,0.067

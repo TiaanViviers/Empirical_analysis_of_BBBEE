@@ -1,0 +1,62 @@
+# Event-study inference
+
+All returns and intervals in fractional units. Headline family: five [0,+1] tests; Holm adjustment reserves all five even for a subset run.
+Mining events use mining-minus-non-mining; other events use the all-security portfolio.
+
+| event_id | window | group | n | n_mining | n_control | estimate | se | ci_lower | ci_upper | p_value | null_dates | block_length | replications | method | status | holm_primary_p |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| mining_charter_2017 | primary | all | 168 | 0 | 0 | -0.01318 | 0.00461 | -0.02176 | -0.00345 | 0.0034 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | primary | mining | 15 | 15 | 0 | -0.04438 | 0.02258 | -0.09383 | -0.00514 | 0.0462 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | primary | non_mining | 120 | 0 | 120 | -0.00944 | 0.00587 | -0.01920 | 0.00555 | 0.0882 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | primary | mining_minus_non_mining | 135 | 15 | 120 | -0.03494 | 0.02519 | -0.09252 | 0.00654 | 0.1620 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | 0.648 |
+| mining_charter_2017 | short | all | 167 | 0 | 0 | -0.01291 | 0.00783 | -0.02688 | 0.00346 | 0.0962 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | short | mining | 15 | 15 | 0 | -0.05151 | 0.03848 | -0.13812 | 0.01320 | 0.1672 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | short | non_mining | 119 | 0 | 119 | -0.00680 | 0.00971 | -0.02229 | 0.01750 | 0.4392 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | short | mining_minus_non_mining | 134 | 15 | 119 | -0.04472 | 0.04174 | -0.13786 | 0.02413 | 0.2726 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | week | all | 166 | 0 | 0 | -0.01959 | 0.00864 | -0.03436 | -0.00122 | 0.0254 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | week | mining | 15 | 15 | 0 | -0.04391 | 0.04226 | -0.13761 | 0.02954 | 0.2878 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | week | non_mining | 119 | 0 | 119 | -0.01647 | 0.01097 | -0.03370 | 0.01141 | 0.1036 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | week | mining_minus_non_mining | 134 | 15 | 119 | -0.02744 | 0.04720 | -0.13196 | 0.05022 | 0.5836 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | anticipation | all | 166 | 0 | 0 | 0.00655 | 0.01102 | -0.01343 | 0.02929 | 0.5442 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | anticipation | mining | 15 | 15 | 0 | 0.01491 | 0.05832 | -0.11130 | 0.11437 | 0.8048 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | anticipation | non_mining | 118 | 0 | 118 | 0.00684 | 0.01451 | -0.01610 | 0.04137 | 0.6200 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | anticipation | mining_minus_non_mining | 133 | 15 | 118 | 0.00808 | 0.06360 | -0.13344 | 0.11591 | 0.8956 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | plot | all | 164 | 0 | 0 | -0.00522 | 0.01723 | -0.03682 | 0.03017 | 0.7658 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | plot | mining | 15 | 15 | 0 | 0.01285 | 0.08417 | -0.16206 | 0.16811 | 0.8708 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | plot | non_mining | 117 | 0 | 117 | -0.00668 | 0.02208 | -0.04379 | 0.04262 | 0.7512 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2017 | plot | mining_minus_non_mining | 132 | 15 | 117 | 0.01952 | 0.09205 | -0.17718 | 0.18530 | 0.8302 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | primary | all | 176 | 0 | 0 | 0.00493 | 0.00809 | -0.01196 | 0.01784 | 0.3814 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | primary | mining | 16 | 16 | 0 | -0.01496 | 0.01614 | -0.04544 | 0.01638 | 0.3354 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | primary | non_mining | 130 | 0 | 130 | 0.00690 | 0.01034 | -0.00759 | 0.02154 | 0.2586 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | primary | mining_minus_non_mining | 146 | 16 | 130 | -0.02186 | 0.01986 | -0.05545 | 0.02399 | 0.1894 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | 0.648 |
+| mining_charter_2018 | short | all | 175 | 0 | 0 | 0.00995 | 0.01437 | -0.03377 | 0.03153 | 0.3316 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | short | mining | 16 | 16 | 0 | 0.01558 | 0.02496 | -0.03231 | 0.06705 | 0.5170 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | short | non_mining | 129 | 0 | 129 | 0.00894 | 0.01774 | -0.03758 | 0.03262 | 0.4368 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | short | mining_minus_non_mining | 145 | 16 | 129 | 0.00664 | 0.03202 | -0.05027 | 0.07765 | 0.8126 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | week | all | 176 | 0 | 0 | 0.00243 | 0.01549 | -0.04625 | 0.02701 | 0.8152 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | week | mining | 16 | 16 | 0 | 0.03635 | 0.02811 | -0.01815 | 0.09349 | 0.1942 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | week | non_mining | 130 | 0 | 130 | 0.00064 | 0.02100 | -0.08389 | 0.02879 | 0.9594 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | week | mining_minus_non_mining | 146 | 16 | 130 | 0.03571 | 0.03601 | -0.03122 | 0.12642 | 0.2472 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | anticipation | all | 174 | 0 | 0 | -0.00114 | 0.02197 | -0.06671 | 0.03195 | 0.9410 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | anticipation | mining | 16 | 16 | 0 | 0.08943 | 0.03624 | 0.02259 | 0.16266 | 0.0152 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | anticipation | non_mining | 128 | 0 | 128 | -0.01444 | 0.02641 | -0.10462 | 0.02071 | 0.4340 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | anticipation | mining_minus_non_mining | 144 | 16 | 128 | 0.10387 | 0.04712 | 0.01858 | 0.21933 | 0.0436 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | plot | all | 173 | 0 | 0 | 0.01241 | 0.03090 | -0.06306 | 0.06397 | 0.6294 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | plot | mining | 16 | 16 | 0 | 0.17522 | 0.05352 | 0.07031 | 0.28188 | 0.0008 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | plot | non_mining | 128 | 0 | 128 | -0.00965 | 0.03947 | -0.11188 | 0.05012 | 0.7508 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| mining_charter_2018 | plot | mining_minus_non_mining | 144 | 16 | 128 | 0.18487 | 0.06988 | 0.06210 | 0.33572 | 0.0126 | 217 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_draft_2023 | primary | all | 169 | 0 | 0 | -0.00197 | 0.00556 | -0.01259 | 0.00957 | 0.7056 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | 1.000 |
+| ee_draft_2023 | short | all | 166 | 0 | 0 | -0.01363 | 0.00880 | -0.03095 | 0.00390 | 0.1218 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_draft_2023 | week | all | 164 | 0 | 0 | -0.01328 | 0.00964 | -0.03230 | 0.00707 | 0.1674 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_draft_2023 | anticipation | all | 161 | 0 | 0 | -0.01826 | 0.01243 | -0.04294 | 0.00641 | 0.1434 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_draft_2023 | plot | all | 157 | 0 | 0 | -0.01931 | 0.01820 | -0.05440 | 0.01686 | 0.2768 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_final_2025 | primary | all | 160 | 0 | 0 | -0.00116 | 0.00466 | -0.01324 | 0.00772 | 0.7842 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | 1.000 |
+| ee_final_2025 | short | all | 158 | 0 | 0 | 0.00141 | 0.00779 | -0.01698 | 0.01626 | 0.8420 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_final_2025 | week | all | 157 | 0 | 0 | 0.00388 | 0.00867 | -0.01506 | 0.02019 | 0.6224 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_final_2025 | anticipation | all | 159 | 0 | 0 | -0.01482 | 0.01130 | -0.03860 | 0.00697 | 0.1832 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| ee_final_2025 | plot | all | 155 | 0 | 0 | -0.00048 | 0.01678 | -0.03417 | 0.03136 | 0.9762 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| bbbee_draft_2026 | primary | all | 160 | 0 | 0 | 0.01578 | 0.00541 | 0.00500 | 0.02632 | 0.0134 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | 0.067 |
+| bbbee_draft_2026 | short | all | 159 | 0 | 0 | 0.01460 | 0.00807 | -0.00015 | 0.03103 | 0.0648 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| bbbee_draft_2026 | week | all | 158 | 0 | 0 | 0.02034 | 0.00933 | 0.00308 | 0.03996 | 0.0344 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| bbbee_draft_2026 | anticipation | all | 157 | 0 | 0 | -0.00439 | 0.01175 | -0.02628 | 0.02042 | 0.6952 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |
+| bbbee_draft_2026 | plot | all | 155 | 0 | 0 | 0.01402 | 0.01665 | -0.01654 | 0.04717 | 0.4066 | 221 | 5 | 4999 | synchronous_residual_moving_blocks_with_firm_refit_error | ok | NA |

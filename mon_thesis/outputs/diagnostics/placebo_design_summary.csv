@@ -1,0 +1,6 @@
+event_id,target,selected,shortfall,own_event_excluded_from_fit,classification_status
+mining_charter_2017,10,6,4,TRUE,frozen event snapshot; historical pseudo-date availability not verified
+mining_charter_2018,10,10,0,TRUE,frozen event snapshot; historical pseudo-date availability not verified
+ee_draft_2023,10,10,0,TRUE,frozen event snapshot; historical pseudo-date availability not verified
+ee_final_2025,10,10,0,TRUE,frozen event snapshot; historical pseudo-date availability not verified
+bbbee_draft_2026,10,10,0,TRUE,frozen event snapshot; historical pseudo-date availability not verified

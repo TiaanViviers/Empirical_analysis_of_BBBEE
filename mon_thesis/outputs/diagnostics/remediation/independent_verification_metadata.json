@@ -1,0 +1,19 @@
+{
+  "run_time_utc": "2026-11-24T08:14:23.074180+00:00",
+  "numpy": "2.5.5",
+  "pandas": "3.1.1",
+  "pyarrow": "26.0.1",
+  "sha256": {
+    "data/derived/returns_daily.parquet": "80402d51eb032570d36f5e1a7b79417b87f591769f0c1fb9047866c6f524ed9e",
+    "data/derived/event_samples.parquet": "76cb15f5818e16a86b1470d5dfe0b536b012409a35a6e54c864b7e271090e6ca",
+    "data/derived/market_model_estimates.parquet": "f543fa44812af579f2c53144f392633b758abd41c34cc236f2653697a90eed11",
+    "data/derived/firm_event_cars.parquet": "b8cef7dad9c1aa2e3af49ce1e67906878dd085a8835dc7258ed13200ec473dce",
+    "data/derived/abnormal_returns.parquet": "f2e9939471072a3ec95d2eb17e829e7e495a33060ce22bcd53ee591954772748",
+    "data/derived/daily_event_aggregates.parquet": "5816e441a0088fcac3562848f7a8d4eb4461cc7490747bc224e5ecafed091ce5",
+    "outputs/tables/event_study_inference.csv": "189aa8fb83dfb557b7f7885e68996f0ea48748b641dde727cfe39159f353d744",
+    "outputs/tables/headline_results_percent.csv": "a006103052599bfa596e4d5f41add06f345f4d1e1aed44ae77ea1faa24be5a23",
+    "research/corporate_actions_v1.csv": "4745afc58746d94510f0c93fa9a02bd88bb4d11753bdbcadfc784544ca24a248",
+    "config/analysis.yml": "4aa2ef068782dd4a95e950252a7cd4a7a25d1cbdef651f5bc4a091c703820877",
+    "review/remediation/verify_corrected.py": "c9497930230cbd14a91421e655d161902a43df1600096fddc8ae88937cea9833"
+  }
+}

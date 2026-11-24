@@ -1,0 +1,6 @@
+event_id,null_dates,pre_daily_residual_sd,pre_early_sd,pre_late_sd,event_max_absolute_aar,event_max_aar_over_pre_sd,event_market_max_abs,caveat
+mining_charter_2017,221,0.0167480151507563,0.0175893926970344,0.0158725824078259,0.0240993828353407,1.43893963663226,0.0154235854696727,two event days do not identify an event variance; these are descriptive diagnostics
+mining_charter_2018,217,0.0123382364753724,0.013243747082628,0.0113110118941289,0.0320765929003819,2.59977128533792,0.010280686899363,two event days do not identify an event variance; these are descriptive diagnostics
+ee_draft_2023,221,0.00396969743904194,0.00407357818876851,0.00386575178526465,0.000998027122581401,0.251411382833818,0.0173128463439429,two event days do not identify an event variance; these are descriptive diagnostics
+ee_final_2025,221,0.00317866147127275,0.00339736009002079,0.0027937444653012,0.00102573391382714,0.322693663070837,0.00907029095064082,two event days do not identify an event variance; these are descriptive diagnostics
+bbbee_draft_2026,221,0.00373297928236003,0.00388512151920932,0.00359046032180576,0.0137451904891115,3.68209664437827,0.0415440177285135,two event days do not identify an event variance; these are descriptive diagnostics

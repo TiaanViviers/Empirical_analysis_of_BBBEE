@@ -1,0 +1,2 @@
+event_id,instrument_id,alpha_before,beta_before,n_before,sigma_before,r_squared_before,model_ok_before,alpha_after,beta_after,n_after,sigma_after,r_squared_after,model_ok_after
+mining_charter_2018,RNI:XJSE:EQU,0.0395963398255267,2.84719049669928,221,0.597084037809938,0.00194236292841354,TRUE,-0.000361680339805683,0.239084166639192,221,0.014778808543173,0.0219086113353902,TRUE
