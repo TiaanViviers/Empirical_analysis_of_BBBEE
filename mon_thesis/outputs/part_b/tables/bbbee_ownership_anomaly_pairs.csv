@@ -1,0 +1,11 @@
+series_id,reporting_year,sector_original,ownership_measure,female_measure,female_pct,female_published_value,female_quality_flag,contextual_sample_n,source_id,source_table,source_page_pdf,overall_pct,overall_published_value,in_primary_period
+"retro_2026",2015,"Financial Services","black_economic_interest","black_female_economic_interest",29,"29,00%","female_average_exceeds_overall_unresolved;small_context_sample_lt30",15,"retro_2026","81",125,5.26,"5,26%",FALSE
+"retro_2026",2015,"Financial Services","black_voting_rights","black_female_voting_rights",26.07,"26,07%","female_average_exceeds_overall_unresolved;small_context_sample_lt30",15,"retro_2026","81",125,5.44,"5,44%",FALSE
+"retro_2026",2016,"Financial Services","black_voting_rights","black_female_voting_rights",3.44,"3,44%","female_average_exceeds_overall_unresolved;small_context_sample_lt30",9,"retro_2026","81",125,3.15,"3,15%",TRUE
+"retro_2026",2016,"Generic","black_economic_interest","black_female_economic_interest",21.62,"21,62%","female_average_exceeds_overall_unresolved",414,"retro_2026","42",95,19.85,"19,85%",TRUE
+"retro_2026",2017,"Construction","black_economic_interest","black_female_economic_interest",16.13,"16,13%","female_average_exceeds_overall_unresolved;small_context_sample_lt30",23,"retro_2026","88",132,11.36,"11,36%",TRUE
+"retro_2026",2019,"Agri-BEE","black_economic_interest","black_female_economic_interest",5.78,"5,78%","female_average_exceeds_overall_unresolved",60,"retro_2026","74",120,4.87,"4,87%",TRUE
+"retro_2026",2020,"Agri-BEE","black_economic_interest","black_female_economic_interest",14.66,"14,66%","female_average_exceeds_overall_unresolved",63,"retro_2026","74",120,9.39,"9,39%",TRUE
+"retro_2026",2020,"Financial Services","black_economic_interest","black_female_economic_interest",22.89,"22,89%","female_average_exceeds_overall_unresolved",81,"retro_2026","81",125,13.32,"13,32%",TRUE
+"retro_2026",2020,"Tourism","black_economic_interest","black_female_economic_interest",23.56,"23,56%","female_average_exceeds_overall_unresolved",63,"retro_2026","67",113,6.55,"6,55%",TRUE
+"retro_2026",2021,"Tourism","black_economic_interest","black_female_economic_interest",14.38,"14,38%","female_average_exceeds_overall_unresolved",52,"retro_2026","67",113,11.25,"11,25%",TRUE

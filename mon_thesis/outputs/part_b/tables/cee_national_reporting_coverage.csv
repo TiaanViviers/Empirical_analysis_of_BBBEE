@@ -1,0 +1,11 @@
+sector_original,reports_received,employees_covered,reporting_year,geographic_scope,source_id,source_page_pdf,source_table,quality_flag,reporting_population,sector_standardised,employer_eligibility_definition,source_sector_fragment,sector_row_number,comparability_flag
+NA,26255,7071449,2016,"National","cee_17th",25,"Table 3","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,27163,7299428,2017,"National","cee_20th",23,"Table 4 retrospective","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,27485,7415876,2018,"National","cee_20th",23,"Table 4 retrospective","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,27127,7332072,2019,"National","cee_20th",23,"Table 4","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,26635,7056059,2020,"National","cee_21st",36,"Table 8","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,27017,7079355,2021,"National","cee_22nd",32,"Table 6","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,27532,7215960,2022,"National","cee_25th",29,"Table 3","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,28015,7382213,2023,"National","cee_25th",29,"Table 3","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,29269,7699665,2024,"National","cee_25th",29,"Table 3","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,NA
+NA,15090,6896041,2025,"National","cee_26th",35,"Table 3","text_checked_visual_review_pending","All reporting employers",NA,NA,NA,NA,"2025_reporting_regime_break"

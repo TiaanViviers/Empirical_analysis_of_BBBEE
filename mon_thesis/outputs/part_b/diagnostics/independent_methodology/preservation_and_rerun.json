@@ -1,0 +1,25 @@
+{
+  "part_a_outputs": {
+    "before_files": 330,
+    "after_files": 330,
+    "before_manifest_sha256": "964c997f7dd0bdb0b62e62f2b48e0b661ed5f00582870f898624c3c2381606dd",
+    "after_manifest_sha256": "964c997f7dd0bdb0b62e62f2b48e0b661ed5f00582870f898624c3c2381606dd",
+    "added": [],
+    "removed": [],
+    "content_changed": []
+  },
+  "part_b_collection": {
+    "before_files": 60,
+    "after_files": 60,
+    "before_manifest_sha256": "804f9bda4aed279f881b58e4f89c34e10c21067993f29b8f565d97f0e3a959c2",
+    "after_manifest_sha256": "804f9bda4aed279f881b58e4f89c34e10c21067993f29b8f565d97f0e3a959c2",
+    "added": [],
+    "removed": [],
+    "content_changed": []
+  },
+  "part_b_rerun": {
+    "generated_files": 33,
+    "identical_bytes": 30,
+    "identical_pdf_renders": 3
+  }
+}

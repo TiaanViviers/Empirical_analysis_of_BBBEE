@@ -1,0 +1,90 @@
+check,status
+All reviewed analysis inputs exist,pass
+Cairo graphics is available for vector PDF export,pass
+CEE primary national management has complete and unique keys,pass
+CEE primary national management has the expected coverage,pass
+CEE 2016 national baseline retains retrospective count source and flag,pass
+CEE 2025 national management has complete and unique keys,pass
+CEE 2025 national management has the expected coverage,pass
+CEE 2025 is reported with the separate regime flag,pass
+CEE sector input uses only the detailed classification,pass
+CEE detailed-sector label reference has complete and unique keys,pass
+CEE detailed-sector mapping has complete and unique keys,pass
+CEE detailed-sector mapping has the expected coverage,pass
+CEE agrees with the exact reviewed reference for 2023,pass
+CEE agrees with the exact reviewed reference for 2024,pass
+CEE detailed sector management has complete and unique keys,pass
+CEE detailed sector management has the expected coverage,pass
+Selected CEE management has complete and unique keys,pass
+Selected CEE demographic cells has complete and unique keys,pass
+CEE demographic inputs have count and category coverage,pass
+CEE ten demographic cells and full occupation denominators reconcile,pass
+CEE black and black female counts and shares reproduce from the raw cells,pass
+CEE 2019 published sector counts remain 31 top and 256 senior managers below national,pass
+CEE national EAP has complete and unique keys,pass
+CEE national EAP has the expected coverage,pass
+CEE national EAP retains Q3 reference years and reported shares,pass
+CEE derived EAP benchmarks have one bounded observation per year,pass
+CEE national reporting coverage has complete and unique keys,pass
+CEE national reporting coverage has the expected coverage,pass
+CEE 2023 national coverage is retained despite the sector total discrepancy,pass
+CEE coverage reproduces the 2025 reporting break,pass
+CEE management change and level-gap tables are complete with correct percentage-point units,pass
+Retrospective ownership has complete and unique keys,pass
+Ownership includes all four measures with ownership-specific counts and weights unavailable,pass
+Retrospective ownership preserves the single blank in Property 2013,pass
+National ownership has complete and unique keys,pass
+National ownership has the expected coverage,pass
+Ownership primary years have ten published code groups with MAC starting in 2017,pass
+Primary ownership percentages match the printed values,pass
+Ownership anomaly audit matches ten female observations to their overall values,pass
+Matched ownership anomaly pairs has complete and unique keys,pass
+Anomaly sensitivity exclusions has complete and unique keys,pass
+Pair exclusion masks both measures in eight pairs and leaves all national values intact,pass
+No ownership change is calculated for a missing fixed endpoint,pass
+Ownership change calculations reproduce the four published national comparisons,pass
+Ownership changes for every retained fixed-endpoint comparison are identical,pass
+Ownership figure uses all four code groups with available endpoints and at least 30 contextual entries at each,pass
+B-BBEE status levels has complete and unique keys,pass
+B-BBEE Levels 1–4 summary has complete and unique keys,pass
+The two excluded B-BBEE status distributions are exactly National 2018 and Financial Services 2016,pass
+B-BBEE retained level distributions keep all nine published categories,pass
+Valid level shares use the published status denominator and original dashes stay missing,pass
+All retained B-BBEE distributions with recorded counts reconcile to the printed total,pass
+"Levels 1–4 shares reproduce with zero inference confined to reconciled, published-zero dashes",pass
+EE reviewed sector reference has complete and unique keys,pass
+EE analysis uses only the 18 reviewed detailed sectors,pass
+Gazette 48589 BLACK draft targets has complete and unique keys,pass
+Gazette 48589 BLACK draft targets has the expected coverage,pass
+Gazette 48589 observed BLACK baseline has complete and unique keys,pass
+Gazette 48589 observed BLACK baseline has the expected coverage,pass
+Gazette 52514 final designated-group targets has complete and unique keys,pass
+Gazette 52514 final designated-group targets has the expected coverage,pass
+May 2023 BLACK targets preserves the published sex shares and totals,pass
+Gazette 2022 BLACK baseline preserves the published sex shares and totals,pass
+April 2025 designated-group targets preserves the published sex shares and totals,pass
+EE 2023 target and baseline pair one-to-one on the same gazette page and scale,pass
+EE 2025 targets use the matching reviewed gazette labels and final notice,pass
+"Signed 2023 shortfalls equal target minus published baseline, including negatives",pass
+The signed gender shortfalls add to the total shortfall within each sector and level,pass
+Supplementary CEE proxy has complete and unique keys,pass
+Supplementary CEE proxy has the expected coverage,pass
+Workforce year 2023 CEE proxy preserves the published sex shares and totals,pass
+Workforce year 2024 CEE proxy preserves the published sex shares and totals,pass
+Final targets join both qualified proxy years without expanding or dropping observations,pass
+QLFS Q3 Table B has complete and unique keys,pass
+QLFS Q3 Table B has the expected coverage,pass
+"QLFS original units, vintage and methodology flags are complete",pass
+"QLFS national totals use published Table B rows, independently of rounded industry estimates",pass
+Figure 1 CEE primary data has complete and unique keys,pass
+Figure 1 CEE primary data has the expected coverage,pass
+Figure 2 national economic-interest data has complete and unique keys,pass
+Figure 2 national economic-interest data has the expected coverage,pass
+Figure 2 selected code-group data has complete and unique keys,pass
+Figure 2 selected code-group data has the expected coverage,pass
+Figure 2 shows the published ownership values and marks three affected code-group observations,pass
+Figure 2 breaks the lines at flagged points while retaining every unflagged value,pass
+Figure 3 paired 2023 BLACK total target data has complete and unique keys,pass
+Figure 3 paired 2023 BLACK total target data has the expected coverage,pass
+Figure 3 plotted distances reproduce signed target-minus-baseline values,pass
+Processed inputs unchanged during analysis,pass

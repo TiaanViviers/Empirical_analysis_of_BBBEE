@@ -1,0 +1,971 @@
+{
+  "cee": {
+    "original_2016_sensitivity": [
+      {
+        "sector_id": "National",
+        "occupational_level": "Top management",
+        "indicator": "Black",
+        "start_year": 2016,
+        "end_year": 2024,
+        "start_pct": 28.252577577161,
+        "end_pct": 36.135874577313,
+        "change_pp": 7.883297000152,
+        "original_2016_total": 59695,
+        "original_2016_numerator": 16816,
+        "original_2016_pct": 28.169863472653,
+        "change_from_original_2016_pp": 7.966011104661,
+        "change_from_2017_pp": 7.310263516495,
+        "retrospective_printed_2016_pct": 28.1
+      },
+      {
+        "sector_id": "National",
+        "occupational_level": "Top management",
+        "indicator": "Black female",
+        "start_year": 2016,
+        "end_year": 2024,
+        "start_pct": 8.614687609308,
+        "end_pct": 13.744577654814,
+        "change_pp": 5.129890045507,
+        "original_2016_total": 59695,
+        "original_2016_numerator": 5130,
+        "original_2016_pct": 8.593684563196,
+        "change_from_original_2016_pp": 5.150893091618,
+        "change_from_2017_pp": 4.581545805584,
+        "retrospective_printed_2016_pct": 8.5
+      },
+      {
+        "sector_id": "National",
+        "occupational_level": "Senior management",
+        "indicator": "Black",
+        "start_year": 2016,
+        "end_year": 2024,
+        "start_pct": 39.902300530249,
+        "end_pct": 49.591565472119,
+        "change_pp": 9.68926494187,
+        "original_2016_total": 142863,
+        "original_2016_numerator": 56851,
+        "original_2016_pct": 39.794068443194,
+        "change_from_original_2016_pp": 9.797497028926,
+        "change_from_2017_pp": 8.884715522842,
+        "retrospective_printed_2016_pct": 40.0
+      },
+      {
+        "sector_id": "National",
+        "occupational_level": "Senior management",
+        "indicator": "Black female",
+        "start_year": 2016,
+        "end_year": 2024,
+        "start_pct": 14.357090170209,
+        "end_pct": 20.401724071182,
+        "change_pp": 6.044633900974,
+        "original_2016_total": 142863,
+        "original_2016_numerator": 20436,
+        "original_2016_pct": 14.304613510846,
+        "change_from_original_2016_pp": 6.097110560336,
+        "change_from_2017_pp": 5.402098534168,
+        "retrospective_printed_2016_pct": 14.5
+      }
+    ],
+    "sector_weight_sensitivity": [
+      {
+        "level": "Top management",
+        "indicator": "Black",
+        "sector_total_2019": 58532,
+        "national_total_2019": 58563,
+        "sector_total_2024": 58554,
+        "national_total_2024": 58554,
+        "national_less_pooled_2019_pp": 0.000636937376,
+        "national_change_pp": 5.080430013339,
+        "sector_pooled_change_pp": 5.081066950716,
+        "sector_change_fixed_2019_weights_pp": 4.748797447497
+      },
+      {
+        "level": "Top management",
+        "indicator": "Black female",
+        "sector_total_2019": 58532,
+        "national_total_2019": 58563,
+        "sector_total_2024": 58554,
+        "national_total_2024": 58554,
+        "national_less_pooled_2019_pp": 0.001195136422,
+        "national_change_pp": 3.097923624112,
+        "sector_pooled_change_pp": 3.099118760534,
+        "sector_change_fixed_2019_weights_pp": 3.01894605859
+      },
+      {
+        "level": "Senior management",
+        "indicator": "Black",
+        "sector_total_2019": 145066,
+        "national_total_2019": 145322,
+        "sector_total_2024": 154982,
+        "national_total_2024": 154982,
+        "national_less_pooled_2019_pp": -0.020567250862,
+        "national_change_pp": 6.686843544263,
+        "sector_pooled_change_pp": 6.666276293401,
+        "sector_change_fixed_2019_weights_pp": 6.511322377938
+      },
+      {
+        "level": "Senior management",
+        "indicator": "Black female",
+        "sector_total_2019": 145066,
+        "national_total_2019": 145322,
+        "sector_total_2024": 154982,
+        "national_total_2024": 154982,
+        "national_less_pooled_2019_pp": -0.004091250383,
+        "national_change_pp": 4.02085950835,
+        "sector_pooled_change_pp": 4.016768257966,
+        "sector_change_fixed_2019_weights_pp": 3.96784880304
+      }
+    ],
+    "sector_directions": [
+      {
+        "level": "Top management",
+        "indicator": "Black",
+        "positive": 15,
+        "negative": [
+          "administrative_support",
+          "arts_recreation",
+          "real_estate"
+        ],
+        "zero": 0,
+        "largest_gain": {
+          "sector_id": "water_waste",
+          "occupational_level": "Top management",
+          "indicator": "Black",
+          "start_year": 2019,
+          "end_year": 2024,
+          "start_pct": 58.28025477707,
+          "end_pct": 69.758576874206,
+          "change_pp": 11.478322097136
+        }
+      },
+      {
+        "level": "Top management",
+        "indicator": "Black female",
+        "positive": 18,
+        "negative": [],
+        "zero": 0,
+        "largest_gain": {
+          "sector_id": "public_administration",
+          "occupational_level": "Top management",
+          "indicator": "Black female",
+          "start_year": 2019,
+          "end_year": 2024,
+          "start_pct": 23.478260869565,
+          "end_pct": 29.450549450549,
+          "change_pp": 5.972288580984
+        }
+      },
+      {
+        "level": "Senior management",
+        "indicator": "Black",
+        "positive": 17,
+        "negative": [
+          "arts_recreation"
+        ],
+        "zero": 0,
+        "largest_gain": {
+          "sector_id": "transport_storage",
+          "occupational_level": "Senior management",
+          "indicator": "Black",
+          "start_year": 2019,
+          "end_year": 2024,
+          "start_pct": 39.379175946548,
+          "end_pct": 56.375435644754,
+          "change_pp": 16.996259698206
+        }
+      },
+      {
+        "level": "Senior management",
+        "indicator": "Black female",
+        "positive": 18,
+        "negative": [],
+        "zero": 0,
+        "largest_gain": {
+          "sector_id": "health_social_work",
+          "occupational_level": "Senior management",
+          "indicator": "Black female",
+          "start_year": 2019,
+          "end_year": 2024,
+          "start_pct": 26.775171533429,
+          "end_pct": 33.661655434595,
+          "change_pp": 6.886483901166
+        }
+      }
+    ],
+    "largest_2024_printed_share_differences": [
+      {
+        "year": 2024,
+        "sector": "education",
+        "level": "Senior management",
+        "measure": "black",
+        "count_less_printed_pp": -0.17106017192
+      },
+      {
+        "year": 2024,
+        "sector": "accommodation_food",
+        "level": "Senior management",
+        "measure": "black_female",
+        "count_less_printed_pp": 0.122013903518
+      },
+      {
+        "year": 2024,
+        "sector": "real_estate",
+        "level": "Senior management",
+        "measure": "black",
+        "count_less_printed_pp": 0.119612590799
+      },
+      {
+        "year": 2024,
+        "sector": "accommodation_food",
+        "level": "Senior management",
+        "measure": "black",
+        "count_less_printed_pp": 0.111544133137
+      }
+    ],
+    "eap_2024": {
+      "black_eap_pct": 92.5,
+      "black_female_eap_pct": 42.7
+    },
+    "sector_employee_sum_2023": 7382513,
+    "coverage": [
+      {
+        "reporting_year": "2022",
+        "reports_received": 27532,
+        "employees_covered": 7215960
+      },
+      {
+        "reporting_year": "2023",
+        "reports_received": 28015,
+        "employees_covered": 7382213
+      },
+      {
+        "reporting_year": "2024",
+        "reports_received": 29269,
+        "employees_covered": 7699665
+      },
+      {
+        "reporting_year": "2025",
+        "reports_received": 15090,
+        "employees_covered": 6896041
+      },
+      {
+        "reporting_year": "2016",
+        "reports_received": 26255,
+        "employees_covered": 7071449
+      },
+      {
+        "reporting_year": "2017",
+        "reports_received": 27163,
+        "employees_covered": 7299428
+      },
+      {
+        "reporting_year": "2018",
+        "reports_received": 27485,
+        "employees_covered": 7415876
+      },
+      {
+        "reporting_year": "2019",
+        "reports_received": 27127,
+        "employees_covered": 7332072
+      },
+      {
+        "reporting_year": "2020",
+        "reports_received": 26635,
+        "employees_covered": 7056059
+      },
+      {
+        "reporting_year": "2021",
+        "reports_received": 27017,
+        "employees_covered": 7079355
+      }
+    ]
+  },
+  "bbbee_ownership": {
+    "anomaly_pairs": [
+      {
+        "reporting_year": "2015",
+        "sector_original": "Financial Services",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 5.26,
+        "female_pct": 29.0,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": false
+      },
+      {
+        "reporting_year": "2015",
+        "sector_original": "Financial Services",
+        "ownership_measure": "black_voting_rights",
+        "overall_pct": 5.44,
+        "female_pct": 26.07,
+        "female_measure": "black_female_voting_rights",
+        "in_primary_period": false
+      },
+      {
+        "reporting_year": "2016",
+        "sector_original": "Financial Services",
+        "ownership_measure": "black_voting_rights",
+        "overall_pct": 3.15,
+        "female_pct": 3.44,
+        "female_measure": "black_female_voting_rights",
+        "in_primary_period": true
+      },
+      {
+        "reporting_year": "2016",
+        "sector_original": "Generic",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 19.85,
+        "female_pct": 21.62,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": true
+      },
+      {
+        "reporting_year": "2017",
+        "sector_original": "Construction",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 11.36,
+        "female_pct": 16.13,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": true
+      },
+      {
+        "reporting_year": "2019",
+        "sector_original": "Agri-BEE",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 4.87,
+        "female_pct": 5.78,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": true
+      },
+      {
+        "reporting_year": "2020",
+        "sector_original": "Agri-BEE",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 9.39,
+        "female_pct": 14.66,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": true
+      },
+      {
+        "reporting_year": "2020",
+        "sector_original": "Financial Services",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 13.32,
+        "female_pct": 22.89,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": true
+      },
+      {
+        "reporting_year": "2020",
+        "sector_original": "Tourism",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 6.55,
+        "female_pct": 23.56,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": true
+      },
+      {
+        "reporting_year": "2021",
+        "sector_original": "Tourism",
+        "ownership_measure": "black_economic_interest",
+        "overall_pct": 11.25,
+        "female_pct": 14.38,
+        "female_measure": "black_female_economic_interest",
+        "in_primary_period": true
+      }
+    ],
+    "directions": [
+      {
+        "ownership_measure": "black_economic_interest",
+        "published_sectors": 9,
+        "published_increases": 9,
+        "pair_excluded_sectors": 8,
+        "pair_excluded_increases": 8,
+        "common_endpoint_increases": 8
+      },
+      {
+        "ownership_measure": "black_female_economic_interest",
+        "published_sectors": 9,
+        "published_increases": 8,
+        "pair_excluded_sectors": 8,
+        "pair_excluded_increases": 8,
+        "common_endpoint_increases": 8
+      },
+      {
+        "ownership_measure": "black_female_voting_rights",
+        "published_sectors": 9,
+        "published_increases": 9,
+        "pair_excluded_sectors": 8,
+        "pair_excluded_increases": 8,
+        "common_endpoint_increases": 8
+      },
+      {
+        "ownership_measure": "black_voting_rights",
+        "published_sectors": 9,
+        "published_increases": 8,
+        "pair_excluded_sectors": 8,
+        "pair_excluded_increases": 7,
+        "common_endpoint_increases": 7
+      }
+    ],
+    "code_figure_context_count_sensitivity": {
+      "0": [
+        "Agri-BEE",
+        "Construction",
+        "Financial Services",
+        "Forestry",
+        "ICT",
+        "Property",
+        "Tourism",
+        "Transport"
+      ],
+      "10": [
+        "Agri-BEE",
+        "Construction",
+        "ICT",
+        "Property",
+        "Tourism",
+        "Transport"
+      ],
+      "20": [
+        "Construction",
+        "ICT",
+        "Tourism",
+        "Transport"
+      ],
+      "30": [
+        "Construction",
+        "ICT",
+        "Tourism",
+        "Transport"
+      ],
+      "32": [
+        "Construction",
+        "ICT",
+        "Transport"
+      ],
+      "36": [
+        "Construction",
+        "ICT"
+      ],
+      "50": [
+        "ICT"
+      ]
+    },
+    "national_coverage": {
+      "2016": {
+        "EME": 78,
+        "QSE": 394,
+        "Large": 110,
+        "Unknown": 338,
+        "Grand Total": 920
+      },
+      "2023": {
+        "EME": 461,
+        "QSE": 1688,
+        "Large": 1965,
+        "Unknown": 29,
+        "Grand Total": 4143
+      }
+    }
+  },
+  "bbbee_status": {
+    "invalid_distributions": [
+      {
+        "reporting_year": 2016,
+        "sector_original": "Financial Services",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "published_total": 10.0,
+        "sum_level_counts": 9.0
+      },
+      {
+        "reporting_year": 2018,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "published_total": 2605.0,
+        "sum_level_counts": 2473.0
+      }
+    ],
+    "valid_count_dashes": 70,
+    "levels_1_to_4_zero_inferences": [
+      [
+        2016,
+        "Forestry"
+      ],
+      [
+        2016,
+        "Property"
+      ],
+      [
+        2017,
+        "Forestry"
+      ],
+      [
+        2017,
+        "Tourism"
+      ],
+      [
+        2018,
+        "Forestry"
+      ],
+      [
+        2018,
+        "MAC"
+      ],
+      [
+        2018,
+        "Property"
+      ],
+      [
+        2019,
+        "Agri-BEE"
+      ],
+      [
+        2019,
+        "Financial Services"
+      ],
+      [
+        2019,
+        "Forestry"
+      ],
+      [
+        2019,
+        "Property"
+      ],
+      [
+        2019,
+        "Tourism"
+      ],
+      [
+        2020,
+        "Agri-BEE"
+      ],
+      [
+        2020,
+        "Forestry"
+      ],
+      [
+        2020,
+        "Property"
+      ],
+      [
+        2021,
+        "Property"
+      ],
+      [
+        2023,
+        "Tourism"
+      ]
+    ],
+    "national_levels_1_to_4": [
+      {
+        "reporting_year": 2016,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 66.776677667767,
+        "numerator": 607.0,
+        "denominator": 909.0
+      },
+      {
+        "reporting_year": 2017,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 44.208170117515,
+        "numerator": 790.0,
+        "denominator": 1787.0
+      },
+      {
+        "reporting_year": 2019,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 56.160071942446,
+        "numerator": 1249.0,
+        "denominator": 2224.0
+      },
+      {
+        "reporting_year": 2020,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 65.869715869716,
+        "numerator": 1901.0,
+        "denominator": 2886.0
+      },
+      {
+        "reporting_year": 2021,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 61.217466121747,
+        "numerator": 2846.0,
+        "denominator": 4649.0
+      },
+      {
+        "reporting_year": 2022,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 60.53873078679,
+        "numerator": 3978.0,
+        "denominator": 6571.0
+      },
+      {
+        "reporting_year": 2023,
+        "sector_original": "National",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 61.056989771067,
+        "numerator": 2507.0,
+        "denominator": 4106.0
+      }
+    ],
+    "selected_2023_levels_1_to_4": [
+      {
+        "reporting_year": 2023,
+        "sector_original": "Construction",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 81.679942070963,
+        "numerator": 1128.0,
+        "denominator": 1381.0
+      },
+      {
+        "reporting_year": 2023,
+        "sector_original": "Tourism",
+        "series_id": "retro_2026",
+        "entity_size": "All",
+        "analytical_value": 18.75,
+        "numerator": 9.0,
+        "denominator": 48.0
+      }
+    ]
+  },
+  "employment_equity": {
+    "draft_extremes": [
+      {
+        "level": "top_management",
+        "gender": "total",
+        "min_pp": 4.3,
+        "max_pp": 21.5,
+        "min_sectors": [
+          "administrative_support"
+        ],
+        "max_sectors": [
+          "accommodation_food"
+        ],
+        "positive": 18,
+        "zero": 0,
+        "negative": 0
+      },
+      {
+        "level": "top_management",
+        "gender": "male",
+        "min_pp": -2.5,
+        "max_pp": 12.4,
+        "min_sectors": [
+          "water_waste"
+        ],
+        "max_sectors": [
+          "education"
+        ],
+        "positive": 15,
+        "zero": 0,
+        "negative": 3
+      },
+      {
+        "level": "top_management",
+        "gender": "female",
+        "min_pp": 1.6,
+        "max_pp": 12.4,
+        "min_sectors": [
+          "administrative_support"
+        ],
+        "max_sectors": [
+          "public_administration"
+        ],
+        "positive": 18,
+        "zero": 0,
+        "negative": 0
+      },
+      {
+        "level": "senior_management",
+        "gender": "total",
+        "min_pp": 5.1,
+        "max_pp": 20.8,
+        "min_sectors": [
+          "health_social_work"
+        ],
+        "max_sectors": [
+          "education"
+        ],
+        "positive": 18,
+        "zero": 0,
+        "negative": 0
+      },
+      {
+        "level": "senior_management",
+        "gender": "male",
+        "min_pp": -2.0,
+        "max_pp": 10.7,
+        "min_sectors": [
+          "water_waste"
+        ],
+        "max_sectors": [
+          "information_communication",
+          "education"
+        ],
+        "positive": 17,
+        "zero": 0,
+        "negative": 1
+      },
+      {
+        "level": "senior_management",
+        "gender": "female",
+        "min_pp": -3.0,
+        "max_pp": 12.5,
+        "min_sectors": [
+          "health_social_work"
+        ],
+        "max_sectors": [
+          "water_waste"
+        ],
+        "positive": 17,
+        "zero": 0,
+        "negative": 1
+      }
+    ],
+    "final_target_ranges": {
+      "top_management": [
+        34.0,
+        91.7
+      ],
+      "senior_management": [
+        52.6,
+        95.9
+      ]
+    }
+  },
+  "qlfs": [
+    {
+      "observation_year": 2016,
+      "observation_period": "2016Q3",
+      "employment_persons": 15833000,
+      "publication_vintage": "2017Q3",
+      "comparability_flag": "mixed_publication_vintage",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": null,
+      "published_total_less_listed_industries": 6000
+    },
+    {
+      "observation_year": 2017,
+      "observation_period": "2017Q3",
+      "employment_persons": 16192000,
+      "publication_vintage": "2017Q3",
+      "comparability_flag": "mixed_publication_vintage",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": 359000,
+      "published_total_less_listed_industries": 3000
+    },
+    {
+      "observation_year": 2018,
+      "observation_period": "2018Q3",
+      "employment_persons": 16380000,
+      "publication_vintage": "2019Q3",
+      "comparability_flag": "mixed_publication_vintage",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": 188000,
+      "published_total_less_listed_industries": 10000
+    },
+    {
+      "observation_year": 2019,
+      "observation_period": "2019Q3",
+      "employment_persons": 16375000,
+      "publication_vintage": "2019Q3",
+      "comparability_flag": "mixed_publication_vintage",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": -5000,
+      "published_total_less_listed_industries": 4000
+    },
+    {
+      "observation_year": 2020,
+      "observation_period": "2020Q3",
+      "employment_persons": 14691000,
+      "publication_vintage": "2021Q3",
+      "comparability_flag": "mixed_vintage_pandemic_phone_collection",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": -1684000,
+      "published_total_less_listed_industries": 12000
+    },
+    {
+      "observation_year": 2021,
+      "observation_period": "2021Q3",
+      "employment_persons": 14282000,
+      "publication_vintage": "2021Q3",
+      "comparability_flag": "mixed_vintage_pandemic_phone_collection",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": -409000,
+      "published_total_less_listed_industries": 4000
+    },
+    {
+      "observation_year": 2022,
+      "observation_period": "2022Q3",
+      "employment_persons": 15765000,
+      "publication_vintage": "2023Q3",
+      "comparability_flag": "mixed_vintage_return_to_in_person_collection",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": 1483000,
+      "published_total_less_listed_industries": 15000
+    },
+    {
+      "observation_year": 2023,
+      "observation_period": "2023Q3",
+      "employment_persons": 16745000,
+      "publication_vintage": "2023Q3",
+      "comparability_flag": "mixed_publication_vintage",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": 980000,
+      "published_total_less_listed_industries": 10000
+    },
+    {
+      "observation_year": 2024,
+      "observation_period": "2024Q3",
+      "employment_persons": 16946000,
+      "publication_vintage": "2025Q3",
+      "comparability_flag": "mixed_publication_vintage",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": 201000,
+      "published_total_less_listed_industries": 3000
+    },
+    {
+      "observation_year": 2025,
+      "observation_period": "2025Q3",
+      "employment_persons": 17055000,
+      "publication_vintage": "2025Q3",
+      "comparability_flag": "mixed_vintage_2025_questionnaire_revision",
+      "industry_standardised": "national_total",
+      "change_from_prior_q3_persons": 109000,
+      "published_total_less_listed_industries": 11000
+    }
+  ],
+  "comparisons": {
+    "cee_sector_label_mapping": {
+      "rows": 126,
+      "fields_compared": 378,
+      "max_numeric_error": 0.0
+    },
+    "cee_national_management": {
+      "rows": 18,
+      "fields_compared": 144,
+      "max_numeric_error": 5.710856744654218e-14
+    },
+    "cee_sector_management": {
+      "rows": 216,
+      "fields_compared": 1944,
+      "max_numeric_error": 5.994719969828399e-14
+    },
+    "cee_management_2025_separate_regime": {
+      "rows": 38,
+      "fields_compared": 380,
+      "max_numeric_error": 6.169296987087518e-14
+    },
+    "cee_national_management_change": {
+      "rows": 4,
+      "fields_compared": 28,
+      "max_numeric_error": 5.710856744654218e-14
+    },
+    "cee_national_management_level_gaps": {
+      "rows": 18,
+      "fields_compared": 90,
+      "max_numeric_error": 5.710856744654218e-14
+    },
+    "cee_sector_management_change": {
+      "rows": 72,
+      "fields_compared": 576,
+      "max_numeric_error": 5.501905972045743e-14
+    },
+    "cee_sector_management_level_gaps": {
+      "rows": 216,
+      "fields_compared": 1296,
+      "max_numeric_error": 5.994719969828399e-14
+    },
+    "cee_national_reporting_coverage": {
+      "rows": 10,
+      "fields_compared": 30,
+      "max_numeric_error": 0.0
+    },
+    "cee_national_eap": {
+      "rows": 10,
+      "fields_compared": 50,
+      "max_numeric_error": 0.0
+    },
+    "bbbee_ownership_anomaly_pairs": {
+      "rows": 10,
+      "fields_compared": 70,
+      "max_numeric_error": 0.0
+    },
+    "bbbee_ownership_annual": {
+      "rows": 348,
+      "fields_compared": 2436,
+      "max_numeric_error": 0.0
+    },
+    "bbbee_ownership_annual_sensitivity": {
+      "rows": 348,
+      "fields_compared": 2784,
+      "max_numeric_error": 0.0
+    },
+    "bbbee_ownership_change_and_sensitivity": {
+      "rows": 44,
+      "fields_compared": 880,
+      "max_numeric_error": 1e-15
+    },
+    "bbbee_ownership_sector_direction_sensitivity": {
+      "rows": 4,
+      "fields_compared": 24,
+      "max_numeric_error": 0.0
+    },
+    "bbbee_compliance_levels_valid": {
+      "rows": 765,
+      "fields_compared": 6885,
+      "max_numeric_error": 5e-05
+    },
+    "bbbee_compliance_levels_1_to_4": {
+      "rows": 85,
+      "fields_compared": 595,
+      "max_numeric_error": 4.912280701754386e-05
+    },
+    "bbbee_compliance_exclusions": {
+      "rows": 2,
+      "fields_compared": 10,
+      "max_numeric_error": 0.0
+    },
+    "ee_draft_2023_target_shortfalls": {
+      "rows": 108,
+      "fields_compared": 756,
+      "max_numeric_error": 0.0
+    },
+    "ee_final_2025_targets": {
+      "rows": 108,
+      "fields_compared": 540,
+      "max_numeric_error": 0.0
+    },
+    "ee_final_2025_cee_proxy_supplement": {
+      "rows": 216,
+      "fields_compared": 2376,
+      "max_numeric_error": 5.835827276613937e-14
+    },
+    "qlfs_q3_national_employment": {
+      "rows": 10,
+      "fields_compared": 70,
+      "max_numeric_error": 0.0
+    },
+    "qlfs_q3_industry_employment": {
+      "rows": 100,
+      "fields_compared": 600,
+      "max_numeric_error": 0.0
+    }
+  }
+}

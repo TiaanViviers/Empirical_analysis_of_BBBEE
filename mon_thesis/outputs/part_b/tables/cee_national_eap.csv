@@ -1,0 +1,11 @@
+reporting_year,benchmark_year,benchmark_quarter,geographic_scope,source_id,source_page_pdf,black_eap_pct,black_female_eap_pct,source_quality_flag
+2016,2016,3,"National","cee_17th",21,90.5,40.6,"independent_text_checked"
+2017,2017,3,"National","cee_18th",17,90.9,41.3,"independent_text_checked"
+2018,2018,3,"National","cee_19th",24,91.1,41.4,"independent_text_checked"
+2019,2019,3,"National","cee_20th",19,91.3,41.6,"independent_text_checked"
+2020,2020,3,"National","cee_21st",29,91,40.7,"independent_text_checked"
+2021,2021,3,"National","cee_22nd",30,91.2,40.8,"independent_text_checked"
+2022,2022,3,"National","cee_23rd",31,92,42,"independent_text_checked"
+2023,2023,3,"National","cee_24th",25,92.3,42.8,"independent_text_checked"
+2024,2024,3,"National","cee_25th",27,92.5,42.7,"independent_text_checked"
+2025,2025,3,"National","cee_26th",33,92.3,42.2,"independent_text_checked"

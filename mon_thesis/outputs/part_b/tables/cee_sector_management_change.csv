@@ -1,0 +1,73 @@
+sector_id,sector_label,occupational_level,indicator,start_pct,end_pct,start_year,end_year,change_pp
+"accommodation_food","Accommodation and food","Senior management","Black",42.1921286500212,51.6115441331367,2019,2024,9.41941548311556
+"accommodation_food","Accommodation and food","Senior management","Black female",21.2865002115954,26.522013903518,2019,2024,5.23551369192258
+"accommodation_food","Accommodation and food","Top management","Black",21.4161346488683,27.5460122699387,2019,2024,6.1298776210704
+"accommodation_food","Accommodation and food","Top management","Black female",9.22809053975624,13.1288343558282,2019,2024,3.90074381607198
+"administrative_support","Administrative and support","Senior management","Black",58.6292834890966,62.8983308042489,2019,2024,4.26904731515229
+"administrative_support","Administrative and support","Senior management","Black female",22.8452751817238,27.298937784522,2019,2024,4.45366260279823
+"administrative_support","Administrative and support","Top management","Black",47.7159880834161,46.7611336032389,2019,2024,-0.954854480177218
+"administrative_support","Administrative and support","Top management","Black female",16.9314796425025,20.2429149797571,2019,2024,3.3114353372546
+"agriculture","Agriculture, forestry and fishing","Senior management","Black",22.5355596784168,24.8020493712157,2019,2024,2.26648969279883
+"agriculture","Agriculture, forestry and fishing","Senior management","Black female",6.7408781694496,8.34885887284583,2019,2024,1.60798070339623
+"agriculture","Agriculture, forestry and fishing","Top management","Black",13.548883756736,15.2604976671851,2019,2024,1.71161391044912
+"agriculture","Agriculture, forestry and fishing","Top management","Black female",4.34949961508853,5.7348367029549,2019,2024,1.38533708786637
+"arts_recreation","Arts, entertainment and recreation","Senior management","Black",63.6012207527976,59.7388059701493,2019,2024,-3.86241478264831
+"arts_recreation","Arts, entertainment and recreation","Senior management","Black female",25.2695829094608,26.6791044776119,2019,2024,1.40952156815111
+"arts_recreation","Arts, entertainment and recreation","Top management","Black",47.539085118703,45.4736842105263,2019,2024,-2.06540090817663
+"arts_recreation","Arts, entertainment and recreation","Top management","Black female",16.6184134337001,18.2105263157895,2019,2024,1.59211288208941
+"construction","Construction","Senior management","Black",44.2132129184254,48.8718775181305,2019,2024,4.6586645997051
+"construction","Construction","Senior management","Black female",12.7417296554432,14.4742143432716,2019,2024,1.73248468782834
+"construction","Construction","Top management","Black",37.3916059660076,41.3184438040346,2019,2024,3.92683783802695
+"construction","Construction","Top management","Black female",11.2729795352064,13.5806916426513,2019,2024,2.30771210744492
+"education","Education","Senior management","Black",36.8996130207148,45.1289398280802,2019,2024,8.22932680736545
+"education","Education","Senior management","Black female",16.8222171636695,22.4109701187065,2019,2024,5.58875295503703
+"education","Education","Top management","Black",30.7497893850042,39.8601398601399,2019,2024,9.11035047513565
+"education","Education","Top management","Black female",13.3951137320977,18.951048951049,2019,2024,5.55593521895123
+"electricity_gas","Electricity and gas","Senior management","Black",59.4650817236256,59.8425196850394,2019,2024,0.377437961413811
+"electricity_gas","Electricity and gas","Senior management","Black female",23.0312035661218,23.3319519270618,2019,2024,0.300748360939906
+"electricity_gas","Electricity and gas","Top management","Black",40.7253886010363,41.816009557945,2019,2024,1.09062095690877
+"electricity_gas","Electricity and gas","Top management","Black female",14.7150259067358,17.2043010752688,2019,2024,2.48927516853306
+"financial_insurance","Finance and insurance","Senior management","Black",42.2566471893826,51.6428392274893,2019,2024,9.38619203810673
+"financial_insurance","Finance and insurance","Senior management","Black female",18.4717126421162,24.5924253824931,2019,2024,6.12071274037687
+"financial_insurance","Finance and insurance","Top management","Black",33.2798716920609,38.2352941176471,2019,2024,4.95542242558611
+"financial_insurance","Finance and insurance","Top management","Black female",12.28949478749,15.9000442282176,2019,2024,3.61054944072763
+"health_social_work","Health and social work","Senior management","Black",50.0558480931865,57.007084845343,2019,2024,6.95123675215648
+"health_social_work","Health and social work","Senior management","Black female",26.7751715334291,33.6616554345948,2019,2024,6.88648390116571
+"health_social_work","Health and social work","Top management","Black",33.0225887414844,41.7956656346749,2019,2024,8.77307689319052
+"health_social_work","Health and social work","Top management","Black female",15.0950161348153,20.875718708536,2019,2024,5.7807025737207
+"information_communication","Information and communication","Senior management","Black",37.9872369782684,42.2614726994112,2019,2024,4.27423572114287
+"information_communication","Information and communication","Senior management","Black female",15.0482925146602,17.8643438987015,2019,2024,2.81605138404128
+"information_communication","Information and communication","Top management","Black",31.1792549907388,35.8936170212766,2019,2024,4.71436203053776
+"information_communication","Information and communication","Top management","Black female",11.9160321053715,15.4042553191489,2019,2024,3.48822321377746
+"manufacturing","Manufacturing","Senior management","Black",36.6536403024382,43.1173141568444,2019,2024,6.46367385440619
+"manufacturing","Manufacturing","Senior management","Black female",11.855407357064,15.4887026083996,2019,2024,3.63329525133567
+"manufacturing","Manufacturing","Top management","Black",26.4786921381337,31.3829275334424,2019,2024,4.90423539530868
+"manufacturing","Manufacturing","Top management","Black female",8.08229243203527,10.865171783274,2019,2024,2.78287935123872
+"mining","Mining and quarrying","Senior management","Black",36.8774141085587,46.8599033816425,2019,2024,9.98248927308386
+"mining","Mining and quarrying","Senior management","Black female",9.63610489936979,14.5790200138026,2019,2024,4.94291511443283
+"mining","Mining and quarrying","Top management","Black",36.0698125404008,43.0942501481921,2019,2024,7.02443760779129
+"mining","Mining and quarrying","Top management","Black female",10.0193923723335,14.4042679312389,2019,2024,4.38487555890534
+"professional_technical","Professional, scientific and technical","Senior management","Black",34.8290175924096,43.3318946914113,2019,2024,8.50287709900174
+"professional_technical","Professional, scientific and technical","Senior management","Black female",15.4971338209132,20.5294202273054,2019,2024,5.0322864063922
+"professional_technical","Professional, scientific and technical","Top management","Black",28.9047798268724,34.8088531187123,2019,2024,5.90407329183986
+"professional_technical","Professional, scientific and technical","Top management","Black female",12.6458411742567,15.2342627191722,2019,2024,2.58842154491549
+"public_administration","Public administration and defence","Senior management","Black",79.2344307814359,83.0985915492958,2019,2024,3.86416076785984
+"public_administration","Public administration and defence","Senior management","Black female",31.2971043236811,34.9592290585619,2019,2024,3.66212473488082
+"public_administration","Public administration and defence","Top management","Black",76.8478260869565,81.6117216117216,2019,2024,4.76389552476509
+"public_administration","Public administration and defence","Top management","Black female",23.4782608695652,29.4505494505495,2019,2024,5.97228858098423
+"real_estate","Real estate","Senior management","Black",28.1290322580645,36.319612590799,2019,2024,8.19058033273452
+"real_estate","Real estate","Senior management","Black female",13.2903225806452,20.0968523002421,2019,2024,6.80652971959697
+"real_estate","Real estate","Top management","Black",23.2346241457859,22.962962962963,2019,2024,-0.271661182822914
+"real_estate","Real estate","Top management","Black female",7.06150341685649,8.7037037037037,2019,2024,1.64220028684721
+"trade_repair","Wholesale, retail and vehicle repair","Senior management","Black",42.8677701320439,47.8898071625344,2019,2024,5.02203703049054
+"trade_repair","Wholesale, retail and vehicle repair","Senior management","Black female",14.9897712479078,17.9283746556474,2019,2024,2.93860340773963
+"trade_repair","Wholesale, retail and vehicle repair","Top management","Black",26.0218181818182,31.5295717199184,2019,2024,5.50775353810024
+"trade_repair","Wholesale, retail and vehicle repair","Top management","Black female",7.69454545454545,9.8844323589395,2019,2024,2.18988690439404
+"transport_storage","Transport and storage","Senior management","Black",39.3791759465479,56.3754356447542,2019,2024,16.9962596982064
+"transport_storage","Transport and storage","Senior management","Black female",13.2655902004454,19.0001201778632,2019,2024,5.7345299774178
+"transport_storage","Transport and storage","Top management","Black",33.858501783591,42.2119281991894,2019,2024,8.35342641559839
+"transport_storage","Transport and storage","Top management","Black female",11.2366230677765,15.2576722640417,2019,2024,4.02104919626524
+"water_waste","Water and waste","Senior management","Black",67.7062374245473,78.6233433091065,2019,2024,10.9171058845592
+"water_waste","Water and waste","Senior management","Black female",23.2394366197183,27.105600684053,2019,2024,3.8661640643347
+"water_waste","Water and waste","Top management","Black",58.2802547770701,69.7585768742059,2019,2024,11.4783220971358
+"water_waste","Water and waste","Top management","Black female",20.5414012738854,22.4904701397713,2019,2024,1.94906886588593

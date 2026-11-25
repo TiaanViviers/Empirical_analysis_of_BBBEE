@@ -18,3 +18,11 @@ The [methodological correction handover](mon_thesis/outputs/reports/methodologic
 records revised results, source-backed return corrections, inference conventions,
 validation and unresolved research decisions. See the
 [decision register](mon_thesis/docs/research_decisions.md) before thesis use.
+
+## Part B descriptive analysis
+
+```sh
+Rscript --vanilla scripts/part_b/run_analysis.R
+```
+
+The R entry point reads the reviewed Part B collection and generates management, ownership, status, Employment Equity and QLFS tables under `mon_thesis/outputs/part_b/`. It also writes three primary figures and runs the analytical checks. [Preliminary results](mon_thesis/outputs/part_b/reports/part_b_preliminary_results.md) · [Analysis handover](docs/part_b/analysis_handover.md)

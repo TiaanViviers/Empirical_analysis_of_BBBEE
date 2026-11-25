@@ -1,0 +1,217 @@
+reporting_year,sector_id,sector_label,indicator,senior_pct,top_pct,senior_minus_top_pp
+2019,"accommodation_food","Accommodation and food","Black",42.1921286500212,21.4161346488683,20.7759940011529
+2019,"accommodation_food","Accommodation and food","Black female",21.2865002115954,9.22809053975624,12.0584096718392
+2019,"administrative_support","Administrative and support","Black",58.6292834890966,47.7159880834161,10.9132954056805
+2019,"administrative_support","Administrative and support","Black female",22.8452751817238,16.9314796425025,5.9137955392213
+2019,"agriculture","Agriculture, forestry and fishing","Black",22.5355596784168,13.548883756736,8.98667592168087
+2019,"agriculture","Agriculture, forestry and fishing","Black female",6.7408781694496,4.34949961508853,2.39137855436107
+2019,"arts_recreation","Arts, entertainment and recreation","Black",63.6012207527976,47.539085118703,16.0621356340946
+2019,"arts_recreation","Arts, entertainment and recreation","Black female",25.2695829094608,16.6184134337001,8.65116947576077
+2019,"construction","Construction","Black",44.2132129184254,37.3916059660076,6.82160695241781
+2019,"construction","Construction","Black female",12.7417296554432,11.2729795352064,1.46875012023683
+2019,"education","Education","Black",36.8996130207148,30.7497893850042,6.14982363571056
+2019,"education","Education","Black female",16.8222171636695,13.3951137320977,3.42710343157175
+2019,"electricity_gas","Electricity and gas","Black",59.4650817236256,40.7253886010363,18.7396931225893
+2019,"electricity_gas","Electricity and gas","Black female",23.0312035661218,14.7150259067358,8.31617765938609
+2019,"financial_insurance","Finance and insurance","Black",42.2566471893826,33.2798716920609,8.97677549732167
+2019,"financial_insurance","Finance and insurance","Black female",18.4717126421162,12.28949478749,6.18221785462625
+2019,"health_social_work","Health and social work","Black",50.0558480931865,33.0225887414844,17.0332593517021
+2019,"health_social_work","Health and social work","Black female",26.7751715334291,15.0950161348153,11.6801553986137
+2019,"information_communication","Information and communication","Black",37.9872369782684,31.1792549907388,6.80798198752954
+2019,"information_communication","Information and communication","Black female",15.0482925146602,11.9160321053715,3.13226040928875
+2019,"manufacturing","Manufacturing","Black",36.6536403024382,26.4786921381337,10.1749481643045
+2019,"manufacturing","Manufacturing","Black female",11.855407357064,8.08229243203527,3.7731149250287
+2019,"mining","Mining and quarrying","Black",36.8774141085587,36.0698125404008,0.807601568157878
+2019,"mining","Mining and quarrying","Black female",9.63610489936979,10.0193923723335,-0.383287472963758
+2019,"professional_technical","Professional, scientific and technical","Black",34.8290175924096,28.9047798268724,5.92423776553716
+2019,"professional_technical","Professional, scientific and technical","Black female",15.4971338209132,12.6458411742567,2.85129264665654
+2019,"public_administration","Public administration and defence","Black",79.2344307814359,76.8478260869565,2.38660469447942
+2019,"public_administration","Public administration and defence","Black female",31.2971043236811,23.4782608695652,7.81884345411586
+2019,"real_estate","Real estate","Black",28.1290322580645,23.2346241457859,4.89440811227864
+2019,"real_estate","Real estate","Black female",13.2903225806452,7.06150341685649,6.22881916378867
+2019,"trade_repair","Wholesale, retail and vehicle repair","Black",42.8677701320439,26.0218181818182,16.8459519502257
+2019,"trade_repair","Wholesale, retail and vehicle repair","Black female",14.9897712479078,7.69454545454545,7.2952257933623
+2019,"transport_storage","Transport and storage","Black",39.3791759465479,33.858501783591,5.52067416295692
+2019,"transport_storage","Transport and storage","Black female",13.2655902004454,11.2366230677765,2.02896713266898
+2019,"water_waste","Water and waste","Black",67.7062374245473,58.2802547770701,9.42598264747722
+2019,"water_waste","Water and waste","Black female",23.2394366197183,20.5414012738854,2.69803534583296
+2020,"accommodation_food","Accommodation and food","Black",44.2200557103064,21.8886804252658,22.3313752850406
+2020,"accommodation_food","Accommodation and food","Black female",22.4698235840297,10.0062539086929,12.4635696753368
+2020,"administrative_support","Administrative and support","Black",56.774441878368,45.9217350306459,10.8527068477221
+2020,"administrative_support","Administrative and support","Black female",22.1324095458045,16.7845355964168,5.34787394938768
+2020,"agriculture","Agriculture, forestry and fishing","Black",23.0908870870144,13.411952828303,9.67893425871138
+2020,"agriculture","Agriculture, forestry and fishing","Black female",7.16446811085562,4.07755346791925,3.08691464293637
+2020,"arts_recreation","Arts, entertainment and recreation","Black",59.4594594594595,44.6624803767661,14.7969790826934
+2020,"arts_recreation","Arts, entertainment and recreation","Black female",22.7429557216791,16.4050235478807,6.33793217379844
+2020,"construction","Construction","Black",44.6857951101233,37.801283162823,6.8845119473003
+2020,"construction","Construction","Black female",13.3663366336634,11.6178255592162,1.74851107444714
+2020,"education","Education","Black",39.2724896536702,34.6542346542347,4.61825499943557
+2020,"education","Education","Black female",17.3600522761926,14.6076146076146,2.75243766857794
+2020,"electricity_gas","Electricity and gas","Black",60.822586266992,39.4703656998739,21.3522205671181
+2020,"electricity_gas","Electricity and gas","Black female",24.7124433600558,15.1324085750315,9.58003478502424
+2020,"financial_insurance","Finance and insurance","Black",44.2396936246903,34.3051293292416,9.93456429544869
+2020,"financial_insurance","Finance and insurance","Black female",19.6575805361568,12.998684787374,6.65889574878283
+2020,"health_social_work","Health and social work","Black",50.7882882882883,34.1914722445696,16.5968160437187
+2020,"health_social_work","Health and social work","Black female",28.0593093093093,15.4867256637168,12.5725836455925
+2020,"information_communication","Information and communication","Black",39.7353461932718,31.8860244233379,7.84932176993398
+2020,"information_communication","Information and communication","Black female",15.6648960954245,12.5961103573044,3.06878573812008
+2020,"manufacturing","Manufacturing","Black",37.6653046878432,27.6247848537005,10.0405198341427
+2020,"manufacturing","Manufacturing","Black female",12.6048943368042,8.99789634729394,3.60699798951024
+2020,"mining","Mining and quarrying","Black",39.5829195630586,38.0379746835443,1.54494487951428
+2020,"mining","Mining and quarrying","Black female",10.7050645481629,11.7088607594937,-1.00379621133081
+2020,"professional_technical","Professional, scientific and technical","Black",36.2324344853779,31.1417462000707,5.0906882853072
+2020,"professional_technical","Professional, scientific and technical","Black female",15.7804785415875,13.6797454931071,2.10073304848044
+2020,"public_administration","Public administration and defence","Black",81.0338925025676,81.0359964881475,-0.00210398557989322
+2020,"public_administration","Public administration and defence","Black female",32.5402259500171,25.3731343283582,7.16709162165891
+2020,"real_estate","Real estate","Black",29.3159609120521,23.5294117647059,5.78654914734623
+2020,"real_estate","Real estate","Black female",14.0065146579805,8.47058823529412,5.53592642268634
+2020,"trade_repair","Wholesale, retail and vehicle repair","Black",43.7434987456403,27.2291196388262,16.5143791068142
+2020,"trade_repair","Wholesale, retail and vehicle repair","Black female",15.2848314262987,7.95711060948081,7.32772081681791
+2020,"transport_storage","Transport and storage","Black",47.6107147664558,36.7982726711906,10.8124420952652
+2020,"transport_storage","Transport and storage","Black female",16.6913447301117,12.5848241826033,4.10652054750839
+2020,"water_waste","Water and waste","Black",72.6950354609929,66.1740558292282,6.52097963176468
+2020,"water_waste","Water and waste","Black female",24.8733535967579,22.1674876847291,2.70586591202879
+2021,"accommodation_food","Accommodation and food","Black",45.7068062827225,23.4113712374582,22.2954350452643
+2021,"accommodation_food","Accommodation and food","Black female",23.4293193717278,10.6354515050167,12.793867866711
+2021,"administrative_support","Administrative and support","Black",60.1892285298399,47.588424437299,12.6008040925408
+2021,"administrative_support","Administrative and support","Black female",24.4359534206696,19.5222783647221,4.91367505594748
+2021,"agriculture","Agriculture, forestry and fishing","Black",24.1449903660886,21.5026833631485,2.64230700294015
+2021,"agriculture","Agriculture, forestry and fishing","Black female",7.81551059730251,7.79964221824687,0.015868379055636
+2021,"arts_recreation","Arts, entertainment and recreation","Black",61.6923076923077,45.862676056338,15.8296316359697
+2021,"arts_recreation","Arts, entertainment and recreation","Black female",24.3076923076923,17.5176056338028,6.79008667388949
+2021,"construction","Construction","Black",46.7586486760678,39.1100295498001,7.64861912626767
+2021,"construction","Construction","Black female",14.3451354367455,12.2197114548931,2.12542398185236
+2021,"education","Education","Black",39.7771952817824,35.7764876632801,4.00070761850233
+2021,"education","Education","Black female",18.6544342507645,15.8925979680697,2.76183628269486
+2021,"electricity_gas","Electricity and gas","Black",55.0555555555556,42.5333333333333,12.5222222222222
+2021,"electricity_gas","Electricity and gas","Black female",21.4444444444444,17.6,3.84444444444444
+2021,"financial_insurance","Finance and insurance","Black",45.9079766170093,34.2145847102886,11.6933919067206
+2021,"financial_insurance","Finance and insurance","Black female",20.6439751084292,13.5933024895351,7.05067261889405
+2021,"health_social_work","Health and social work","Black",52.5166543301258,36.8879668049793,15.6286875251466
+2021,"health_social_work","Health and social work","Black female",30.1073279052554,17.4688796680498,12.6384482372056
+2021,"information_communication","Information and communication","Black",40.8564408564409,33.3481152993348,7.50832555710604
+2021,"information_communication","Information and communication","Black female",16.1460161460161,13.370288248337,2.77572789767912
+2021,"manufacturing","Manufacturing","Black",39.3347762710367,28.5880077369439,10.7467685340928
+2021,"manufacturing","Manufacturing","Black female",13.3000574230311,9.34235976789168,3.95769765513937
+2021,"mining","Mining and quarrying","Black",40.9647635198794,38.5723231058234,2.39244041405598
+2021,"mining","Mining and quarrying","Black female",11.4942528735632,11.8973074514715,-0.403054577908291
+2021,"professional_technical","Professional, scientific and technical","Black",38.7851314596555,30.8605341246291,7.92459733502641
+2021,"professional_technical","Professional, scientific and technical","Black female",17.570262919311,13.2542037586548,4.31605916065617
+2021,"public_administration","Public administration and defence","Black",80.9221803222489,80.6956521739131,0.226528148335845
+2021,"public_administration","Public administration and defence","Black female",33.1162152896812,26.8695652173913,6.24665007228987
+2021,"real_estate","Real estate","Black",31.8407960199005,24.3847874720358,7.45600854786471
+2021,"real_estate","Real estate","Black female",15.3233830845771,9.84340044742729,5.47998263714982
+2021,"trade_repair","Wholesale, retail and vehicle repair","Black",44.0009531752651,28.0145312281682,15.9864219470969
+2021,"trade_repair","Wholesale, retail and vehicle repair","Black female",16.0848325985941,8.2297051837362,7.85512741485786
+2021,"transport_storage","Transport and storage","Black",49.5550537920043,39.268727705113,10.2863260868913
+2021,"transport_storage","Transport and storage","Black female",17.2001593837163,14.1498216409037,3.05033774281261
+2021,"water_waste","Water and waste","Black",74.8952026082906,68.2779456193353,6.61725698895529
+2021,"water_waste","Water and waste","Black female",24.9650675360969,22.9607250755287,2.00434246056818
+2022,"accommodation_food","Accommodation and food","Black",46.2496946005375,23.448275862069,22.8014187384685
+2022,"accommodation_food","Accommodation and food","Black female",23.2347911067677,11.3793103448276,11.8554807619401
+2022,"administrative_support","Administrative and support","Black",59.7347480106101,45.7357075913777,13.9990404192324
+2022,"administrative_support","Administrative and support","Black female",24.2263483642794,18.4161199625117,5.81022840176768
+2022,"agriculture","Agriculture, forestry and fishing","Black",24.0714786264891,15.9969529613407,8.07452566514844
+2022,"agriculture","Agriculture, forestry and fishing","Black female",8.16398037841626,6.15120929346791,2.01277108494835
+2022,"arts_recreation","Arts, entertainment and recreation","Black",63.1239388794567,45.2027695351138,17.921169344343
+2022,"arts_recreation","Arts, entertainment and recreation","Black female",26.0101867572156,18.3976261127596,7.61256064445598
+2022,"construction","Construction","Black",48.4421593830334,39.7873120645398,8.65484731849363
+2022,"construction","Construction","Black female",14.6838046272494,13.1096442977631,1.57416032948625
+2022,"education","Education","Black",40.2819956616052,37.5739644970414,2.70803116456379
+2022,"education","Education","Black female",19.4360086767896,16.9378698224852,2.49813885430438
+2022,"electricity_gas","Electricity and gas","Black",59.8171318575554,43.4227330779055,16.3943987796498
+2022,"electricity_gas","Electricity and gas","Black female",23.9172281039461,17.4968071519796,6.42042095196653
+2022,"financial_insurance","Finance and insurance","Black",48.2224568813798,36.2891046386192,11.9333522427606
+2022,"financial_insurance","Finance and insurance","Black female",22.7428722280887,14.908306364617,7.83456586347166
+2022,"health_social_work","Health and social work","Black",54.9158066268333,38.4388185654008,16.4769880614324
+2022,"health_social_work","Health and social work","Black female",32.9712112982075,18.4388185654008,14.5323927328067
+2022,"information_communication","Information and communication","Black",40.905685507367,34.375,6.53068550736702
+2022,"information_communication","Information and communication","Black female",16.5986847581786,13.986013986014,2.61267077216465
+2022,"manufacturing","Manufacturing","Black",40.4463281723034,29.5881955829878,10.8581325893157
+2022,"manufacturing","Manufacturing","Black female",13.8785572182337,10.126338123252,3.75221909498172
+2022,"mining","Mining and quarrying","Black",42.9235999284308,40.3169014084507,2.60669851998014
+2022,"mining","Mining and quarrying","Black female",12.6677402039721,13.0281690140845,-0.36042881011242
+2022,"professional_technical","Professional, scientific and technical","Black",39.9017371468679,31.5906917437042,8.3110454031637
+2022,"professional_technical","Professional, scientific and technical","Black female",18.5471135286892,14.3449155243864,4.20219800430289
+2022,"public_administration","Public administration and defence","Black",81.6696327455104,79.3677204658902,2.30191227962025
+2022,"public_administration","Public administration and defence","Black female",33.441190745834,28.369384359401,5.07180638643301
+2022,"real_estate","Real estate","Black",39.7794741306192,26.9709543568465,12.8085197737727
+2022,"real_estate","Real estate","Black female",17.9813401187447,11.6182572614108,6.36308285733391
+2022,"trade_repair","Wholesale, retail and vehicle repair","Black",45.6386559415825,28.9183531053733,16.7203028362092
+2022,"trade_repair","Wholesale, retail and vehicle repair","Black female",16.5040789548748,8.68108862526169,7.82299032961309
+2022,"transport_storage","Transport and storage","Black",49.6119655707634,39.3245563823698,10.2874091883936
+2022,"transport_storage","Transport and storage","Black female",17.9060251164103,14.0812821980538,3.82474291835652
+2022,"water_waste","Water and waste","Black",77.4193548387097,70.3363914373089,7.08296340140082
+2022,"water_waste","Water and waste","Black female",25.4324450677887,22.782874617737,2.64957045005168
+2023,"accommodation_food","Accommodation and food","Black",51.6551877360587,25.5844155844156,26.0707721516431
+2023,"accommodation_food","Accommodation and food","Black female",25.9942235058876,12.2077922077922,13.7864312980954
+2023,"administrative_support","Administrative and support","Black",64.4462151394422,48.1244671781756,16.3217479612666
+2023,"administrative_support","Administrative and support","Black female",27.2669322709163,19.8209718670077,7.44596040390866
+2023,"agriculture","Agriculture, forestry and fishing","Black",25.3708318500059,14.4015825914936,10.9692492585124
+2023,"agriculture","Agriculture, forestry and fishing","Black female",8.35409991693367,5.18298714144412,3.17111277548955
+2023,"arts_recreation","Arts, entertainment and recreation","Black",58.8770864946889,44.291754756871,14.5853317378179
+2023,"arts_recreation","Arts, entertainment and recreation","Black female",24.7723823975721,16.4904862579281,8.28189613964396
+2023,"construction","Construction","Black",47.6175110250618,40.4325513196481,7.18495970541375
+2023,"construction","Construction","Black female",14.4885446918361,13.0315249266862,1.45701976514986
+2023,"education","Education","Black",43.1771049357113,39.4049346879536,3.77217024775776
+2023,"education","Education","Black female",20.8627125673994,18.6502177068215,2.21249486057794
+2023,"electricity_gas","Electricity and gas","Black",58.3333333333333,41.625,16.7083333333333
+2023,"electricity_gas","Electricity and gas","Black female",22.7477477477478,17.125,5.62274774774775
+2023,"financial_insurance","Finance and insurance","Black",50.1748327217786,36.9269753513015,13.247857370477
+2023,"financial_insurance","Finance and insurance","Black female",23.9067558817181,15.249942409583,8.65681347213506
+2023,"health_social_work","Health and social work","Black",56.078967943706,38.7009472259811,17.378020717725
+2023,"health_social_work","Health and social work","Black female",32.3103987490227,19.0798376184032,13.2305611306194
+2023,"information_communication","Information and communication","Black",42.1297865130464,35.2351916376307,6.89459487541576
+2023,"information_communication","Information and communication","Black female",17.4093527617757,15.0261324041812,2.38322035759448
+2023,"manufacturing","Manufacturing","Black",42.0284220983975,30.1686324203139,11.8597896780836
+2023,"manufacturing","Manufacturing","Black female",14.6689127899443,10.3128959937616,4.3560167961827
+2023,"mining","Mining and quarrying","Black",44.9768436052725,41.4129110840439,3.56393252122869
+2023,"mining","Mining and quarrying","Black female",13.8403990024938,13.1546894031669,0.685709599326895
+2023,"professional_technical","Professional, scientific and technical","Black",41.5019200682691,35.0515463917526,6.45037367651651
+2023,"professional_technical","Professional, scientific and technical","Black female",19.456691793486,15.8173784977909,3.63931329569512
+2023,"public_administration","Public administration and defence","Black",82.819515115235,80.4006968641115,2.41881825112347
+2023,"public_administration","Public administration and defence","Black female",34.8398683029033,28.6585365853659,6.18133171753746
+2023,"real_estate","Real estate","Black",37.6279863481229,23.7354085603113,13.8925777878116
+2023,"real_estate","Real estate","Black female",19.19795221843,10.5058365758755,8.69211564255455
+2023,"trade_repair","Wholesale, retail and vehicle repair","Black",47.0090261815328,30.0055309734513,17.0034952080814
+2023,"trade_repair","Wholesale, retail and vehicle repair","Black female",17.3796041935303,9.05696902654867,8.32263516698163
+2023,"transport_storage","Transport and storage","Black",51.7354289456451,41.3018760659466,10.4335528796985
+2023,"transport_storage","Transport and storage","Black female",19.5415848068107,15.0369528140989,4.50463199271182
+2023,"water_waste","Water and waste","Black",76.4125560538117,69.3706293706294,7.04192668318228
+2023,"water_waste","Water and waste","Black female",25.5605381165919,23.4965034965035,2.06403462008843
+2024,"accommodation_food","Accommodation and food","Black",51.6115441331367,27.5460122699387,24.0655318631981
+2024,"accommodation_food","Accommodation and food","Black female",26.522013903518,13.1288343558282,13.3931795476898
+2024,"administrative_support","Administrative and support","Black",62.8983308042489,46.7611336032389,16.13719720101
+2024,"administrative_support","Administrative and support","Black female",27.298937784522,20.2429149797571,7.05602280476492
+2024,"agriculture","Agriculture, forestry and fishing","Black",24.8020493712157,15.2604976671851,9.54155170403058
+2024,"agriculture","Agriculture, forestry and fishing","Black female",8.34885887284583,5.7348367029549,2.61402216989093
+2024,"arts_recreation","Arts, entertainment and recreation","Black",59.7388059701493,45.4736842105263,14.2651217596229
+2024,"arts_recreation","Arts, entertainment and recreation","Black female",26.6791044776119,18.2105263157895,8.46857816182247
+2024,"construction","Construction","Black",48.8718775181305,41.3184438040346,7.55343371409596
+2024,"construction","Construction","Black female",14.4742143432716,13.5806916426513,0.893522700620258
+2024,"education","Education","Black",45.1289398280802,39.8601398601399,5.26879996794037
+2024,"education","Education","Black female",22.4109701187065,18.951048951049,3.45992116765756
+2024,"electricity_gas","Electricity and gas","Black",59.8425196850394,41.816009557945,18.0265101270943
+2024,"electricity_gas","Electricity and gas","Black female",23.3319519270618,17.2043010752688,6.12765085179293
+2024,"financial_insurance","Finance and insurance","Black",51.6428392274893,38.2352941176471,13.4075451098423
+2024,"financial_insurance","Finance and insurance","Black female",24.5924253824931,15.9000442282176,8.6923811542755
+2024,"health_social_work","Health and social work","Black",57.007084845343,41.7956656346749,15.2114192106681
+2024,"health_social_work","Health and social work","Black female",33.6616554345948,20.875718708536,12.7859367260587
+2024,"information_communication","Information and communication","Black",42.2614726994112,35.8936170212766,6.36785567813465
+2024,"information_communication","Information and communication","Black female",17.8643438987015,15.4042553191489,2.46008857955257
+2024,"manufacturing","Manufacturing","Black",43.1173141568444,31.3829275334424,11.734386623402
+2024,"manufacturing","Manufacturing","Black female",15.4887026083996,10.865171783274,4.62353082512566
+2024,"mining","Mining and quarrying","Black",46.8599033816425,43.0942501481921,3.76565323345045
+2024,"mining","Mining and quarrying","Black female",14.5790200138026,14.4042679312389,0.174752082563737
+2024,"professional_technical","Professional, scientific and technical","Black",43.3318946914113,34.8088531187123,8.52304157269904
+2024,"professional_technical","Professional, scientific and technical","Black female",20.5294202273054,15.2342627191722,5.29515750813325
+2024,"public_administration","Public administration and defence","Black",83.0985915492958,81.6117216117216,1.48686993757417
+2024,"public_administration","Public administration and defence","Black female",34.9592290585619,29.4505494505495,5.50867960801245
+2024,"real_estate","Real estate","Black",36.319612590799,22.962962962963,13.3566496278361
+2024,"real_estate","Real estate","Black female",20.0968523002421,8.7037037037037,11.3931485965384
+2024,"trade_repair","Wholesale, retail and vehicle repair","Black",47.8898071625344,31.5295717199184,16.360235442616
+2024,"trade_repair","Wholesale, retail and vehicle repair","Black female",17.9283746556474,9.8844323589395,8.04394229670788
+2024,"transport_storage","Transport and storage","Black",56.3754356447542,42.2119281991894,14.1635074455649
+2024,"transport_storage","Transport and storage","Black female",19.0001201778632,15.2576722640417,3.74244791382155
+2024,"water_waste","Water and waste","Black",78.6233433091065,69.7585768742059,8.86476643490062
+2024,"water_waste","Water and waste","Black female",27.105600684053,22.4904701397713,4.61513054428173

@@ -1,0 +1,10 @@
+{
+  "method": "Poppler converted the final PDFs to SVG. Inverse axis positions reproduce the plotted data within 0.01 units.",
+  "management_markers": 36,
+  "management_max_error_ppt": 0.0015398281494327648,
+  "ownership_markers": 48,
+  "ownership_max_error_ppt": 0.001037876158143547,
+  "flagged_ownership_markers_without_a_line": 3,
+  "draft_target_gap_segments": 36,
+  "draft_target_gap_max_error_pp": 0.00034423407917572035
+}
