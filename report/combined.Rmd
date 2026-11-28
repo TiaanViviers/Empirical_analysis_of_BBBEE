@@ -1,0 +1,374 @@
+---
+title: "Empirical Analysis of the Efficiency–Equity Tradeoff Associated with B-BBEE Policies in South Africa"
+subtitle: "Market reactions, management representation and ownership"
+date: "Stellenbosch University · 24 November 2026"
+lang: en-ZA
+bibliography: references.bib
+csl: report.csl
+link-citations: true
+link-bibliography: true
+documentclass: article
+papersize: a4
+fontsize: 11pt
+mainfont: TeX Gyre Pagella
+sansfont: TeX Gyre Heros
+geometry: "top=24mm,bottom=24mm,left=22mm,right=22mm"
+colorlinks: true
+linkcolor: reportink
+urlcolor: reportink
+output:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    number_sections: false
+    toc: false
+    includes:
+      in_header: report.tex
+  bookdown::html_document2:
+    number_sections: false
+    global_numbering: true
+    self_contained: true
+    toc: true
+    toc_depth: 1
+    mathjax: null
+    css: report.css
+---
+
+```{r setup, include=FALSE}
+library(data.table)
+invisible(Sys.setlocale("LC_TIME", "C"))
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", fig.pos = "H",
+                      out.width = "100%", warning = TRUE, message = FALSE)
+# Work from this document's directory. Read aggregate outputs only.
+a <- function(name) fread(file.path("..", "outputs", "part_a", "tables", paste0(name, ".csv")))
+b <- function(name) fread(file.path("..", "outputs", "part_b", "tables", paste0(name, ".csv")))
+figure_file <- function(stem, part_b = TRUE) {
+  folder <- if (part_b) "../outputs/part_b/figures" else "../outputs/part_a/figures"
+  ext <- if (knitr::is_latex_output()) ".pdf" else ".png"
+  knitr::include_graphics(file.path(folder, paste0(stem, ext)))
+}
+tab <- function(x, labels, caption) {
+  knitr::kable(x, col.names = labels, align = c("l", rep("r", ncol(x) - 1)),
+               caption = caption, booktabs = TRUE, position = "H", linesep = "")
+}
+num <- function(x, d = 1) sprintf(paste0("%.", d, "f"), x)
+sgn <- function(x, d = 1) sub("^-", "−", sprintf(paste0("%+.", d, "f"), x))
+# Pivot only for display. Require exactly one reviewed value per displayed cell.
+sector_table <- function(x, value, columns, format_value = num) {
+  stopifnot(!anyDuplicated(x[, .(sector_label, column)]),
+            setequal(x$column, columns))
+  wide <- dcast(x, sector_label ~ column, value.var = value)
+  stopifnot(nrow(wide) == 18L, !anyNA(wide))
+  wide[, (columns) := lapply(.SD, format_value), .SDcols = columns]
+  wide[, c("sector_label", columns), with = FALSE]
+}
+ids <- fread("../analysis/part_a/config/headline_hypotheses.csv")$event_id
+h <- a("headline_results_percent")[match(ids, event_id)]
+events <- fread("../analysis/part_a/research/events.csv")[match(ids, event_id)]
+ev <- c("Mining Charter", "Final Mining Charter", "Draft EE targets",
+        "Final EE targets", "Draft B-BBEE Codes")
+stopifnot(identical(h$event_id, events$event_id), !anyNA(h),
+          identical(h$event_id, c("mining_charter_2017","mining_charter_2018",
+                                  "ee_draft_2023","ee_final_2025","bbbee_draft_2026")),
+          isTRUE(all.equal(p.adjust(h$p_value, "holm"), h$holm_primary_p)),
+          all(h$holm_primary_p > .05))
+mg <- b("cee_national_management_change")[order(match(occupational_level, c("Top management", "Senior management")), indicator)]
+sc <- b("cee_sector_management_change")
+own <- b("bbbee_ownership_change_and_sensitivity")
+on <- own[sector_original == "National"]
+measures <- c("black_economic_interest","black_female_economic_interest",
+              "black_voting_rights","black_female_voting_rights")
+on <- on[match(measures, ownership_measure)]
+stopifnot(nrow(mg) == 4L, nrow(sc) == 72L, !anyNA(on$change_pp))
+timing <- a("fixed_sample_2018_timing")
+at_anchor <- function(day) sgn(100 * timing[anchor_date == as.Date(day), estimate], 2)
+coverage <- b("cee_national_reporting_coverage")[order(reporting_year)]
+coverage_n <- function(y, field) format(coverage[reporting_year == y, get(field)], big.mark = ",", scientific = FALSE)
+y25 <- b("cee_management_2025_separate_regime")[geographic_scope == "National"]
+q3 <- b("qlfs_q3_national_employment")
+employment_m <- function(y) num(q3[observation_year == y, employment_persons] / 1e6, 3)
+draft <- b("ee_draft_2023_target_shortfalls")
+final <- b("ee_final_2025_targets")
+proxy <- b("ee_final_2025_cee_proxy_supplement")
+daily <- a("primary_daily_decomposition")[event_id == "bbbee_draft_2026" & portfolio == "all"][order(tau)]
+stopifnot(nrow(daily) == 2L, all.equal(sum(daily$abnormal_return)*100, h$headline_estimate_pct[5]))
+```
+
+# Executive summary
+
+South Africa’s transformation policies raise two economic questions. How do listed share prices move when new policy details become public? How far has participation in management and ownership broadened? This report examines five announcements on the Johannesburg Stock Exchange (JSE) and follows the equity indicators in the populations for which they are published.
+
+**Market reactions.** Over the publication session and the next trading session, mining securities underperformed non-mining controls by `r num(abs(h$headline_estimate_pct[1]),2)` percentage points in 2017 and `r num(abs(h$headline_estimate_pct[2]),2)` in 2018, after allowing for each security’s usual market sensitivity. The two Employment Equity (EE) announcements had average abnormal returns close to zero. Around the January 2026 draft Broad-Based Black Economic Empowerment (B-BBEE) Codes, the sample outperformed its market-model prediction by `r num(h$headline_estimate_pct[5],2)`% even as its prices fell overall. None of the five tests reached the 5% threshold after adjustment for testing five announcements. The uncertainty leaves room for economically meaningful reactions.
+
+**Reported equity.** From 2016 to 2024, the Black share of reported management posts rose by `r num(mg[indicator=="Black" & occupational_level=="Top management",change_pp])` percentage points in top management and `r num(mg[indicator=="Black" & occupational_level=="Senior management",change_pp])` in senior management. Black women’s shares rose at both levels in all 18 detailed sectors between 2019 and 2024. In a separate sample of verification submissions, national average Black economic interest rose from `r num(on$start_pct[1],2)`% in 2016 to `r num(on$end_pct[1],2)`% in 2023. All 18 sector profiles in the May 2023 EE notice fell below the proposed total Black target at both management levels.
+
+**Economic conclusion.** The clearest evidence concerns broader reported participation, with substantial differences by sector and seniority. Changes in reporting populations limit comparisons over time. The market evidence measures revisions in valuations amid other news. Neither component measures realised productive efficiency or establishes what would have happened without the policies. A causal efficiency–equity tradeoff therefore remains unquantified.
+
+\newpage
+
+# Research objectives and empirical framework
+
+A transformation policy can change who holds decision-making positions, who receives economic benefits and what investors expect companies to earn. These outcomes need different evidence. A share price can respond immediately to expected costs, access to contracts or uncertainty over future rules. A change in the division of expected profits can also move prices without changing how much output a given set of resources produces. By contrast, a change in the share of management posts held by a group can take years as employers recruit, promote and report staff.
+
+Part A asks whether prices of observable JSE securities moved unusually around the release of policy information. A short event window limits the time available for unrelated developments, while a market benchmark accounts for some common price movements [@mackinlay]. Part B asks what the reported management and ownership series show about participation, and how far observed workforce profiles stood from proposed benchmarks. National aggregates and sector comparisons retain the population and definition of each source. This preserves the distinction between valuing expected future profits and measuring who participates in management and ownership.
+
+# Part A. Market reactions to five announcements
+
+## Measuring an abnormal price return
+
+The licensed IRESS extract covers JSE daily prices and volumes from January 2016 to March 2026 and the FTSE/JSE All Share Index (J203) [@iress]. For each event and security, a market model estimates its usual daily return as an intercept plus its historical market sensitivity (beta) times the J203 return. Ordinary least squares fits that relationship over trading sessions −250 through −30 relative to the announcement. This leaves 29 intervening sessions before day 0. The predicted return moves with the market on each event day. The **abnormal return** is the observed price return less that prediction. Price returns measure changes in quoted prices. Total shareholder returns also include distributions.
+
+The **cumulative abnormal return (CAR)** adds a security’s abnormal returns over the window. Every included security must have returns on both days of the primary window [0, +1]. The **cumulative average abnormal return (CAAR)** gives each eligible security the same weight, so the estimate describes the average security in the event-specific sample regardless of market value. An issuer with multiple eligible share classes can contribute more than once. For each Mining Charter, the primary estimate subtracts the non-mining control CAAR from the mining CAAR, in percentage points (pp). Historical industry labels approximate exposure. A non-mining supplier may still be affected. For each broader policy, the primary estimate is the whole sample’s CAAR, in percent. A group with no exposure to the national policy cannot be isolated.
+
+Of 1,869 source instruments, eligibility varies by date. Each security needs at least 180 positive-volume, market-paired estimation returns, at most 20% unchanged valid returns, and positive volume in the event window. Price changes require adjacent sessions. Historical bulletin flags exclude known likely non-company securities. Unclassified securities can enter an aggregate CAAR but do not enter either side of the mining spread. Table \@ref(tab:prices) gives the resulting security counts.
+
+\newpage
+
+## Estimates and uncertainty
+
+The publication date anchors day 0. The five gazettes identify the official dates, although the hour when investors first received the information is uncertain [@gaz2017; @gaz2018; @gaz2023; @gaz2025; @gaz2026]. Day +1 is the next trading session. For the June 2017 Charter, for example, the holiday and weekend place day +1 on 19 June.
+
+Each **95% confidence interval is pointwise**. It quantifies uncertainty for a single parameter under the model assumptions. The Holm adjustment applies to the hypothesis tests only. The **raw p-value** measures how often simulated fluctuations under zero abnormal performance are at least as large in absolute value as the observed estimate. The simulation draws five-session blocks of pre-event residuals for all securities together, preserving common daily shocks and allowing for error in estimated betas. The **Holm p-value** adjusts for testing five primary hypotheses, controlling the chance of one or more false rejections across this family under valid individual tests [@holm]. Appendix A details the assumptions.
+
+```{r prices}
+dates <- format(as.Date(events$event_date), "%d %b %Y")
+sample_label <- ifelse(h$n_mining > 0, paste(h$n_mining, h$n_control, sep="/"), h$n_all)
+price_results <- data.frame(Event = ev, Date = dates, Sample = sample_label,
+  Estimate = paste0(sgn(h$headline_estimate_pct,2), c(" pp"," pp","%","%","%")),
+  Interval = paste0("[", sgn(h$ci_lower_pct,2), ", ", sgn(h$ci_upper_pct,2), "]"),
+  Raw = num(h$p_value,4), Holm = num(h$holm_primary_p,4))
+tab(price_results, c("Announcement","Date","Sample","Estimate","95% CI","Raw p","Holm p"),
+    "Two-session abnormal performance around official publication. The first two rows give mining/control counts and differences in pp. The last three give total counts and CAAR in percent. Pointwise intervals use the same units as the estimates.")
+```
+
+Mining securities underperformed the controls in both gazette windows, with intervals spanning zero. The distinction between the spread and a market-wide loss matters in 2018. The entire observable sample had a positive CAAR of `r num(h$all_caar_pct[2],2)`%, even though mining securities underperformed controls. Both EE estimates are small relative to their uncertainty. For example, the 2023 estimate is consistent with an average decline exceeding one percent as well as a gain approaching one percent.
+
+January 2026 gives the smallest raw p-value (`r num(h$p_value[5],4)`). Its pointwise interval excludes zero, but its five-test Holm p-value is `r num(h$holm_primary_p[5],4)`. **None of the primary estimates is statistically significant at the 5% family-wise level.** This finding limits the strength of the evidence for unusual performance. It leaves the direction and magnitude of genuine policy effects open.
+
+\newpage
+
+## What the dates capture
+
+**Mining Charter 2018.** A 19 September Cabinet meeting preceded a public presidential statement on 21 September, a ministerial advisory on 26 September and gazetting on 27 September. The presidential statement also announced wider economic stimulus measures [@stimulus]. Holding the same 16 mining securities, 128 controls and fitted coefficients fixed, the mining spread was `r at_anchor("2018-09-21")` pp around the statement and `r at_anchor("2018-09-27")` pp around gazetting. These fixed-sample comparisons concern different news. The headline gazette estimate in Table \@ref(tab:prices) also includes two additional controls. The gazette window can capture only the incremental information that remained after the earlier disclosures.
+
+**Draft B-BBEE Codes 2026.** The relative gain arose largely on 30 January. The J203 fell by `r num(abs(daily$market_return[2])*100,2)`%, while the selected portfolio fell by `r num(abs(daily$analytical_price_return[2])*100,2)`%. The model predicted a fall of `r num(abs(daily$predicted_return[2])*100,2)`%, so that day contributed +`r num(daily$abnormal_return[2]*100,2)`% in abnormal performance (Figure \@ref(fig:decomposition)). The sum of the two daily portfolio price returns was `r sgn(sum(daily$analytical_price_return)*100,2)`%. The South African Reserve Bank’s rate decision coincided with publication of the draft Codes. News of the US Federal Reserve chair nomination and sharp precious-metals price swings followed in the same window. Their individual contributions cannot be separated [@sarb; @nomination; @metals].
+
+```{r decomposition, fig.cap="Daily returns (%) for the same 160 JSE securities on 29 and 30 January 2026. Actual, market-model predicted and abnormal portfolio returns are equal-security averages. J203 is the market benchmark. The bars compare price movements and exclude cash distributions."}
+figure_file("daily_decomposition_2026", FALSE)
+```
+
+The 2026 inference also depends on which historical shocks represent ordinary market conditions. Both a positive-volume restriction on residual donor dates and a scenario with event shocks scaled up by 50% give an unadjusted p-value of 0.0502. Two sessions provide little information about a change in volatility. The baseline and sensitivity results are therefore conditional on different assumptions about event risk (Appendix A).
+
+\newpage
+
+# Part B. Descriptive evidence on equity
+
+## Who holds management posts?
+
+The Commission for Employment Equity (CEE) reports workforce counts from designated employers’ returns. For each occupational level, the Black share counts African, Coloured and Indian managers of both sexes under the source categories. The Black female share counts women in those three groups. Both use **all managers at that level**, including foreign nationals, as the denominator. For example, a Black female share of 20% means that Black women hold one in five reported posts. Workforce years on Figure \@ref(fig:management) precede publication of the corresponding annual reports [@cee17th; @cee18th; @cee19th; @cee20th; @cee21st; @cee22nd; @cee23rd; @cee24th; @cee25th].
+
+```{r management, fig.cap="Black and Black female shares (%) of reported national top and senior management posts, workforce years 2016–2024. Open markers identify retrospective counts for 2016. Employers contributing to the totals can change from year to year."}
+figure_file("national_management_representation")
+```
+
+```{r national}
+tab(mg[, .(occupational_level, indicator, num(start_pct), num(end_pct), sgn(change_pp))],
+    c("Reported posts","Group","2016 (%)","2024 (%)","Change (pp)"),
+    "National management shares from CEE demographic counts. All percentage-point changes in this report use the underlying values before rounding.")
+```
+
+Senior management recorded the larger gains (Table \@ref(tab:national)). The senior-minus-top gap widened from 11.6 to 13.5 pp for Black managers and from 5.7 to 6.7 pp for Black women. As a demographic reference, the Q3 2024 national economically active population (EAP) was 92.5% Black and 42.7% Black female. The EAP includes people across occupations and those seeking work. It supplies context for the distance between population composition and representation at senior ranks. The statutory benchmarks are a separate measure.
+
+\newpage
+
+## Where did representation change?
+
+Table \@ref(tab:sectors) follows the 18 detailed CEE sectors from 2019, the first comparable year. Black representation rose in 15 sectors at the top level and 17 at senior level. Arts, entertainment and recreation recorded declines at both levels. Black women gained share in every sector at both levels. These movements coexist with wide differences in the levels reached. In 2024, Black managers held 15.3% of top posts in agriculture and 81.6% in public administration and defence. The corresponding shares for Black women were 5.7% and 29.5%.
+
+```{r sectors}
+sector_cols <- c("Top management Black","Top management Black female",
+                 "Senior management Black","Senior management Black female")
+sc[, column := paste(occupational_level, indicator)]
+sc[, endpoint_and_change := sprintf("%s (%s)", num(end_pct), sgn(change_pp))]
+tab(sector_table(sc, "endpoint_and_change", sector_cols, identity),
+    c("CEE sector","Top Black","Top female¹","Senior Black","Senior female¹"),
+    "Observed management representation by sector. Each cell gives the 2024 share in percent, followed by the 2019–2024 change in pp in parentheses. Both use all reported posts at the respective level. ¹ Female columns refer to Black women.")
+```
+
+In all 18 sectors in 2024, Black representation and Black female representation were higher in senior than in top management. Larger employers, changes in reporting and changes in appointments can all affect a sector’s shares. Holding sectors’ 2019 shares of management posts fixed still yields gains in all four national comparisons. That sensitivity leaves changes within sectors, including employer entry and exit, unresolved.
+
+\newpage
+
+## Ownership interests and voting rights
+
+The B-BBEE Commission’s retrospective study draws on verification certificates and reports across enterprise sizes [@ownership]. **Economic interest** measures participation in the economic benefits of ownership. **Voting rights** measure participation in governance. Table \@ref(tab:ownnational) uses the Commission’s published national averages. National sample entries rose from 920 to 4,143. The study does not publish ownership-specific denominators or weights, and the mix of codes and enterprise sizes changes. A national percentage here describes the submissions and cannot be read as a share of South African business wealth.
+
+```{r ownnational}
+tab(on[, .(c("Black economic interest","Black female economic interest",
+             "Black voting rights","Black female voting rights"),
+           num(start_pct,2), num(end_pct,2), sgn(change_pp,2))],
+    c("National average","2016 (%)","2023 (%)","Change (pp)"),
+    "Ownership measures in verification submissions, 2016 and 2023. The Commission publishes separate averages for each measure.")
+```
+
+```{r ownershipfig, fig.cap="Published economic interest in verification submissions, 2016–2023. The left panel shows national Black and Black female averages in percent. The right shows Black economic interest for four codes with usable endpoints and at least 30 overall sample entries at each. Open points retain flagged observations. Gaps interrupt the lines at those years."}
+figure_file("reported_black_economic_interest")
+```
+
+The national averages increased on all four measures. Black female economic interest peaked at 26.13% in 2020, above its 2023 value. Across the nine codes with both fixed endpoints, Black economic interest rose in every case. Forestry had the largest published gain (+27.47 pp) but only three overall entries in 2016 and 15 in 2023. Figure \@ref(fig:ownershipfig) uses 30 overall entries per endpoint as a display rule. The unknown measure-specific counts and weights prevent this threshold from establishing statistical reliability. Among these, gains ranged from +5.90 pp in Tourism to +26.72 pp in Transport.
+
+\newpage
+
+## How much rests on the published ownership averages?
+
+Ten published female–overall pairs have a female average above the corresponding overall average. Eight pairs fall in 2016–2023. The Commission gives insufficient detail about respondents and weights to determine the cause. The sensitivity check drops **both** values in each affected pair. Figure \@ref(fig:ownershipfig) shows the published observations but breaks the lines there so a trajectory through a flagged year cannot be mistaken for corroborated change.
+
+The national results and every fixed-endpoint change that remains calculable survive the exclusion unchanged. Generic loses its 2016 economic-interest observation and Financial Services its 2016 voting-rights observation. Black economic interest still rises in all eight codes with usable 2016 and 2023 endpoints. A comparison starting in 2017 answers a different question. For example, Generic Black female economic interest falls by 2.45 pp between 2017 and 2023. The Marketing, Advertising and Communication (MAC) code lacks a published 2016 baseline. These details matter when comparing statements about “all codes”.
+
+### Ownership and broader contributor status
+
+A contributor level combines several scorecard elements, including ownership. In valid national status distributions, Levels 1–4 accounted for 66.8% of entries in 2016, 44.2% in 2017 and 61.1% in 2023. The 2023 share was 81.7% for Construction and 18.8% for Tourism. The contrast with rising national ownership averages is economically plausible. A change in who holds economic interests can leave other elements of an enterprise’s score unchanged. Both sample composition and code rules can also change [@ownership].
+
+```{r status}
+st <- b("bbbee_compliance_levels_valid")[sector_original == "National" & reporting_year == 2023]
+stopifnot(nrow(st) == 9L, sum(st$entity_count) == unique(st$valid_status_denominator))
+tab(st[, .(compliance_level, entity_count, num(calculated_pct))],
+    c("Contributor status","Entries","Share (%)"),
+    "National contributor status in 2023. Percentages use the 4,106 entries in the reconciled status distribution. Levels 5–8 are contributor levels. Non-Compliant is a separate published category.")
+```
+
+Status counts supply a denominator for Table \@ref(tab:status) only. They cannot supply the missing ownership weights. National 2018 and Financial Services 2016 are excluded from status comparisons because the counts fail to reconcile. At individual levels a printed dash remains missing. The Levels 1–4 summary allows a zero for a dash only when its printed share is zero and the counts already reconcile.
+
+\newpage
+
+## The May 2023 draft targets in their information context
+
+The draft EE notice published proposed five-year targets alongside a 2022 workforce profile for all employers in its tables [@gaz2023]. Each comparison uses the **national BLACK** row for the same sector, occupational level and sex category. BLACK comprises African, Coloured and Indian employees. The signed shortfall is proposed share less observed share, in pp. A positive value measures the distance below the proposal. All 18 sectors had positive total shortfalls at both levels (Figure \@ref(fig:draftfig)).
+
+```{r draftfig, fig.cap="May 2023 draft national BLACK targets less the 2022 workforce profiles printed in the same gazette (pp). Dots show total shortfalls at top and senior management across 18 sectors, ordered by top-management shortfall. These were proposals available at the announcement date."}
+figure_file("draft_ee_target_shortfalls")
+```
+
+In accommodation and food, a 45.0% proposal against a 23.5% top-management profile gives the largest top-level shortfall, 21.5 pp. In education, the 61.0% proposal against 40.2% observed gives the largest senior-level shortfall, 20.8 pp. The smallest totals are 4.3 pp in administrative and support at top level and 5.1 pp in health and social work at senior level. A positive total can coexist with a negative male or female gap because both components use the full occupational denominator. Appendix B gives the signed components.
+
+These are distances facing published sector profiles at the time investors could read the proposal. An individual employer’s workforce mix and applicable benchmark may differ. The report has no issuer-level exposure measure linking these distances to the May 2023 returns.
+
+\newpage
+
+## The April 2025 final targets
+
+The final five-year targets aim for equitable representation of suitably qualified people from **designated groups**. The Act defines these groups as Black people (African, Coloured and Indian), women and people with disabilities who are South African citizens by birth or descent, naturalised before 27 April 1994, or naturalised later after apartheid policies prevented them from qualifying before that date [@eeact; @gaz2025]. Each eligible person counts once, even if they meet several criteria. Foreign nationals are outside the target population.
+
+Table \@ref(tab:finaltargets) gives occupational-level targets. Agriculture has the lowest and public administration and defence the highest at both levels. The notice also sets a **separate 3% disability target** in all 18 sectors. Form EEA12 measures it against the employer’s total workforce, so it is assessed separately from the management targets [@gaz2025; @eeadmin].
+
+```{r finaltargets}
+ft <- final[gender == "total", .(sector_label,column=occupational_level,target_pct)]
+levels_ee <- c("top_management","senior_management")
+tab(sector_table(ft,"target_pct",levels_ee),
+    c("Gazette sector","Top (%)","Senior (%)"),
+    "National five-year designated-group targets, published on 15 April 2025 in Gazette 52514, Notice 6124. Entries give the total target for each management level in percent.")
+```
+
+### The 2025 reporting break
+
+The CEE’s 2025 workforce series also requires separate interpretation [@cee26th]. The amended designated-employer definition removed turnover-based designation for employers with fewer than 50 employees. Reports received fell from `r coverage_n(2024, "reports_received")` in 2024 to `r coverage_n(2025, "reports_received")` in 2025, and employees covered fell from `r coverage_n(2024, "employees_covered")` to `r coverage_n(2025, "employees_covered")`. Within the new reporting population, Black managers held `r num(y25[occupational_level == "Top management", black_representation_pct])`% of top and `r num(y25[occupational_level == "Senior management", black_representation_pct])`% of senior posts. Black women held `r num(y25[occupational_level == "Top management", black_female_representation_pct])`% and `r num(y25[occupational_level == "Senior management", black_female_representation_pct])`%, respectively. Extending Figure \@ref(fig:management) through this break would confound a change in eligibility with changes in representation. Appendix C gives a supplementary comparison using workforce data available before the April announcement and later retrospective data.
+
+\newpage
+
+# Combined economic discussion
+
+## Market expectations and reported participation
+
+The negative mining spreads are consistent with investors revising the relative prospects of mining and non-mining securities during the gazette windows. The positive earlier 2018 spread cautions against assigning one sign to the entire policy sequence. For the economy-wide EE notices, a small aggregate residual can arise when firms experience different revisions, when the market benchmark itself responds, or when investors have anticipated the details. The two EE intervals leave room for both gains and losses. A benchmark-relative gain under stressed market conditions in January 2026 likewise tells us little about the subsequent productivity of the businesses concerned.
+
+The equity results describe two distinct kinds of participation. Reported access to management posts broadened across most sectors, especially in senior management. Yet in 2024 every sector still had lower Black and Black female representation at the top than at senior level. Economic interest and voting rights also rose in the verification sample. The lower national share of Levels 1–4 in 2023 than in 2016 illustrates why a scorecard classification and participation in ownership benefits answer different questions.
+
+The May 2023 notice offers a direct connection between the two parts. Investors could see both the new proposal and the distance between each sector’s reported workforce profile and that proposal. Around its publication, the aggregate abnormal return was small and imprecisely estimated. The evidence gives neither firm-specific target gaps nor the costs of closing them. The department linked the ownership retrospective in May 2026 and the Commission launched it in July. Both dates follow the January market event, so the publication provides retrospective context [@ownershiponline; @ownershiplaunch].
+
+## Employment context
+
+The Quarterly Labour Force Survey (QLFS) puts these movements alongside changes in the size of employment. Stats SA’s published Q3 national totals for employed people aged 15–64 were `r employment_m(2016)` million in 2016, `r employment_m(2019)` million in 2019, `r employment_m(2021)` million in 2021 and `r employment_m(2025)` million in 2025 [@qlfs2017; @qlfs2019; @qlfs2021; @qlfs2023; @qlfs2025]. Broad recovery after contraction could change the mix of jobs and employers, and a rising share alone does not reveal how many new positions were created.
+
+These totals come from a weighted household survey. The series uses five non-overlapping pairs of Q3 observations (2016–17 through 2024–25), each from the later year’s Table B release. Historical revisions, the switch to telephone interviewing in 2020–2021, the return to mainly in-person collection in 2022 and the 2025 questionnaire change counsel restraint about small movements. The latter especially affects formality classifications. The ten QLFS industries, CEE sectors, B-BBEE codes and historical JSE industries classify different units. Pooling these aggregates would give neither a common workforce denominator nor a comparable sector exposure.
+
+\newpage
+
+# Limitations
+
+**Identification and measurement.** Daily prices can absorb policy news before the gazette date or react to unrelated events within the window. The 2018 stimulus news and January 2026 monetary and commodity developments illustrate both possibilities. Historical industry classifications and issuer identities are incomplete. An index containing affected firms can absorb part of an economy-wide response. Historical availability, liquidity screens and two days of observed trades select which securities enter the results. Provider conventions for corporate actions and index adjustment remain partly unresolved. These conditions limit inference about all listed firms, total shareholder returns and the source of a price movement.
+
+**Statistical uncertainty.** Synchronous resampling allows firms to move together as they did historically. If volatility rises sharply or firms respond more synchronously during an announcement, the bootstrap intervals may be too narrow [@bmp]. The reported pointwise intervals and the Holm decisions in Table \@ref(tab:prices) answer different questions. Neither the lack of family-wise significance nor an interval that crosses zero rules out a material effect.
+
+**Equity series and denominators.** Annual CEE counts describe the employers that reported in each cycle. The retrospective 2016 baseline from the 19th report covers 34,213 more employees in its workforce total than the original 17th report. Using the original national management counts changes the four estimated gains by at most 0.11 pp and preserves their ordering. In 2019 the sector sums fall short of the published national totals by 31 top and 256 senior managers. National results use the published national counts. For 2024, count-based shares take precedence over discrepant printed component percentages. The earlier 11-sector classification lacks a verified bridge to the detailed series. The 2025 reporting break prevents a like-for-like annual comparison.
+
+B-BBEE averages have changing contributors and unknown ownership weights. They cannot identify changes within the same firms. The gazettes and CEE tables also use different demographic definitions. Reported workforce categories cannot establish statutory eligibility or compliance. These qualifications delimit the populations and comparisons for which the descriptive findings hold. The baseline and exclusion checks support the direction of the principal equity findings within those limits.
+
+# Conclusion
+
+Reported representation increased most consistently for Black women, whose shares rose at both management levels in every detailed sector. In the verification sample, Black economic interest increased in every code with usable fixed endpoints, including after flagged pairs were excluded. The market evidence is less decisive. Two negative mining spreads, two small aggregate EE estimates and one positive aggregate B-BBEE estimate all fall short of family-wise significance.
+
+To establish a causal tradeoff would require comparable measures of realised productive performance and distributional outcomes for the same exposed units, credible policy timing and a defensible estimate of how both outcomes would have evolved without the policy. The present evidence answers narrower questions about prices, representation and ownership. It cannot determine how much efficiency was gained or forgone for a change in equity.
+
+\newpage
+
+# Appendix A. Event-study inference and sensitivity
+
+The estimation window contains up to 221 sessions. The model uses adjacent-session price changes and applies the documented ten-receipts-for-one-share Reinet conversion before estimation [@conversion]. Other unverified distributions and rights are left unresolved. Valid zero-volume closes can enter the residual donor pool even though the fit and event observations require positive volume. The bootstrap draws complete date vectors in contiguous blocks of five, leaving the 29-session gap in the simulated time path and propagating security-specific coefficient estimation error. There are 4,999 draws. The two-sided test counts absolute errors at least as large as the observed estimate, with one added to both the count and the number of draws. Each symmetric pointwise interval inverts that same test.
+
+```{r stress}
+rob <- a("robustness_summary")
+specs <- c("baseline","null_active_dates","event_sd_1p5","event_sd_2",
+           "market_adjusted","exclude_unresolved_action_securities")
+rs <- rob[event_id == "bbbee_draft_2026"][match(specs,specification)]
+stopifnot(identical(rs$specification,specs))
+tab(data.frame(Scenario=c("Baseline market model","Positive-volume donor dates",
+    "Event residual SD × 1.5","Event residual SD × 2","Market-adjusted returns",
+    "Exclude unresolved-action securities"),n=rs$n,est=sgn(100*rs$estimate,2),p=num(rs$p_value,4)),
+    c("January 2026 specification","Securities","CAAR (%)","Raw p"),
+    "Selected exploratory two-session results for the January 2026 draft Codes. Volatility scenarios scale the simulated event innovations, leaving point estimates fixed. SD denotes standard deviation.")
+```
+
+Table \@ref(tab:stress) separates assumptions that alter the measured return from those that alter only uncertainty. The simpler market-adjusted model subtracts the index return directly. In the mining events, a source-reviewed alternative industry classification gives spreads of −3.67 pp (2017) and −1.95 pp (2018). Other checks vary the estimation and volume screens, delete extreme observations from fitting, event returns **and** residual donors, and compare [−1, +3], [0, +5] and anticipation [−10, −1] windows. These comparisons are exploratory. The project’s analysis plan documents the fixed family of five primary tests. The study was not formally preregistered.
+
+**Placebos and calibration.** The design sought ten pseudo-event dates per announcement, with a 30-session buffer around the five policy dates and estimation windows that exclude the focal announcement. The selection rules yielded six dates for 2017 and ten for each other event. Of the 46 selected dates, 45 yielded estimates. The December 2023 pseudo-date for the 2025 EE announcement lacked the necessary benchmark observations. Frozen industry classifications and other news limit these as historical comparisons. In a separate zero-effect simulation, doubling event residual variability raised the rejection rate from 4.25% to 31.75% for the aggregate and from 6.00% to 34.50% for the mining spread. These are controlled scenarios illustrating how event risk can distort inference. Actual error rates on the five announcement dates are unknown.
+
+\newpage
+
+# Appendix B. Components of the 2023 shortfalls
+
+Table \@ref(tab:gendergaps) reproduces the 18 sectors in the May 2023 draft at the gazette’s published precision. Each entry subtracts the 2022 workforce share from the corresponding proposed national BLACK target. Male and female shares use all posts at that occupational level, so their signed shortfalls add to the total. In water and waste, for example, the senior male share was above the proposed benchmark while the female share was below it. This describes the composition of a reporting population. Employer compliance requires an applicable statutory benchmark and employer-specific information [@gaz2023].
+
+```{r gendergaps}
+draft_cols <- c("top_management total","top_management male","top_management female",
+                "senior_management total","senior_management male","senior_management female")
+dg <- draft[, .(sector_label, column=paste(occupational_level, gender), shortfall_pp)]
+tab(sector_table(dg, "shortfall_pp", draft_cols, sgn),
+    c("Sector","Top all","Male","Female","Senior all","Male","Female"),
+    "Signed shortfalls in pp. The first three numeric columns refer to top management and the last three to senior management. Negative values indicate an observed share above the draft benchmark.")
+```
+
+The sector labels here follow the gazette and the reviewed detailed CEE label correspondence. Table \@ref(tab:sectors) measures an observed change between workforce years. Figure \@ref(fig:draftfig) and Table \@ref(tab:gendergaps) instead measure distance from a proposed benchmark at one date. A sector can have experienced a large gain in representation and still have a large shortfall.
+
+\newpage
+
+# Appendix C. Supplementary 2025 race-by-sex proxy
+
+The CEE workforce tables permit a partial demographic comparison with the final targets. The proxy counts African, Coloured and Indian men and African, Coloured, Indian and White women. It divides by all reported managers at that level, including foreign nationals. The tables cannot verify qualifying citizenship and the proxy omits qualifying White men with disabilities. The net direction of error is unknown. Repeated and inconsistent CEE disability counts prevent a valid adjustment for overlapping categories. The separate 3% disability benchmark uses the employer’s total workforce and is outside this management-level comparison [@cee24th; @cee25th; @eeact; @gaz2025; @eeadmin].
+
+```{r supplementary}
+px <- proxy[gender == "total", .(sector_label, column=paste(occupational_level,reporting_year),
+                                 difference_from_cee_proxy_pp)]
+proxy_cols <- c("top_management 2023","senior_management 2023","top_management 2024","senior_management 2024")
+tab(sector_table(px, "difference_from_cee_proxy_pp", proxy_cols, sgn),
+    c("Sector","Top ’23","Senior ’23","Top ’24","Senior ’24"),
+    "April 2025 total designated-group target less the CEE race-by-sex proxy (pp). Columns identify workforce year and management level. Positive values place the target above the proxy. Negative values place it below.")
+```
+
+Only the **2023** workforce profile was public at the April 2025 announcement. The **2024** profile appeared later and supplies retrospective context. Neither sign in Table \@ref(tab:supplementary) establishes statutory attainment, shortfall or compliance. The final target levels themselves appear in Table \@ref(tab:finaltargets).
+
+\newpage
+
+# References {-}
+
+::: {#refs}
+:::
+

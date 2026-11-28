@@ -1,0 +1,1028 @@
+.
+├── analysis
+│   ├── part_a
+│   │   ├── config
+│   │   │   ├── analysis.yml
+│   │   │   └── headline_hypotheses.csv
+│   │   ├── R
+│   │   │   ├── 00_validate_inputs.R
+│   │   │   ├── 01a_corporate_actions.R
+│   │   │   ├── 01_construct_returns.R
+│   │   │   ├── 02a_security_review.R
+│   │   │   ├── 02_select_samples.R
+│   │   │   ├── 03_market_models.R
+│   │   │   ├── 04_abnormal_returns.R
+│   │   │   ├── 05_inference.R
+│   │   │   ├── 06_exposure_analysis.R
+│   │   │   ├── 07_robustness.R
+│   │   │   ├── 08_generate_outputs.R
+│   │   │   ├── 09_quality_diagnostics.R
+│   │   │   ├── 10_research_diagnostics.R
+│   │   │   ├── 11_standardized_diagnostics.R
+│   │   │   ├── 12_corrections_report.R
+│   │   │   └── utils.R
+│   │   ├── renv.lock
+│   │   ├── requirements-io.txt
+│   │   ├── research
+│   │   │   ├── contemporaneous_news.csv
+│   │   │   ├── corporate_actions_v1.csv
+│   │   │   ├── event_information_chronology.csv
+│   │   │   ├── events.csv
+│   │   │   └── security_exposure_review_v1.csv
+│   │   ├── review
+│   │   │   ├── final_methodology
+│   │   │   │   └── independent_check.py
+│   │   │   └── remediation
+│   │   │       ├── calibrate_inference.R
+│   │   │       ├── check_cli.py
+│   │   │       ├── finalize_handover.R
+│   │   │       ├── README.md
+│   │   │       ├── reproduce_baseline.py
+│   │   │       ├── reproduce_corrected.py
+│   │   │       ├── validate_components.R
+│   │   │       └── verify_corrected.py
+│   │   ├── run_analysis.R
+│   │   ├── scripts
+│   │   │   └── parquet_bridge.py
+│   │   └── tests
+│   │       ├── testthat
+│   │       │   ├── helper-fixtures.R
+│   │       │   ├── test-car-caar.R
+│   │       │   ├── test-data-integrity.R
+│   │       │   ├── test-event-windows.R
+│   │       │   ├── test-inference.R
+│   │       │   ├── test-integration.R
+│   │       │   ├── test-market-models.R
+│   │       │   ├── test-output-consistency.R
+│   │       │   ├── test-remediation.R
+│   │       │   ├── test-returns.R
+│   │       │   └── test-sample-selection.R
+│   │       └── testthat.R
+│   └── part_b
+│       ├── R
+│       │   ├── common.R
+│       │   ├── figures.R
+│       │   ├── management.R
+│       │   ├── ownership.R
+│       │   ├── report.R
+│       │   └── targets_employment.R
+│       ├── run_analysis.R
+│       ├── scripts
+│       │   ├── acquire_cee.py
+│       │   ├── acquire.py
+│       │   ├── bbbee
+│       │   │   ├── extend_compliance.py
+│       │   │   ├── extend_ownership.py
+│       │   │   ├── finalize.py
+│       │   │   ├── independent_figures_check.py
+│       │   │   ├── independent_structure_check.py
+│       │   │   ├── independent_verify_mupdf.py
+│       │   │   ├── pilot.py
+│       │   │   ├── reproduce_bbbee.sh
+│       │   │   ├── requirements-bbbee.txt
+│       │   │   ├── verification_log.py
+│       │   │   └── verify_coordinates.py
+│       │   ├── catalog_cee.py
+│       │   ├── extend_cee.py
+│       │   ├── extend_coverage.py
+│       │   ├── extend_eap.py
+│       │   ├── extend_early_cee.py
+│       │   ├── extract_cee.py
+│       │   ├── extract_validate.py
+│       │   ├── finalize_cee.py
+│       │   ├── reproduce_cee.sh
+│       │   ├── requirements.txt
+│       │   ├── sector_coverage_cee.py
+│       │   ├── supporting
+│       │   │   ├── draft_2023_transcription.txt
+│       │   │   ├── draft_2023_verification.csv
+│       │   │   ├── final_2025_verification.txt
+│       │   │   ├── qlfs_table_b_verification.txt
+│       │   │   ├── reproduce_supporting.py
+│       │   │   └── reproduce_supporting.sh
+│       │   └── verification_log.py
+│       └── tests
+│           ├── final_collection_check.py
+│           ├── independent_check_cee.py
+│           ├── independent_early_source_check.py
+│           ├── independent_pdf_numeric_check.py
+│           ├── independent_pdf_semantic_check.py
+│           ├── independent_remaining_source_check.py
+│           └── verify_methodology.py
+├── archive
+│   ├── archive_manifest.csv
+│   ├── local
+│   │   ├── baseline-render-failure
+│   │   │   ├── combined.log
+│   │   │   └── failed-render.partial.pdf
+│   │   ├── iress-export
+│   │   │   ├── export_failures
+│   │   │   │   ├── error_batch_02.png
+│   │   │   │   ├── error_batch_02.txt
+│   │   │   │   ├── error_batch_04.png
+│   │   │   │   ├── error_batch_04.txt
+│   │   │   │   ├── error_batch_05.png
+│   │   │   │   ├── error_batch_05.txt
+│   │   │   │   ├── error_batch_08.png
+│   │   │   │   ├── error_batch_08.txt
+│   │   │   │   ├── error_batch_10.png
+│   │   │   │   ├── error_batch_10.txt
+│   │   │   │   ├── error_batch_13.png
+│   │   │   │   ├── error_batch_13.txt
+│   │   │   │   ├── error_batch_16.png
+│   │   │   │   ├── error_batch_19.png
+│   │   │   │   └── error_batch_19.txt
+│   │   │   ├── screener_runs
+│   │   │   │   └── run_20261123_110207_652551
+│   │   │   │       ├── previous_canonical
+│   │   │   │       │   ├── jse_screener_snapshot.csv
+│   │   │   │       │   ├── jse_screener_snapshot.summary.json
+│   │   │   │       │   └── screener_pages
+│   │   │   │       │       ├── page_01.json
+│   │   │   │       │       ├── page_02.json
+│   │   │   │       │       ├── page_03.json
+│   │   │   │       │       ├── page_04.json
+│   │   │   │       │       ├── page_05.json
+│   │   │   │       │       ├── page_06.json
+│   │   │   │       │       ├── page_07.json
+│   │   │   │       │       ├── page_08.json
+│   │   │   │       │       ├── page_09.json
+│   │   │   │       │       ├── page_10.json
+│   │   │   │       │       ├── page_11.json
+│   │   │   │       │       ├── page_12.json
+│   │   │   │       │       ├── page_13.json
+│   │   │   │       │       ├── page_14.json
+│   │   │   │       │       ├── page_15.json
+│   │   │   │       │       ├── page_16.json
+│   │   │   │       │       ├── page_17.json
+│   │   │   │       │       ├── page_18.json
+│   │   │   │       │       └── page_19.json
+│   │   │   │       └── run.json
+│   │   │   └── thesis_data.before_metadata
+│   │   │       ├── data
+│   │   │       │   ├── instruments.parquet
+│   │   │       │   ├── market_index.metadata.json
+│   │   │       │   ├── market_index.parquet
+│   │   │       │   ├── observation_lineage.parquet
+│   │   │       │   ├── prices_daily.parquet
+│   │   │       │   └── prices_observed.parquet
+│   │   │       ├── documentation
+│   │   │       │   ├── data_dictionary.md
+│   │   │       │   ├── event_coverage.csv
+│   │   │       │   ├── example_python.py
+│   │   │       │   ├── example_r.R
+│   │   │       │   ├── known_limitations.md
+│   │   │       │   ├── market_event_coverage.csv
+│   │   │       │   ├── processing_summary.md
+│   │   │       │   ├── source_inventory.json
+│   │   │       │   ├── trading_calendar.csv
+│   │   │       │   └── verify_package.py
+│   │   │       ├── manifest.json
+│   │   │       ├── manifest.sha256
+│   │   │       └── README.md
+│   │   ├── maintenance
+│   │   │   ├── a.after.log
+│   │   │   ├── a.before.log
+│   │   │   ├── archive-reproduce.after.log
+│   │   │   ├── a.retry.after.log
+│   │   │   ├── a-review.after.log
+│   │   │   ├── a-tests.final.after.log
+│   │   │   ├── b.after.log
+│   │   │   ├── baseline_reproduction.json
+│   │   │   ├── bbbee.before.log
+│   │   │   ├── b.before.log
+│   │   │   ├── candidate.after.log
+│   │   │   ├── cee.before.log
+│   │   │   ├── cee.retry.before.log
+│   │   │   ├── cli.after.log
+│   │   │   ├── cli_narrow_all.log
+│   │   │   ├── cli_single_event_override.log
+│   │   │   ├── cli_smoke.log
+│   │   │   ├── collection.after.log
+│   │   │   ├── corrected_reproduction.log
+│   │   │   ├── deleted.tsv
+│   │   │   ├── git-storage.before
+│   │   │   ├── ignored.before
+│   │   │   ├── inventory.before
+│   │   │   ├── iress.after.log
+│   │   │   ├── iress.before.log
+│   │   │   ├── iress-cli.after.log
+│   │   │   ├── iress.final.after.log
+│   │   │   ├── iress-rebuild.after.log
+│   │   │   ├── iress.retry.after.log
+│   │   │   ├── iress-stale-baseline.log
+│   │   │   ├── moves.csv
+│   │   │   ├── original_pipeline_rerun.log
+│   │   │   ├── original_tests_rerun.log
+│   │   │   ├── package.after.log
+│   │   │   ├── package.before.log
+│   │   │   ├── pymupdf-install.log
+│   │   │   ├── render.after.log
+│   │   │   ├── render.before.log
+│   │   │   ├── render.retry.before.log
+│   │   │   ├── reproduce-corrected.after.log
+│   │   │   ├── source.before.log
+│   │   │   ├── source-reviews.after.log
+│   │   │   ├── source-reviews.before.log
+│   │   │   ├── sources.before
+│   │   │   ├── status.before
+│   │   │   ├── supporting.before.log
+│   │   │   ├── tracked.before
+│   │   │   ├── user-edits.patch
+│   │   │   └── verification-render
+│   │   │       ├── combined.html
+│   │   │       └── combined.pdf
+│   │   └── submitted
+│   │       ├── combined.html
+│   │       └── combined.pdf
+│   ├── part_a
+│   │   ├── development_readme.md
+│   │   ├── independent_methodology
+│   │   │   ├── audit_design.py
+│   │   │   ├── audit_inference.R
+│   │   │   ├── corporate_action_diagnostics.R
+│   │   │   ├── README.md
+│   │   │   ├── review_report.md
+│   │   │   ├── stress_bootstrap.R
+│   │   │   └── verify_data.py
+│   │   ├── pre_remediation_2026-11-24
+│   │   │   ├── archive_manifest.json
+│   │   │   ├── baseline_full_run.log
+│   │   │   ├── baseline_reproduction.json
+│   │   │   ├── baseline_tests.log
+│   │   │   ├── derived
+│   │   │   │   ├── abnormal_returns.parquet
+│   │   │   │   ├── daily_event_aggregates.parquet
+│   │   │   │   ├── event_samples.parquet
+│   │   │   │   ├── firm_event_cars.parquet
+│   │   │   │   ├── market_model_estimates.parquet
+│   │   │   │   ├── market_returns.parquet
+│   │   │   │   └── returns_daily.parquet
+│   │   │   ├── diagnostics
+│   │   │   │   ├── current_isin_review_candidates.csv
+│   │   │   │   ├── data_quality_review.md
+│   │   │   │   ├── dependency_setup.md
+│   │   │   │   ├── effective_configuration.yml
+│   │   │   │   ├── event_register_audit.csv
+│   │   │   │   ├── event_run_status.csv
+│   │   │   │   ├── event_sample_extreme_returns.csv
+│   │   │   │   ├── extreme_return_audit.csv
+│   │   │   │   ├── flagged_market_models.csv
+│   │   │   │   ├── independent_review
+│   │   │   │   │   ├── asymmetric_null_example.csv
+│   │   │   │   │   ├── audit_workspace.txt
+│   │   │   │   │   ├── baseline_p_interval_disagreements.csv
+│   │   │   │   │   ├── benchmark_gap.csv
+│   │   │   │   │   ├── corporate_action_model_changes.csv
+│   │   │   │   │   ├── corporate_action_sensitivities.csv
+│   │   │   │   │   ├── corporate_actions_log.txt
+│   │   │   │   │   ├── event_daily_returns.csv
+│   │   │   │   │   ├── explicit_multivariate_refit.csv
+│   │   │   │   │   ├── exploratory_holm_by_specification.csv
+│   │   │   │   │   ├── extremes_retained_in_deletion_null.csv
+│   │   │   │   │   ├── figure_reconciliation.csv
+│   │   │   │   │   ├── fixed_sample_2018_timing.csv
+│   │   │   │   │   ├── fortress_share_classes.csv
+│   │   │   │   │   ├── full_pipeline_log.txt
+│   │   │   │   │   ├── full_rerun_table_comparison.json
+│   │   │   │   │   ├── headline_and_window_reconciliation.csv
+│   │   │   │   │   ├── headline_pre_event_extremes.csv
+│   │   │   │   │   ├── independent_cars.csv
+│   │   │   │   │   ├── independent_data_log.txt
+│   │   │   │   │   ├── independent_holm.csv
+│   │   │   │   │   ├── independent_models.csv
+│   │   │   │   │   ├── independent_numeric_checks.json
+│   │   │   │   │   ├── inference_audit_log.txt
+│   │   │   │   │   ├── investment_label_review.csv
+│   │   │   │   │   ├── leave_one_out.csv
+│   │   │   │   │   ├── null_distribution_diagnostics.csv
+│   │   │   │   │   ├── null_process_diagnostics.csv
+│   │   │   │   │   ├── null_variance_contributions.csv
+│   │   │   │   │   ├── placebo_p_interval_disagreements.csv
+│   │   │   │   │   ├── placebo_selection_audit.csv
+│   │   │   │   │   ├── prediction_error_scale_sensitivity.csv
+│   │   │   │   │   ├── previous_session_tail_comparison.csv
+│   │   │   │   │   ├── primary_constituents.csv
+│   │   │   │   │   ├── protected_file_check.json
+│   │   │   │   │   ├── protected_files_before.json
+│   │   │   │   │   ├── robustness_p_interval_disagreements.csv
+│   │   │   │   │   ├── sample_screening.csv
+│   │   │   │   │   ├── stress_bootstrap_log.txt
+│   │   │   │   │   ├── synthetic_null_summary.csv
+│   │   │   │   │   ├── synthetic_null_trials.csv
+│   │   │   │   │   ├── targeted_sensitivities.csv
+│   │   │   │   │   ├── test_log.txt
+│   │   │   │   │   ├── test_summary.md
+│   │   │   │   │   └── unclassified_primary.csv
+│   │   │   │   ├── inference_correction_comparison.csv
+│   │   │   │   ├── influential_primary_cars.csv
+│   │   │   │   ├── input_validation.md
+│   │   │   │   ├── largest_null_portfolio_shocks.csv
+│   │   │   │   ├── market_model_diagnostics.md
+│   │   │   │   ├── mineral_value_chain_controls.csv
+│   │   │   │   ├── null_calibration.csv
+│   │   │   │   ├── package_verification.txt
+│   │   │   │   ├── repeated_source_labels.csv
+│   │   │   │   ├── representative_model_residuals.csv
+│   │   │   │   ├── return_quality_summary.csv
+│   │   │   │   ├── return_validation.md
+│   │   │   │   ├── run_metadata.json
+│   │   │   │   ├── sample_exclusions.csv
+│   │   │   │   ├── sample_selection_by_event.csv
+│   │   │   │   ├── sample_selection.md
+│   │   │   │   ├── session_info.txt
+│   │   │   │   ├── source_contract.json
+│   │   │   │   ├── source_fingerprints_after.json
+│   │   │   │   ├── source_fingerprints_before.json
+│   │   │   │   ├── test_results.csv
+│   │   │   │   └── test_summary.md
+│   │   │   ├── figures
+│   │   │   │   ├── caar_bbbee_draft_2026.pdf
+│   │   │   │   ├── caar_bbbee_draft_2026.png
+│   │   │   │   ├── caar_ee_draft_2023.pdf
+│   │   │   │   ├── caar_ee_draft_2023.png
+│   │   │   │   ├── caar_ee_final_2025.pdf
+│   │   │   │   ├── caar_ee_final_2025.png
+│   │   │   │   ├── caar_mining_2017_ci.png
+│   │   │   │   ├── caar_mining_2018_ci.png
+│   │   │   │   ├── caar_mining_charter_2017.pdf
+│   │   │   │   ├── caar_mining_charter_2017.png
+│   │   │   │   ├── caar_mining_charter_2018.pdf
+│   │   │   │   ├── caar_mining_charter_2018.png
+│   │   │   │   ├── market_beta_distribution.pdf
+│   │   │   │   ├── market_beta_distribution.png
+│   │   │   │   ├── representative_residuals.pdf
+│   │   │   │   ├── representative_residuals.png
+│   │   │   │   ├── robustness_comparison.pdf
+│   │   │   │   └── robustness_comparison.png
+│   │   │   ├── project
+│   │   │   │   ├── config
+│   │   │   │   │   └── analysis.yml
+│   │   │   │   ├── docs
+│   │   │   │   │   ├── event_study_methodology.md
+│   │   │   │   │   ├── interpretation_limitations.md
+│   │   │   │   │   ├── market_data_methodology.md
+│   │   │   │   │   ├── research_progress.md
+│   │   │   │   │   ├── sample_selection.md
+│   │   │   │   │   └── statistical_inference.md
+│   │   │   │   ├── R
+│   │   │   │   │   ├── 00_validate_inputs.R
+│   │   │   │   │   ├── 01_construct_returns.R
+│   │   │   │   │   ├── 02_select_samples.R
+│   │   │   │   │   ├── 03_market_models.R
+│   │   │   │   │   ├── 04_abnormal_returns.R
+│   │   │   │   │   ├── 05_inference.R
+│   │   │   │   │   ├── 06_exposure_analysis.R
+│   │   │   │   │   ├── 07_robustness.R
+│   │   │   │   │   ├── 08_generate_outputs.R
+│   │   │   │   │   ├── 09_quality_diagnostics.R
+│   │   │   │   │   └── utils.R
+│   │   │   │   ├── README.md
+│   │   │   │   ├── renv.lock
+│   │   │   │   ├── requirements-io.txt
+│   │   │   │   ├── research
+│   │   │   │   │   └── events.csv
+│   │   │   │   ├── review
+│   │   │   │   │   └── independent_methodology
+│   │   │   │   │       ├── audit_design.py
+│   │   │   │   │       ├── audit_inference.R
+│   │   │   │   │       ├── corporate_action_diagnostics.R
+│   │   │   │   │       ├── README.md
+│   │   │   │   │       ├── stress_bootstrap.R
+│   │   │   │   │       └── verify_data.py
+│   │   │   │   ├── run_analysis.R
+│   │   │   │   ├── scripts
+│   │   │   │   │   └── parquet_bridge.py
+│   │   │   │   └── tests
+│   │   │   │       ├── testthat
+│   │   │   │       │   ├── helper-fixtures.R
+│   │   │   │       │   ├── test-car-caar.R
+│   │   │   │       │   ├── test-data-integrity.R
+│   │   │   │       │   ├── test-event-windows.R
+│   │   │   │       │   ├── test-inference.R
+│   │   │   │       │   ├── test-integration.R
+│   │   │   │       │   ├── test-market-models.R
+│   │   │   │       │   ├── test-output-consistency.R
+│   │   │   │       │   ├── test-returns.R
+│   │   │   │       │   └── test-sample-selection.R
+│   │   │   │       └── testthat.R
+│   │   │   ├── reports
+│   │   │   │   ├── execution_report.md
+│   │   │   │   ├── exposure_analysis.md
+│   │   │   │   ├── independent_methodology_review.md
+│   │   │   │   ├── part_a_preliminary_results.md
+│   │   │   │   └── robustness_findings.md
+│   │   │   ├── reproduction_workspace.txt
+│   │   │   ├── source_fingerprints.json
+│   │   │   └── tables
+│   │   │       ├── daily_event_aggregates.csv
+│   │   │       ├── descriptive_statistics.csv
+│   │   │       ├── event_car_summary.csv
+│   │   │       ├── event_study_inference.csv
+│   │   │       ├── event_study_inference.md
+│   │   │       ├── exposure_regressions.csv
+│   │   │       ├── headline_results_percent.csv
+│   │   │       ├── market_model_summary.csv
+│   │   │       ├── placebo_results.csv
+│   │   │       └── robustness_summary.csv
+│   │   └── remediation_logs
+│   │       ├── calibration.log
+│   │       ├── cli_checks.log
+│   │       ├── cli_narrow_all.log
+│   │       ├── cli_single_event_override.log
+│   │       ├── cli_smoke.log
+│   │       ├── component_checks.log
+│   │       ├── corrected_reproduction.log
+│   │       ├── full_run.log
+│   │       ├── independent_check.log
+│   │       ├── preservation.log
+│   │       └── tests.log
+│   ├── part_b
+│   │   └── reproduce_preliminary.sh
+│   └── README.md
+├── data
+│   ├── part_a
+│   │   ├── derived
+│   │   │   ├── abnormal_returns.parquet
+│   │   │   ├── daily_event_aggregates.parquet
+│   │   │   ├── event_samples.parquet
+│   │   │   ├── firm_event_cars.parquet
+│   │   │   ├── market_model_estimates.parquet
+│   │   │   ├── market_returns.parquet
+│   │   │   └── returns_daily.parquet
+│   │   └── source
+│   │       └── thesis_data
+│   │           ├── data
+│   │           │   ├── event_industry_classifications.parquet
+│   │           │   ├── instrument_metadata_2026-11-23.parquet
+│   │           │   ├── instruments.parquet
+│   │           │   ├── jse_bulletin_securities.parquet
+│   │           │   ├── market_index.metadata.json
+│   │           │   ├── market_index.parquet
+│   │           │   ├── observation_lineage.parquet
+│   │           │   ├── prices_daily.parquet
+│   │           │   └── prices_observed.parquet
+│   │           ├── documentation
+│   │           │   ├── data_dictionary.md
+│   │           │   ├── event_coverage.csv
+│   │           │   ├── example_python.py
+│   │           │   ├── example_r.R
+│   │           │   ├── historical_industry_bulletin_differences.csv
+│   │           │   ├── historical_industry_classifications.md
+│   │           │   ├── historical_industry_coverage.csv
+│   │           │   ├── historical_industry_eligible_instruments.csv
+│   │           │   ├── historical_industry_manual_review.csv
+│   │           │   ├── instrument_metadata.md
+│   │           │   ├── known_limitations.md
+│   │           │   ├── market_event_coverage.csv
+│   │           │   ├── processing_summary.md
+│   │           │   ├── source_inventory.json
+│   │           │   ├── trading_calendar.csv
+│   │           │   └── verify_package.py
+│   │           ├── manifest.json
+│   │           ├── manifest.sha256
+│   │           └── README.md
+│   └── part_b
+│       ├── intermediate
+│       │   └── cee_2024_coverage_transcribed.csv
+│       ├── pilot
+│       │   └── bbbee
+│       │       ├── retrospective_compliance.csv
+│       │       ├── retrospective_ownership.csv
+│       │       ├── retrospective_sector_coverage.csv
+│       │       └── status_2022_ownership.csv
+│       ├── processed
+│       │   ├── bbbee_compliance_levels.csv
+│       │   ├── bbbee_compliance_summary.csv
+│       │   ├── bbbee_ownership.csv
+│       │   ├── bbbee_ownership_preliminary.csv
+│       │   ├── bbbee_reporting_coverage.csv
+│       │   ├── bbbee_sector_compliance_preliminary.csv
+│       │   ├── bbbee_sector_reference.csv
+│       │   ├── bbbee_validation_results.csv
+│       │   ├── cee_eap_benchmarks.csv
+│       │   ├── cee_eap_benchmarks.parquet
+│       │   ├── cee_management_representation.csv
+│       │   ├── cee_management_representation.parquet
+│       │   ├── cee_management_representation_raw.csv
+│       │   ├── cee_management_representation_raw.parquet
+│       │   ├── cee_reporting_coverage.csv
+│       │   ├── cee_reporting_coverage.parquet
+│       │   ├── cee_sector_crosswalk.csv
+│       │   ├── cee_top_management_2024.csv
+│       │   ├── cee_top_management_2024.parquet
+│       │   ├── cee_validation_results.csv
+│       │   ├── cee_validation_results.parquet
+│       │   ├── ee_gazette_workforce_baseline_2022.csv
+│       │   ├── ee_sector_reference.csv
+│       │   ├── ee_sector_targets.csv
+│       │   ├── statssa_sector_employment.csv
+│       │   └── supporting_data_validation.csv
+│       └── raw
+│           ├── bbbee_commission
+│           │   ├── bbbee_activities_presentation.pdf
+│           │   ├── national_status_2017.pdf
+│           │   ├── national_status_2018.pdf
+│           │   ├── national_status_2019.pdf
+│           │   ├── national_status_2021.pdf
+│           │   ├── national_status_2022.pdf
+│           │   ├── state_transformation_national_2017_publication.pdf
+│           │   ├── state_transformation_sectoral_2017_publication.pdf
+│           │   └── transformation_landscape_2013_2023_published_2026.pdf
+│           ├── cee
+│           │   ├── cee_17th_annual_report.pdf
+│           │   ├── cee_18th_annual_report.pdf
+│           │   ├── cee_19th_annual_report.pdf
+│           │   ├── cee_20th_annual_report.pdf
+│           │   ├── cee_21st_annual_report.pdf
+│           │   ├── cee_22nd_annual_report.pdf
+│           │   ├── cee_23rd_annual_report.pdf
+│           │   ├── cee_24th_annual_report.pdf
+│           │   ├── cee_25th_annual_report.pdf
+│           │   └── cee_26th_annual_report.pdf
+│           ├── gazettes
+│           │   ├── 48589gon3407.pdf
+│           │   ├── 50058gon4295.pdf
+│           │   ├── 52514gon6124.pdf
+│           │   └── 52515_ee_administrative.pdf
+│           └── statssa
+│               ├── P02113rdQuarter2017.pdf
+│               ├── P02113rdQuarter2019.pdf
+│               ├── P02113rdQuarter2021.pdf
+│               ├── P02113rdQuarter2023.pdf
+│               ├── P02113rdQuarter2025_datafirst.pdf
+│               └── P02113rdQuarter2025.pdf
+├── docs
+│   ├── maintenance
+│   │   ├── analytical_comparison.json
+│   │   ├── baseline_manifest.json
+│   │   ├── integrity_verification.json
+│   │   ├── inventory_totals.json
+│   │   └── restructuring_report.md
+│   ├── part_a
+│   │   ├── event_study_methodology.md
+│   │   ├── historical_exposure.md
+│   │   ├── interpretation_limitations.md
+│   │   ├── market_data_methodology.md
+│   │   ├── research_decisions.md
+│   │   ├── return_measurement.md
+│   │   ├── sample_selection.md
+│   │   └── statistical_inference.md
+│   ├── part_b
+│   │   ├── analysis_handover.md
+│   │   ├── bbbee_collection_handover.md
+│   │   ├── bbbee_coordinate_checks.csv
+│   │   ├── bbbee_coverage_report.md
+│   │   ├── bbbee_data_availability.csv
+│   │   ├── bbbee_data_dictionary.md
+│   │   ├── bbbee_extraction_methodology.md
+│   │   ├── bbbee_extraction_progress.md
+│   │   ├── bbbee_independent_cells.csv
+│   │   ├── bbbee_independent_review.md
+│   │   ├── bbbee_issue_register.md
+│   │   ├── bbbee_manual_acquisition_required.md
+│   │   ├── bbbee_poc_report.md
+│   │   ├── bbbee_source_comparability.md
+│   │   ├── bbbee_source_discovery_handover.md
+│   │   ├── bbbee_source_inventory.csv
+│   │   ├── bbbee_validation_report.md
+│   │   ├── bbbee_verification_log.csv
+│   │   ├── cee_collection_handover.md
+│   │   ├── cee_comparability_report.md
+│   │   ├── cee_coverage_report.md
+│   │   ├── cee_data_availability.csv
+│   │   ├── cee_data_dictionary.md
+│   │   ├── cee_extraction_methodology.md
+│   │   ├── cee_independent_review.md
+│   │   ├── cee_issue_register.md
+│   │   ├── cee_validation_report.md
+│   │   ├── cee_visual_verification_log.csv
+│   │   ├── manual_acquisition_required.md
+│   │   ├── poc_report.md
+│   │   ├── source_inventory.csv
+│   │   ├── supporting_collection_handover.md
+│   │   ├── supporting_data_dictionary.md
+│   │   ├── supporting_independent_review.md
+│   │   ├── supporting_source_inventory.csv
+│   │   ├── supporting_validation_report.md
+│   │   └── supporting_verification_log.csv
+│   └── reproducibility.md
+├── outputs
+│   ├── part_a
+│   │   ├── diagnostics
+│   │   │   ├── benchmark_convention_audit.csv
+│   │   │   ├── changed_market_models.csv
+│   │   │   ├── contemporaneous_news.csv
+│   │   │   ├── corporate_action_application.csv
+│   │   │   ├── current_isin_review_candidates.csv
+│   │   │   ├── data_quality_review.md
+│   │   │   ├── dependency_setup.md
+│   │   │   ├── effective_configuration.yml
+│   │   │   ├── event_information_chronology.csv
+│   │   │   ├── event_register_audit.csv
+│   │   │   ├── event_run_status.csv
+│   │   │   ├── event_sample_extreme_returns.csv
+│   │   │   ├── event_volatility_diagnostics.csv
+│   │   │   ├── extreme_return_audit.csv
+│   │   │   ├── flagged_market_models.csv
+│   │   │   ├── independent_review
+│   │   │   │   ├── asymmetric_null_example.csv
+│   │   │   │   ├── audit_workspace.txt
+│   │   │   │   ├── baseline_p_interval_disagreements.csv
+│   │   │   │   ├── benchmark_gap.csv
+│   │   │   │   ├── corporate_action_model_changes.csv
+│   │   │   │   ├── corporate_action_sensitivities.csv
+│   │   │   │   ├── corporate_actions_log.txt
+│   │   │   │   ├── event_daily_returns.csv
+│   │   │   │   ├── explicit_multivariate_refit.csv
+│   │   │   │   ├── exploratory_holm_by_specification.csv
+│   │   │   │   ├── extremes_retained_in_deletion_null.csv
+│   │   │   │   ├── figure_reconciliation.csv
+│   │   │   │   ├── fixed_sample_2018_timing.csv
+│   │   │   │   ├── fortress_share_classes.csv
+│   │   │   │   ├── full_pipeline_log.txt
+│   │   │   │   ├── full_rerun_table_comparison.json
+│   │   │   │   ├── headline_and_window_reconciliation.csv
+│   │   │   │   ├── headline_pre_event_extremes.csv
+│   │   │   │   ├── independent_cars.csv
+│   │   │   │   ├── independent_data_log.txt
+│   │   │   │   ├── independent_holm.csv
+│   │   │   │   ├── independent_models.csv
+│   │   │   │   ├── independent_numeric_checks.json
+│   │   │   │   ├── inference_audit_log.txt
+│   │   │   │   ├── investment_label_review.csv
+│   │   │   │   ├── leave_one_out.csv
+│   │   │   │   ├── null_distribution_diagnostics.csv
+│   │   │   │   ├── null_process_diagnostics.csv
+│   │   │   │   ├── null_variance_contributions.csv
+│   │   │   │   ├── placebo_p_interval_disagreements.csv
+│   │   │   │   ├── placebo_selection_audit.csv
+│   │   │   │   ├── prediction_error_scale_sensitivity.csv
+│   │   │   │   ├── previous_session_tail_comparison.csv
+│   │   │   │   ├── primary_constituents.csv
+│   │   │   │   ├── protected_file_check.json
+│   │   │   │   ├── protected_files_before.json
+│   │   │   │   ├── robustness_p_interval_disagreements.csv
+│   │   │   │   ├── sample_screening.csv
+│   │   │   │   ├── stress_bootstrap_log.txt
+│   │   │   │   ├── synthetic_null_summary.csv
+│   │   │   │   ├── synthetic_null_trials.csv
+│   │   │   │   ├── targeted_sensitivities.csv
+│   │   │   │   ├── test_log.txt
+│   │   │   │   ├── test_summary.md
+│   │   │   │   └── unclassified_primary.csv
+│   │   │   ├── inference_correction_comparison.csv
+│   │   │   ├── influential_primary_cars.csv
+│   │   │   ├── input_validation.md
+│   │   │   ├── largest_null_portfolio_shocks.csv
+│   │   │   ├── market_model_diagnostics.md
+│   │   │   ├── mineral_value_chain_controls.csv
+│   │   │   ├── null_calibration.csv
+│   │   │   ├── package_verification.txt
+│   │   │   ├── placebo_design_summary.csv
+│   │   │   ├── remediation
+│   │   │   │   ├── benchmark_gap.csv
+│   │   │   │   ├── calibration_metadata.json
+│   │   │   │   ├── cli_checks.json
+│   │   │   │   ├── event_daily_returns.csv
+│   │   │   │   ├── extreme_mask_regression_comparison.csv
+│   │   │   │   ├── figure_reconciliation.csv
+│   │   │   │   ├── fortress_share_classes.csv
+│   │   │   │   ├── headline_and_window_reconciliation.csv
+│   │   │   │   ├── independent_cars.csv
+│   │   │   │   ├── independent_models.csv
+│   │   │   │   ├── independent_numeric_checks.json
+│   │   │   │   ├── independent_verification_metadata.json
+│   │   │   │   ├── interval_only_comparison_on_original_data.csv
+│   │   │   │   ├── investment_label_review.csv
+│   │   │   │   ├── leave_one_out.csv
+│   │   │   │   ├── p_interval_consistency.csv
+│   │   │   │   ├── placebo_own_event_audit.csv
+│   │   │   │   ├── preservation_and_provenance.json
+│   │   │   │   ├── primary_constituents.csv
+│   │   │   │   ├── revised_reproduction.json
+│   │   │   │   ├── sample_screening.csv
+│   │   │   │   ├── synchronous_calibration_summary.csv
+│   │   │   │   ├── synchronous_calibration_trials.csv
+│   │   │   │   ├── unclassified_primary.csv
+│   │   │   │   └── validation_summary.json
+│   │   │   ├── repeated_source_labels.csv
+│   │   │   ├── representative_model_residuals.csv
+│   │   │   ├── return_quality_summary.csv
+│   │   │   ├── return_validation.md
+│   │   │   ├── run_metadata.json
+│   │   │   ├── sample_exclusions.csv
+│   │   │   ├── sample_selection_by_event.csv
+│   │   │   ├── sample_selection.md
+│   │   │   ├── security_exposure_review.csv
+│   │   │   ├── session_info.txt
+│   │   │   ├── source_contract.json
+│   │   │   ├── source_fingerprints_after.json
+│   │   │   ├── source_fingerprints_before.json
+│   │   │   ├── test_results.csv
+│   │   │   ├── test_run_metadata.json
+│   │   │   └── test_summary.md
+│   │   ├── figures
+│   │   │   ├── caar_bbbee_draft_2026.pdf
+│   │   │   ├── caar_bbbee_draft_2026.png
+│   │   │   ├── caar_ee_draft_2023.pdf
+│   │   │   ├── caar_ee_draft_2023.png
+│   │   │   ├── caar_ee_final_2025.pdf
+│   │   │   ├── caar_ee_final_2025.png
+│   │   │   ├── caar_mining_2017_ci.png
+│   │   │   ├── caar_mining_2018_ci.png
+│   │   │   ├── caar_mining_charter_2017.pdf
+│   │   │   ├── caar_mining_charter_2017.png
+│   │   │   ├── caar_mining_charter_2018.pdf
+│   │   │   ├── caar_mining_charter_2018.png
+│   │   │   ├── daily_decomposition_2026.pdf
+│   │   │   ├── daily_decomposition_2026.png
+│   │   │   ├── market_beta_distribution.pdf
+│   │   │   ├── market_beta_distribution.png
+│   │   │   ├── representative_residuals.pdf
+│   │   │   ├── representative_residuals.png
+│   │   │   ├── robustness_comparison.pdf
+│   │   │   └── robustness_comparison.png
+│   │   ├── reports
+│   │   │   ├── execution_report.md
+│   │   │   ├── exposure_analysis.md
+│   │   │   ├── final_methodology_review.md
+│   │   │   ├── information_and_market_conditions.md
+│   │   │   ├── methodological_corrections_report.md
+│   │   │   ├── part_a_preliminary_results.md
+│   │   │   ├── research_progress.md
+│   │   │   └── robustness_findings.md
+│   │   └── tables
+│   │       ├── daily_event_aggregates.csv
+│   │       ├── descriptive_statistics.csv
+│   │       ├── event_car_summary.csv
+│   │       ├── event_study_inference.csv
+│   │       ├── event_study_inference.md
+│   │       ├── exposure_regressions.csv
+│   │       ├── fixed_sample_2018_timing.csv
+│   │       ├── headline_before_after.csv
+│   │       ├── headline_results_percent.csv
+│   │       ├── market_model_summary.csv
+│   │       ├── placebo_results.csv
+│   │       ├── primary_daily_decomposition.csv
+│   │       ├── primary_group_contributions.csv
+│   │       ├── primary_industry_contributions.csv
+│   │       ├── primary_security_contributions.csv
+│   │       ├── robustness_summary.csv
+│   │       ├── standardized_car_diagnostics.csv
+│   │       └── timing_comparisons.csv
+│   └── part_b
+│       ├── diagnostics
+│       │   ├── independent_methodology
+│       │   │   ├── bbbee_ownership_endpoints.csv
+│       │   │   ├── cee_endpoint_changes.csv
+│       │   │   ├── ee_draft_shortfalls.csv
+│       │   │   ├── ee_final_proxy.csv
+│       │   │   ├── figure_geometry.json
+│       │   │   ├── preservation_and_rerun.json
+│       │   │   └── verification.json
+│       │   ├── input_fingerprints.csv
+│       │   ├── session_info.txt
+│       │   └── validation_checks.csv
+│       ├── figures
+│       │   ├── draft_ee_target_shortfalls.pdf
+│       │   ├── draft_ee_target_shortfalls.png
+│       │   ├── national_management_representation.pdf
+│       │   ├── national_management_representation.png
+│       │   ├── reported_black_economic_interest.pdf
+│       │   └── reported_black_economic_interest.png
+│       ├── reports
+│       │   ├── part_b_independent_methodology_review.md
+│       │   └── part_b_preliminary_results.md
+│       └── tables
+│           ├── bbbee_compliance_exclusions.csv
+│           ├── bbbee_compliance_levels_1_to_4.csv
+│           ├── bbbee_compliance_levels_valid.csv
+│           ├── bbbee_ownership_annual.csv
+│           ├── bbbee_ownership_annual_sensitivity.csv
+│           ├── bbbee_ownership_anomaly_pairs.csv
+│           ├── bbbee_ownership_change_and_sensitivity.csv
+│           ├── bbbee_ownership_sector_direction_sensitivity.csv
+│           ├── cee_management_2025_separate_regime.csv
+│           ├── cee_national_eap.csv
+│           ├── cee_national_management_change.csv
+│           ├── cee_national_management.csv
+│           ├── cee_national_management_level_gaps.csv
+│           ├── cee_national_reporting_coverage.csv
+│           ├── cee_sector_label_mapping.csv
+│           ├── cee_sector_management_change.csv
+│           ├── cee_sector_management.csv
+│           ├── cee_sector_management_level_gaps.csv
+│           ├── ee_draft_2023_target_shortfalls.csv
+│           ├── ee_final_2025_cee_proxy_supplement.csv
+│           ├── ee_final_2025_targets.csv
+│           ├── qlfs_q3_industry_employment.csv
+│           └── qlfs_q3_national_employment.csv
+├── README.md
+├── report
+│   ├── combined.html
+│   ├── combined.pdf
+│   ├── combined.Rmd
+│   ├── final_independent_review.md
+│   ├── handover.md
+│   ├── references.bib
+│   ├── render.sh
+│   ├── report.csl
+│   ├── report.css
+│   ├── report.tex
+│   └── submitted.sha256
+├── tmp.txt
+└── tools
+    └── iress-export
+        ├── data
+        │   ├── intermediate
+        │   │   ├── history
+        │   │   │   └── J203_prices
+        │   │   │       ├── 3eb6588b73f4aa7148399ec850682fcc70dc8df364fa03ad9acf7d87fc15bec1
+        │   │   │       │   └── J203_prices.xlsx
+        │   │   │       └── a554e4abb47a362bf7400bb18954d455bc665b2e9bf36465d8095af22342eebd
+        │   │   │           ├── J203_prices.json
+        │   │   │           └── J203_prices.parquet
+        │   │   ├── J203_prices.json
+        │   │   ├── J203_prices.parquet
+        │   │   ├── jse_prices_01.json
+        │   │   ├── jse_prices_01.parquet
+        │   │   ├── jse_prices_02.json
+        │   │   ├── jse_prices_02.parquet
+        │   │   ├── jse_prices_03.json
+        │   │   ├── jse_prices_03.parquet
+        │   │   ├── jse_prices_04.json
+        │   │   ├── jse_prices_04.parquet
+        │   │   ├── jse_prices_05.json
+        │   │   ├── jse_prices_05.parquet
+        │   │   ├── jse_prices_06.json
+        │   │   ├── jse_prices_06.parquet
+        │   │   ├── jse_prices_07.json
+        │   │   ├── jse_prices_07.parquet
+        │   │   ├── jse_prices_08.json
+        │   │   ├── jse_prices_08.parquet
+        │   │   ├── jse_prices_09.json
+        │   │   ├── jse_prices_09.parquet
+        │   │   ├── jse_prices_10.json
+        │   │   ├── jse_prices_10.parquet
+        │   │   ├── jse_prices_11.json
+        │   │   ├── jse_prices_11.parquet
+        │   │   ├── jse_prices_12.json
+        │   │   ├── jse_prices_12.parquet
+        │   │   ├── jse_prices_13.json
+        │   │   ├── jse_prices_13.parquet
+        │   │   ├── jse_prices_14.json
+        │   │   ├── jse_prices_14.parquet
+        │   │   ├── jse_prices_15.json
+        │   │   ├── jse_prices_15.parquet
+        │   │   ├── jse_prices_16.json
+        │   │   ├── jse_prices_16.parquet
+        │   │   ├── jse_prices_17.json
+        │   │   ├── jse_prices_17.parquet
+        │   │   ├── jse_prices_18.json
+        │   │   ├── jse_prices_18.parquet
+        │   │   ├── jse_prices_19.json
+        │   │   └── jse_prices_19.parquet
+        │   ├── processed
+        │   │   ├── build_manifest.json
+        │   │   ├── event_industry_classifications.parquet
+        │   │   ├── instrument_metadata_2026-11-23.parquet
+        │   │   ├── instruments.parquet
+        │   │   ├── jse_bulletin_securities.parquet
+        │   │   ├── market_index.metadata.json
+        │   │   ├── market_index.parquet
+        │   │   ├── observation_lineage.parquet
+        │   │   ├── prices_daily.parquet
+        │   │   └── prices_observed.parquet
+        │   └── raw
+        │       └── jse_bulletins
+        │           ├── jse-bulletin-may-2017.xlsx
+        │           ├── securities-information-apr-2023.xlsx
+        │           ├── securities-information-aug-2018.xlsx
+        │           ├── securities-information-dec-2025.xlsx
+        │           └── securities-information-mar-2025.xlsx
+        ├── exports
+        │   ├── export_manifest.json
+        │   ├── J203_prices.xlsx
+        │   ├── jse_prices_01.xlsx
+        │   ├── jse_prices_02.xlsx
+        │   ├── jse_prices_03.xlsx
+        │   ├── jse_prices_04.xlsx
+        │   ├── jse_prices_05.xlsx
+        │   ├── jse_prices_06.xlsx
+        │   ├── jse_prices_07.xlsx
+        │   ├── jse_prices_08.xlsx
+        │   ├── jse_prices_09.xlsx
+        │   ├── jse_prices_10.xlsx
+        │   ├── jse_prices_11.xlsx
+        │   ├── jse_prices_12.xlsx
+        │   ├── jse_prices_13.xlsx
+        │   ├── jse_prices_14.xlsx
+        │   ├── jse_prices_15.xlsx
+        │   ├── jse_prices_16.xlsx
+        │   ├── jse_prices_17.xlsx
+        │   ├── jse_prices_18.xlsx
+        │   └── jse_prices_19.xlsx
+        ├── finalize_instrument_metadata.py
+        ├── iress_batch_export.py
+        ├── iress_screener_diagnostics.py
+        ├── iress_screener_metadata.py
+        ├── metadata
+        │   ├── handover_manifest_before_historical_industry.json
+        │   ├── handover_manifest_before_metadata.json
+        │   ├── historical_industry_baseline.json
+        │   ├── historical_industry_name_variants.csv
+        │   ├── jse_screener_snapshot.csv
+        │   ├── jse_screener_snapshot.summary.json
+        │   ├── screener_diagnostics.json
+        │   ├── screener_diagnostics_original.json
+        │   ├── screener_pages
+        │   │   ├── page_01.json
+        │   │   ├── page_02.json
+        │   │   ├── page_03.json
+        │   │   ├── page_04.json
+        │   │   ├── page_05.json
+        │   │   ├── page_06.json
+        │   │   ├── page_07.json
+        │   │   ├── page_08.json
+        │   │   ├── page_09.json
+        │   │   ├── page_10.json
+        │   │   ├── page_11.json
+        │   │   ├── page_12.json
+        │   │   ├── page_13.json
+        │   │   ├── page_14.json
+        │   │   ├── page_15.json
+        │   │   ├── page_16.json
+        │   │   ├── page_17.json
+        │   │   ├── page_18.json
+        │   │   └── page_19.json
+        │   └── screener_review.txt
+        ├── pyproject.toml
+        ├── README.md
+        ├── reports
+        │   ├── audit_summary.json
+        │   ├── batch_audit.csv
+        │   ├── build_conflicting_observations.csv
+        │   ├── calendar_audit.csv
+        │   ├── company_identity_candidates.csv
+        │   ├── conflicting_observations.csv
+        │   ├── data_audit.md
+        │   ├── duplicate_instruments.csv
+        │   ├── event_coverage.csv
+        │   ├── event_instrument_coverage.csv
+        │   ├── final_verification.json
+        │   ├── fractional_close_instruments.csv
+        │   ├── historical_industry_bulletin_differences.csv
+        │   ├── historical_industry_completion.txt
+        │   ├── historical_industry_coverage.csv
+        │   ├── historical_industry_eligible_instruments.csv
+        │   ├── historical_industry_manual_review.csv
+        │   ├── historical_industry_matching.md
+        │   ├── historical_industry_row_audit.csv
+        │   ├── historical_industry_summary.json
+        │   ├── historical_industry_tests.xml
+        │   ├── historical_industry_validation.json
+        │   ├── instrument_coverage.csv
+        │   ├── instrument_name_variants.csv
+        │   ├── manifest_name_candidates.csv
+        │   ├── market_calendar_alignment.csv
+        │   ├── market_event_coverage.csv
+        │   ├── market_index_validation.md
+        │   ├── market_missing_session_activity.csv
+        │   ├── price_coverage.png
+        │   ├── price_coverage.svg
+        │   ├── processing_specification.md
+        │   └── suspicious_prices.csv
+        ├── src
+        │   └── iress_data
+        │       ├── artifacts.py
+        │       ├── audit.py
+        │       ├── benchmark.py
+        │       ├── build.py
+        │       ├── config.py
+        │       ├── handover_docs.py
+        │       ├── handover.py
+        │       ├── historical_industry_package.py
+        │       ├── historical_industry.py
+        │       ├── ingest.py
+        │       ├── __init__.py
+        │       ├── instrument_metadata.py
+        │       ├── __main__.py
+        │       ├── package_verifier.py
+        │       ├── processed_validation.py
+        │       ├── reporting.py
+        │       ├── schemas.py
+        │       ├── transform.py
+        │       ├── validation.py
+        │       └── verify.py
+        ├── tests
+        │   ├── test_build.py
+        │   ├── test_handover.py
+        │   ├── test_historical_industry.py
+        │   ├── test_instrument_metadata.py
+        │   ├── test_iress_screener_metadata.py
+        │   └── test_pipeline.py
+        ├── transfer_metadata_handover.py
+        └── uv.lock
+
+108 directories, 918 files

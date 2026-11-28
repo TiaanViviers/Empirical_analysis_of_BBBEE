@@ -1,0 +1,33 @@
+{
+  "verified_source_file_counts": {
+    "Original JSE Bulletins": 5,
+    "IRESS original workbooks and export manifest": 21,
+    "IRESS historical extraction failures": 15,
+    "Part A immutable package": 28,
+    "Part B reviewed and intermediate data": 31,
+    "Part B original publications": 29
+  },
+  "verified_archive_records": 245,
+  "report": {
+    "pdf": {
+      "submitted_sha256": "21ce55205721732bc8a837bf228a04a175264a7454869846501c9e5d6a7a7d4d",
+      "rebuilt_sha256": "c6219224fd225882ea8c8647b157be8731d78ac42951bea9cfa8e22a72c1e169",
+      "layout_text_and_page_images_identical": true
+    },
+    "html": {
+      "submitted_sha256": "1cedd701620b722ac9af405c3aefd84c0d9f6e17541f859b0b06ad17ade29107",
+      "rebuilt_sha256": "1cedd701620b722ac9af405c3aefd84c0d9f6e17541f859b0b06ad17ade29107",
+      "internal_anchors_resolve": true,
+      "tables": 9,
+      "embedded_figures": 4,
+      "bibliography_entries": 34
+    }
+  },
+  "part_a_tests": {
+    "cases": 31,
+    "passed": 395,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

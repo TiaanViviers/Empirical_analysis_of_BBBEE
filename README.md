@@ -1,28 +1,73 @@
-# Empirical analysis of B-BBEE
+# Empirical analysis of South African B-BBEE policies
 
-The implemented R event-study project is in [mon_thesis/](mon_thesis/README.md). It supports Part A of Monique van Eeden's Stellenbosch University Economics thesis and preserves the existing licensed IRESS handover unchanged.
+This repository supports Monique van Eeden’s Stellenbosch University economics
+master’s thesis on the efficiency–equity tradeoff associated with South African
+transformation policies.
 
-Run the full analysis from this repository root:
+**Read the submitted report** · [PDF](report/combined.pdf) ·
+[HTML](report/combined.html) · [R Markdown](report/combined.Rmd) ·
+[Independent report review](report/final_independent_review.md)
+
+- **Part A** uses IRESS/JSE prices, historical classifications and source-backed
+  corporate-action adjustments to estimate abnormal returns around five
+  transformation-policy announcements. It uses market models and synchronous
+  block-bootstrap inference, with robustness and placebo analyses.
+- **Part B** describes management representation, ownership and reporting
+  coverage using Commission for Employment Equity and B-BBEE Commission
+  publications. It compares statutory sector targets with the relevant workforce
+  profiles and uses Statistics South Africa’s QLFS for employment context.
+
+## Repository map
+
+| Path | Contents |
+| --- | --- |
+| [report/](report/) | Submitted artifacts, editable source, render command and report review |
+| [analysis/part_a/](analysis/part_a/) | Event-study modules, configuration, ledgers and tests |
+| [analysis/part_b/](analysis/part_b/) | Descriptive analyses, source collection and independent checks |
+| [data/](data/) | Original research inputs and reviewed Part B extracts |
+| [outputs/](outputs/) | Current tables, figures, diagnostics and methodology reviews |
+| [docs/](docs/) | Reproduction guide, methods, source inventories and data dictionaries |
+| [tools/iress-export/](tools/iress-export/) | IRESS extraction and packaging tool, with its Python lockfile and tests |
+| [archive/](archive/) | Pre-remediation snapshot and earlier audit evidence |
+
+## Reproduce the research
+
+Install R and Python dependencies and obtain authorised local inputs as described
+in the [reproduction guide](docs/reproducibility.md). The offline report build
+needs only the preserved aggregate outputs, registries and rendering tools.
+Part A requires the validated IRESS package. Part B analysis uses the reviewed
+CSV extracts. Its collection workflows also need the original publications.
+
+From the repository root, after setup:
 
 ```sh
-Rscript mon_thesis/run_analysis.R --all
-Rscript mon_thesis/tests/testthat.R
+Rscript --vanilla analysis/part_a/run_analysis.R --all
+Rscript --vanilla analysis/part_a/tests/testthat.R
+Rscript --vanilla analysis/part_b/run_analysis.R
+python3 analysis/part_b/tests/verify_methodology.py
+sh report/render.sh "$(mktemp -d)"
 ```
 
-Read the [preliminary results](mon_thesis/outputs/reports/part_a_preliminary_results.md), [methodology](mon_thesis/docs/event_study_methodology.md), and [research handover](mon_thesis/docs/research_progress.md). Findings require methodological review; raw prices are not verified total returns and policy effects are not causally identified.
+The final command prints the location of the rebuilt report and preserves the
+submitted files. IRESS workbooks, JSE Bulletin workbooks, the validated package
+and locally acquired B-BBEE Commission PDFs require appropriate permissions.
+The earlier IRESS package is still in existing Git history.
 
-`iress-export/` contains the existing collection/engineering project. The analysis does not restart IRESS extraction or upload licensed data.
+## Methods and provenance
 
+- Part A [event-study methods](docs/part_a/event_study_methodology.md),
+  [inference](docs/part_a/statistical_inference.md), and
+  [final methodology review](outputs/part_a/reports/final_methodology_review.md).
+- Part B [analysis handover](docs/part_b/analysis_handover.md),
+  [CEE dictionary](docs/part_b/cee_data_dictionary.md),
+  [B-BBEE dictionary](docs/part_b/bbbee_data_dictionary.md),
+  [supporting-data dictionary](docs/part_b/supporting_data_dictionary.md), and
+  [final methodology review](outputs/part_b/reports/part_b_independent_methodology_review.md).
+- [Historical archive](archive/README.md) and
+  [restructuring verification](docs/maintenance/restructuring_report.md).
 
-The [methodological correction handover](mon_thesis/outputs/reports/methodological_corrections_report.md)
-records revised results, source-backed return corrections, inference conventions,
-validation and unresolved research decisions. See the
-[decision register](mon_thesis/docs/research_decisions.md) before thesis use.
-
-## Part B descriptive analysis
-
-```sh
-Rscript --vanilla scripts/part_b/run_analysis.R
-```
-
-The R entry point reads the reviewed Part B collection and generates management, ownership, status, Employment Equity and QLFS tables under `mon_thesis/outputs/part_b/`. It also writes three primary figures and runs the analytical checks. [Preliminary results](mon_thesis/outputs/part_b/reports/part_b_preliminary_results.md) · [Analysis handover](docs/part_b/analysis_handover.md)
+Event-window returns describe market-model-relative movements among selected
+listed securities. The equity series describe the employers and entities in
+each reporting population. Causal conclusions about realised efficiency or an
+efficiency–equity tradeoff require a credible counterfactual and direct measures
+of realised efficiency.

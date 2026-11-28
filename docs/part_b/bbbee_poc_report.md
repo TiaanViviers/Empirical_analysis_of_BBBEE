@@ -1,6 +1,6 @@
 # Pilot extraction and validation
 
-Run from repository root: `python3 scripts/part_b/bbbee/pilot.py`. Requires Python 3 and Poppler `pdftotext`. CSV uses standard library; Parquet was not produced because pandas/pyarrow are not installed. Original PDFs are untouched. Decimal commas are preserved in ownership original strings and normalised to percentage points; status figures retain printed percentage and count separately.
+Run from repository root: `python3 analysis/part_b/scripts/bbbee/pilot.py`. Requires Python 3 and Poppler `pdftotext`. CSV uses standard library; Parquet was not produced because pandas/pyarrow are not installed. Original PDFs are untouched. Decimal commas are preserved in ownership original strings and normalised to percentage points; status figures retain printed percentage and count separately.
 
 - `data/part_b/pilot/bbbee/retrospective_ownership.csv`: 88 rows (tables 16 and 81, 11 years × 4 measures × 2 sectors).
 - `retrospective_compliance.csv`: 110 rows (tables 4–5, 11 years × 9 levels plus total); total rows have no published percentage.

@@ -1,14 +1,37 @@
-# Licensed source is already tracked: this does not remove existing records.
-mon_thesis/data/derived/
-mon_thesis/.venv-io/
-mon_thesis/renv/library/
-mon_thesis/renv/staging/
-mon_thesis/.RData
-mon_thesis/.Rhistory
-**/__pycache__/
-mon_thesis/.Rlib/
-mon_thesis/.renv-cache/
-mon_thesis/outputs/baselines/*/derived/
+# Local environments and interpreter caches
+.venv*/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rlib/
+.renv-cache/
+renv/library/
+renv/staging/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+duckdb_temp/
 
-# Acquired publications may carry redistribution restrictions.
-data/part_b/raw/bbbee_commission/
+# Report build products. The submitted PDF and HTML are versionable.
+/report/combined_files/
+/report/combined_cache/
+/report/combined.knit.md
+/report/combined.log
+/report/combined.aux
+/report/combined.out
+/report/combined.tex
+
+# Licensed source package and generated firm-level return histories.
+/data/part_a/source/thesis_data/
+/data/part_a/derived/
+# The earlier package in Git history still requires redistribution permission.
+/archive/part_a/pre_remediation_2026-11-24/derived/
+
+# Local originals with publication restrictions, private audit evidence and backups.
+/data/part_b/raw/bbbee_commission/
+/archive/local/
+
+# Local extraction run history. Canonical screener metadata stays with the tool.
+/tools/iress-export/metadata/screener_runs/

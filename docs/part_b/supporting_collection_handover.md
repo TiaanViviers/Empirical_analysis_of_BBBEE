@@ -46,7 +46,7 @@ Stats SA revised the questionnaire in Q3 2025 to implement updated international
 Run from the checkout with Python 3.11+ and Poppler’s `pdftotext` and `pdfinfo` on PATH.
 
 ```sh
-sh scripts/part_b/supporting/reproduce_supporting.sh
+sh analysis/part_b/scripts/supporting/reproduce_supporting.sh
 ```
 
-The command reads preserved PDFs, existing CEE inputs and the verification inputs in `scripts/part_b/supporting/`. It validates source hashes and regenerates all five CSVs offline. The draft transcription and verification records preserve the scan-dependent work, so reproduction does not require OCR packages.
+The command reads preserved PDFs, existing CEE inputs and the verification inputs in `analysis/part_b/scripts/supporting`. It validates source hashes and regenerates all five CSVs offline. The draft transcription and verification records preserve the scan-dependent work, so reproduction does not require OCR packages.

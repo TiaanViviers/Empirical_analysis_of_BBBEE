@@ -22,12 +22,12 @@ The extraction maps sector names in source order manually because PDF labels wra
 
 ## Reproduction
 
-From the repository root, with Python 3, Poppler (`curl`, `pdfinfo`, `pdftotext`, `pdftoppm`) and dependencies in `scripts/part_b/requirements.txt` installed:
+From the repository root, with Python 3, Poppler (`curl`, `pdfinfo`, `pdftotext`, `pdftoppm`) and dependencies in `analysis/part_b/scripts/requirements.txt` installed:
 
 ```sh
-python3 scripts/part_b/acquire.py
-python3 scripts/part_b/extract_validate.py
+python3 analysis/part_b/scripts/acquire.py
+python3 analysis/part_b/scripts/extract_validate.py
 pdftoppm -f 34 -l 35 -r 150 -png data/part_b/raw/cee/cee_25th_annual_report.pdf /tmp/cee-table
 ```
 
-The acquisition script requires network access and refuses to replace a different existing source; it rejects downloads with a changed checksum. Extraction overwrites the two derived outputs. The current workspace's `iress-export/.venv/bin/python` provides the Python dependencies, but a separate environment can be created using the requirements file. Visual inspection is a manual validation step, not automated by the script.
+The acquisition script requires network access and refuses to replace a different existing source; it rejects downloads with a changed checksum. Extraction overwrites the two derived outputs. The current workspace's `tools/iress-export/.venv/bin/python` provides the Python dependencies, but a separate environment can be created using the requirements file. Visual inspection is a manual validation step, not automated by the script.

@@ -1,0 +1,33 @@
+{
+  "before": {
+    "files": 13212,
+    "directories": 919,
+    "symlinks": 8,
+    "file_payload_bytes": 1558953511
+  },
+  "after": {
+    "files": 13264,
+    "directories": 926,
+    "symlinks": 4,
+    "file_payload_bytes": 1564909251
+  },
+  "primary_before": {
+    "files": 870,
+    "directories": 100,
+    "symlinks": 4,
+    "file_payload_bytes": 730113870
+  },
+  "primary_after": {
+    "files": 625,
+    "directories": 71,
+    "symlinks": 0,
+    "file_payload_bytes": 586820422
+  },
+  "archived_files": 5398,
+  "archived_payload_bytes": 355341764,
+  "reorganised_research_files": 615,
+  "deleted_cache_files": 32,
+  "removed_repo_symlinks": 4,
+  "candidate_git_files": 647,
+  "candidate_git_payload_bytes": 129006530
+}
